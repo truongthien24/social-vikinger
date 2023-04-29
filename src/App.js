@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import { useRoutes } from 'react-router-dom';
 import { privateRoutes, publicRoutes } from './router/router';
-import './util/sass/main.css'
+
+import "./util/sass/main.css";
+
 
 function App() {
 
