@@ -1,0 +1,1 @@
+export {default as LayoutPrivate} from './private-layout/LayoutPrivate'
