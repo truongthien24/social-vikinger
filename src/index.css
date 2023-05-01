@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.error-section {
+    width: 100% !important;
+    height: 100% !important;
+    background: url('./img/landing/404-bg.png') no-repeat left top, url('./img/landing/vikinger-logo.png') right 40px top 40px no-repeat, url('./img/landing/dot-texture.png') repeat left top, white !important;
+    background-size: contain, auto, auto !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .error-section-title {
+    color: white !important;
+    top: 220px !important;
+    left: 220px !important;
+    position: absolute !important;
+    font-size: 155px !important;
+  }
+  
+  .error-section-info {
+    width: 420px !important;
+    position: absolute !important;
+    top: 230px !important;
+    right: 200px !important;
+  }
+
+}
+
+
+

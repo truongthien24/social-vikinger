@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1066px) {
   .error-section {
     .error-section-title {
       top: 185px;
@@ -90,10 +90,8 @@
   }
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1065px) {
   .error-section {
-    background: url('../../img/landing/dot-texture.png') repeat left top $color-body-underlay;
-    background-size: auto;
     padding: 120px 0;
     position: static;
   

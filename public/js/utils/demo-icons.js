@@ -347,7 +347,7 @@ app.querySelector('.icon-demo-list', function (lists) {
           use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
 
     svg.classList.add(`icon-${iconName}`);
-    use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', `#svg-${iconName}`);
+    use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlinkHref', `#svg-${iconName}`);
 
     svg.appendChild(use);
 
@@ -358,7 +358,7 @@ app.querySelector('.icon-demo-list', function (lists) {
     const iconString = `
     <!-- ICON ${icon.name.toUpperCase()} -->
     <svg className="icon-${icon.className}">
-      <use xlink:href="#svg-${icon.className}"></use>
+      <use xlinkHref="#svg-${icon.className}"></use>
     </svg>
     <!-- /ICON ${icon.name.toUpperCase()} -->`;
 
@@ -369,7 +369,7 @@ app.querySelector('.icon-demo-list', function (lists) {
     const iconString = `
     <!-- ICON ${icon.name.toUpperCase()} -->
     <svg className="icon-${icon.className} demo-icon">
-      <use xlink:href="#svg-${icon.className}"></use>
+      <use xlinkHref="#svg-${icon.className}"></use>
     </svg>
     <!-- /ICON ${icon.name.toUpperCase()} -->`;
 

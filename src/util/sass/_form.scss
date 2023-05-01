@@ -63,6 +63,14 @@ select {
   &:focus {
     border-color: $color-secondary;
   }
+
+}
+
+.form-input {
+
+  &-error {
+    background-color: red;
+  }
 }
 
 input[type="text"],

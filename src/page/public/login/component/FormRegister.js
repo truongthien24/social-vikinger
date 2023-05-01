@@ -1,8 +1,14 @@
 import React from 'react'
 import toast, { Toaster } from 'react-hot-toast';
 import { useForm } from 'react-hook-form';
+import * as yup from 'yup';
+import { yupResolver } from "@hookform/resolvers/yup";
+import { useDispatch } from 'react-redux';
+import { registerAccount } from '../../../../redux/action/account.action';
  
 const FormRegister = () => {
+
+    const dispatch = useDispatch();
 
     const {register, handleSubmit, watch, formState: {errors}} = useForm({
         mode: 'onChange',
@@ -12,12 +18,19 @@ const FormRegister = () => {
             password: '',
             confirmPassword: '',
         },
-
+        resolver: yupResolver(
+            yup.object().shape({
+                email: yup.string().email('abc@gmail.com').required('Please input'),
+                userName: yup.string().required('Please input'),
+                password: yup.string().required('Please input'),
+                confirmPassword: yup.string().required('Please input').oneOf([yup.ref('password'), null], 'Password must match'),
+            })
+        )
     })
 
     // Method
-    const handleRegister = () => {
-        
+    const handleRegister = async () => {
+        dispatch(registerAccount({...watch(), role: 'guest'}))
     }
 
     return (
@@ -32,7 +45,7 @@ const FormRegister = () => {
                     
                     <div className="form-input">
                         <label htmlFor="register-email">Your Email</label>
-                        <input type="text" id="register-email" name="register_email"/>
+                        <input type="text" id="register-email" {...register('email')} style={{borderColor: `${errors?.['email']  ? '#ff2d74' : ''}`}}/>
                     </div>
                     
                     </div>
@@ -44,7 +57,7 @@ const FormRegister = () => {
                     
                     <div className="form-input">
                         <label htmlFor="register-username">Username</label>
-                        <input type="text" id="register-username" name="register_username"/>
+                        <input type="text" id="register-username" {...register('userName')} style={{borderColor: `${errors?.['userName']  ? '#ff2d74' : ''}`}}/>
                     </div>
                     
                     </div>
@@ -57,7 +70,7 @@ const FormRegister = () => {
                     
                     <div className="form-input">
                         <label htmlFor="register-password">Password</label>
-                        <input type="password" id="register-password" name="register_password"/>
+                        <input type="password" id="register-password" {...register('password')} style={{borderColor: `${errors?.['password']  ? '#ff2d74' : ''}`}}/>
                     </div>
                     
                     </div>
@@ -72,7 +85,7 @@ const FormRegister = () => {
                     
                     <div className="form-input">
                         <label htmlFor="register-password-repeat">Repeat Password</label>
-                        <input type="password" id="register-password-repeat" name="register_password_repeat"/>
+                        <input type="password" {...register('confirmPassword')} style={{borderColor: `${errors?.['confirmPassword']  ? '#ff2d74' : ''}`}}/>
                     </div>
                     
                     </div>

@@ -5,6 +5,7 @@ import { privateRoutes, publicRoutes } from './router/router';
 import toast, { Toaster } from 'react-hot-toast';
 
 import "./util/sass/main.css";
+import Loading from './share/component/Loading';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   
     const checkRole = () => {
       if (jwt) {
-          return privateRoutes;
+        return privateRoutes;
       } else {
         return publicRoutes;
       }
@@ -22,6 +23,7 @@ function App() {
 
     return (
       <>
+        {/* <Loading/> */}
         <div>{routes}</div>
         <Toaster position='top-right'/>
       </>
