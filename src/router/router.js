@@ -3,6 +3,8 @@ import Login from "../page/public/login/Login";
 import * as Layouts from "../core/layout-config/index";
 import Page404 from "../page/public/404/Page404";
 import * as Private from '../page/private'
+import ProfileAbout from "../page/private/profile/profileAbout/ProfileAbout";
+// import { ProfileAbout } from "../page/private/profile";
 
 export const publicRoutes = [
     {

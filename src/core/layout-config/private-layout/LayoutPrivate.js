@@ -2067,7 +2067,7 @@ const LayoutPrivate = ({ children }) => {
 
         <ProfileNavigation/>
         
-            {children}
+        {children}
         </div>
     </>
   )
