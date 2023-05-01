@@ -1981,20 +1981,13 @@ const LayoutPrivate = ({ children }) => {
           <div className="progress-stat">
             
             <div className="bar-progress-wrap">
-              
               <p className="bar-progress-info">Next: <span className="bar-progress-text"></span></p>
-              
             </div>
-            
-        
-            
             <div id="logged-user-level-cp" className="progress-stat-bar"></div>
             
           </div>
           
         </div>
-        
-
         
         <div className="bar-actions">
           
@@ -2055,20 +2048,16 @@ const LayoutPrivate = ({ children }) => {
           </a>
           
         </div>
-        
       </aside>
-      
-
-      
       <div className="content-grid">
         
         <ProfileHeader/>
         
-
         <ProfileNavigation/>
         
         {children}
-        </div>
+
+      </div>
     </>
   )
 }

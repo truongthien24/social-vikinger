@@ -1,4 +1,4 @@
-const app = {
+var app = {
   deepExtend: function (a, b) {
     for (const prop in b) {
       if (typeof b[prop] === 'object') {

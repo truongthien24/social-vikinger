@@ -8,13 +8,13 @@ const ProfileNavigation = () => {
     return (
         <nav className="section-navigation">
             <div id="section-navigation-slider" className="section-menu">
-                <button className="section-menu-item active" style={{backgroundColor: 'white'}} onClick={()=>{navigate("profile-about.html")}}>
+                <button className="section-menu-item active" style={{backgroundColor: 'white'}} onClick={()=>{navigate("/profile-about")}}>
                     <svg className="section-menu-item-icon icon-profile">
                         <use xlinkHref="#svg-profile"></use>
                     </svg>
                     <p className="section-menu-item-text">About</p>
                 </button>
-                <button className="section-menu-item" style={{backgroundColor: 'white'}} onClick={()=>{navigate("profile-timeline.html")}}>
+                <button className="section-menu-item" style={{backgroundColor: 'white'}} onClick={()=>{navigate("/profile-timeline")}}>
                     <svg className="section-menu-item-icon icon-timeline">
                         <use xlinkHref="#svg-timeline"></use>
                     </svg>

@@ -4,6 +4,7 @@ import * as Layouts from "../core/layout-config/index";
 import Page404 from "../page/public/404/Page404";
 import * as Private from '../page/private'
 import ProfileAbout from "../page/private/profile/profileAbout/ProfileAbout";
+import ProfileTimeline from "../page/private/profile/profileTimeline/ProfileTimeline";
 // import { ProfileAbout } from "../page/private/profile";
 
 export const publicRoutes = [
@@ -19,10 +20,18 @@ export const publicRoutes = [
 
 export const privateRoutes = [
     {
-        path: "/profile",
+        path: "/profile-about",
         element: (
             <Layouts.LayoutPrivate>
                 <ProfileAbout/>
+            </Layouts.LayoutPrivate>
+        ),
+    },
+    {
+        path: "/profile-timeline",
+        element: (
+            <Layouts.LayoutPrivate>
+                <ProfileTimeline/>
             </Layouts.LayoutPrivate>
         ),
     },

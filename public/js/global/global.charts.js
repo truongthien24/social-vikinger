@@ -1,4 +1,4 @@
-const getLabelNumbers = function (count) {
+var getLabelNumbers = function (count) {
   const labels = [];
   for (let i = 1; i <= count; i++) {
     const label = i < 10 ? `0${i}` : i.toString();
@@ -8,7 +8,7 @@ const getLabelNumbers = function (count) {
   return labels;
 };
 
-const getCompleterData = function (datasetsData, maxValue) {
+var getCompleterData = function (datasetsData, maxValue) {
   const completerData = (new Array(datasetsData[0].length)).fill(maxValue);
 
   for (let i = 0; i < datasetsData.length; i++) {

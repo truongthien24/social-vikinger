@@ -1750,7 +1750,7 @@ app.plugins.createSlider({
 /*-------------------------
     USER PREVIEW STATS 
 -------------------------*/
-var createUserPreviewStatsSliders = function () {
+var xlinkHref = function () {
   let i = 1;
 
   while (true) {
@@ -1769,7 +1769,7 @@ var createUserPreviewStatsSliders = function () {
   }
 };
 
-createUserPreviewStatsSliders();
+xlinkHref();
 
 var centerTinySlider = function (sliderInfo, itemWidth, gutterWidth) {
   sliderInfo.container.style.width = `${sliderInfo.slideCount * itemWidth + (sliderInfo.slideCount - 1) * gutterWidth}px`;
