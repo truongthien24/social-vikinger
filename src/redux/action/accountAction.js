@@ -20,7 +20,23 @@ export const registerAccount = (data) => async(dispatch) => {
             setTimeout(async ()=> {
                 // Tạo document trong collection Account 
                 await addDoc(collection(db, 'Account'), {
-                    ...data, createAt: serverTimestamp()});
+                    ...data, 
+                    createAt: serverTimestamp(),
+                    userAvatar: '',
+                    userBackground: '',
+                    userLevel: 1,
+                    userPath: '',
+                    badgeList: [
+                    ],
+                    userPreviewStats: {
+                        numberPost: 0,
+                        numberFriends: 0,
+                        numberVisited: 0,
+                        description: "Hello!"
+                    },
+                    userSocial: [
+                    ]
+                });
 
                 // dispatch(setLoading({
                 //     status: 'done'
@@ -86,6 +102,19 @@ export const loginAccount = (data) => async (dispatch) => {
         }
     }
     catch(error) {
+        return false;
+    }
+}
+
+
+// Get Profile by ID
+export const getProfileByID = (id) => async(dispatch) => {
+    try {
+        const accountRef = collection(db, 'Account');
+        const result = await getDocs(accountRef);
+        const resultFilter = result.docs.filter(item => item.id === id);
+        return {...resultFilter[0].data(), id: resultFilter[0].id};
+    } catch (err) {
         return false;
     }
 }

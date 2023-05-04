@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useDispatch } from 'react-redux';
-import { registerAccount } from '../../../../redux/action/account.action';
+import { registerAccount } from '../../../../redux/action/accountAction';
  
 const FormRegister = () => {
 

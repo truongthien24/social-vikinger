@@ -1,26 +1,26 @@
 import React from 'react'
 
-const HeaderPrivate = () => {
+const HeaderPrivate = (props) => {
     return (
         <header className="header">
             
             <div className="header-actions">
             
-            <div className="header-brand">
-                
-                <div className="logo">
-                
-                <svg className="icon-logo-vikinger small">
-                    <use xlinkHref="#svg-logo-vikinger"></use>
-                </svg>
-                
-                </div>
-                
+                <div className="header-brand">
+                    
+                    <div className="logo">
+                    
+                    <svg className="icon-logo-vikinger small">
+                        <use xlinkHref="#svg-logo-vikinger"></use>
+                    </svg>
+                    
+                    </div>
+                    
 
-                
-                <h1 className="header-brand-text">Vikinger</h1>
-                
-            </div>
+                    
+                    <h1 className="header-brand-text">Vikinger</h1>
+                    
+                </div>
             
             </div>
         
@@ -28,10 +28,12 @@ const HeaderPrivate = () => {
         
             <div className="header-actions">
             
-                <div className="sidemenu-trigger navigation-widget-trigger">
+                <div className="sidemenu-trigger navigation-widget-trigger" onClick={()=> {
+                    props.setIsNavigationWidget()
+                }}>
                     
                     <svg className="icon-grid">
-                    <use xlinkHref="#svg-grid"></use>
+                        <use xlinkHref="#svg-grid"></use>
                     </svg>
                     
                 </div>

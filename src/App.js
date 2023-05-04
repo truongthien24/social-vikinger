@@ -1,18 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import { useRoutes } from 'react-router-dom';
 import { privateRoutes, publicRoutes } from './router/router';
-import toast, { Toaster } from 'react-hot-toast';
-
-import "./util/sass/main.css";
+import { Toaster } from 'react-hot-toast';
 import Loading from './share/component/Loading';
 import { useEffect } from 'react';
-import {Helmet} from 'react-helmet'
-
+import { useDispatch, useSelector } from 'react-redux';
+import { setLoading } from './redux/action/homeAction';
+import "./util/sass/main.css";
 
 function App() {
 
-    const jwt = localStorage.getItem('jwt')
+    const jwt = localStorage.getItem('jwt');
+
+    const {statusLoading} = useSelector(state=>state.home);
   
     const checkRole = () => {
       if (jwt) {
@@ -24,7 +24,10 @@ function App() {
 
     const routes = useRoutes(checkRole());
 
+    const dispatch = useDispatch();
+
     const {pathname} = window.location;
+
 
      useEffect(()=> {
         let script = document.createElement("script");
@@ -75,23 +78,9 @@ function App() {
         script14.async = true;
         script15.async = true;
         script16.async = true;
-        // document.body.removeChild(script);
-        // document.body.removeChild(script2);
-        // document.body.removeChild(script3);
-        // document.body.removeChild(script4);
-        // document.body.removeChild(script5);
-        // document.body.removeChild(script6);
-        // document.body.removeChild(script7);
-        // document.body.removeChild(script8);
-        // document.body.removeChild(script9);
-        // document.body.removeChild(script10);
-        // document.body.removeChild(script11);
-        // document.body.removeChild(script12);
-        // document.body.removeChild(script13);
-        // document.body.removeChild(script14);
-        // document.body.removeChild(script15);
-        // document.body.removeChild(script16);
+        document.body.appendChild(script10);
         document.body.appendChild(script);
+        document.body.appendChild(script13);
         document.body.appendChild(script2);
         document.body.appendChild(script3);
         document.body.appendChild(script4);
@@ -100,18 +89,21 @@ function App() {
         document.body.appendChild(script7);
         document.body.appendChild(script8);
         document.body.appendChild(script9);
-        document.body.appendChild(script10);
         document.body.appendChild(script11);
         document.body.appendChild(script12);
-        document.body.appendChild(script13);
         document.body.appendChild(script14);
         document.body.appendChild(script15);
         document.body.appendChild(script16);
+        setTimeout(()=> {
+          dispatch(setLoading({
+            status: 'done'
+          }))
+        }, 500)
      }, [pathname])
 
     return (
       <>
-        {/* <Loading/> */}
+        {statusLoading && <Loading/>}
         <div>{routes}</div>
         <Toaster position='top-right'/>
       </>

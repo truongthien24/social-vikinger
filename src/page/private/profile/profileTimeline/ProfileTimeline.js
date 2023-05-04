@@ -2,19 +2,19 @@ import React from 'react'
 
 const ProfileTimeline = () => {
   return (
-    <div class="grid grid-3-6-3 mobile-prefer-content">
+    <div className="grid grid-3-6-3 mobile-prefer-content">
     
-    <div class="grid-column">
+    <div className="grid-column">
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -22,9 +22,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -34,73 +34,73 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">About Me</p>
+        <p className="widget-box-title">About Me</p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <p class="paragraph">Hi! My name is Marina but some people may know me as GameHuntress! I have a Twitch channel where I stream, play and review all the newest games.</p>
+          <p className="paragraph">Hi! My name is Marina but some people may know me as GameHuntress! I have a Twitch channel where I stream, play and review all the newest games.</p>
           
     
           
-          <div class="information-line-list">
+          <div className="information-line-list">
             
-            <div class="information-line">
+            <div className="information-line">
               
-              <p class="information-line-title">Joined</p>
+              <p className="information-line-title">Joined</p>
               
     
               
-              <p class="information-line-text">March 26th, 2017</p>
+              <p className="information-line-text">March 26th, 2017</p>
               
             </div>
             
     
             
-            <div class="information-line">
+            <div className="information-line">
               
-              <p class="information-line-title">City</p>
+              <p className="information-line-title">City</p>
               
     
               
-              <p class="information-line-text">Los Angeles, California</p>
+              <p className="information-line-text">Los Angeles, California</p>
               
             </div>
             
     
             
-            <div class="information-line">
+            <div className="information-line">
               
-              <p class="information-line-title">Country</p>
+              <p className="information-line-title">Country</p>
               
     
               
-              <p class="information-line-text">United States</p>
+              <p className="information-line-text">United States</p>
               
             </div>
             
     
             
-            <div class="information-line">
+            <div className="information-line">
               
-              <p class="information-line-title">Age</p>
+              <p className="information-line-title">Age</p>
               
     
               
-              <p class="information-line-text">32 Years</p>
+              <p className="information-line-text">32 Years</p>
               
             </div>
             
     
             
-            <div class="information-line">
+            <div className="information-line">
               
-              <p class="information-line-title">Web</p>
+              <p className="information-line-title">Web</p>
               
     
               
-              <p class="information-line-text"><a href="#">www.gamehuntress.com</a></p>
+              <p className="information-line-text"><a href="#">www.gamehuntress.com</a></p>
               
             </div>
             
@@ -112,15 +112,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -128,9 +128,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -140,87 +140,87 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Badges <span class="highlighted">13</span></p>
+        <p className="widget-box-title">Badges <span className="highlighted">13</span></p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="badge-list">
+          <div className="badge-list">
             
-            <div class="badge-item text-tooltip-tft" data-title="Gold User">
+            <div className="badge-item text-tooltip-tft" data-title="Gold User">
               <img src="img/badge/gold-s.png" alt="badge-gold-s"/>
             </div>
             
       
             
-            <div class="badge-item text-tooltip-tft" data-title="Profile Age">
+            <div className="badge-item text-tooltip-tft" data-title="Profile Age">
               <img src="img/badge/age-s.png" alt="badge-age-s"/>
             </div>
             
       
             
-            <div class="badge-item text-tooltip-tft" data-title="Caffeinatted">
+            <div className="badge-item text-tooltip-tft" data-title="Caffeinatted">
               <img src="img/badge/caffeinated-s.png" alt="badge-caffeinated-s"/>
             </div>
             
       
             
-            <div class="badge-item text-tooltip-tft" data-title="The Warrior">
+            <div className="badge-item text-tooltip-tft" data-title="The Warrior">
               <img src="img/badge/warrior-s.png" alt="badge-warrior-s"/>
             </div>
             
       
             
-            <div class="badge-item text-tooltip-tft" data-title="Forum Traveller">
+            <div className="badge-item text-tooltip-tft" data-title="Forum Traveller">
               <img src="img/badge/traveller-s.png" alt="badge-traveller-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="Crazy Scientist">
+            <div className="badge-item text-tooltip-tft" data-title="Crazy Scientist">
               <img src="img/badge/scientist-s.png" alt="badge-scientist-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="Night Creature">
+            <div className="badge-item text-tooltip-tft" data-title="Night Creature">
               <img src="img/badge/ncreature-s.png" alt="badge-ncreature-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="Mightier Than Sword">
+            <div className="badge-item text-tooltip-tft" data-title="Mightier Than Sword">
               <img src="img/badge/mightiers-s.png" alt="badge-mightiers-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="The Phantom">
+            <div className="badge-item text-tooltip-tft" data-title="The Phantom">
               <img src="img/badge/phantom-s.png" alt="badge-phantom-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="The Collector">
+            <div className="badge-item text-tooltip-tft" data-title="The Collector">
               <img src="img/badge/collector-s.png" alt="badge-collector-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="Bronze Cup">
+            <div className="badge-item text-tooltip-tft" data-title="Bronze Cup">
               <img src="img/badge/bronzec-s.png" alt="badge-bronzec-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="Silver Cup">
+            <div className="badge-item text-tooltip-tft" data-title="Silver Cup">
               <img src="img/badge/silverc-s.png" alt="badge-silverc-s"/>
             </div>
             
     
             
-            <div class="badge-item text-tooltip-tft" data-title="Gold Cup">
+            <div className="badge-item text-tooltip-tft" data-title="Gold Cup">
               <img src="img/badge/goldc-s.png" alt="badge-goldc-s"/>
             </div>
             
@@ -232,15 +232,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -248,9 +248,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -260,63 +260,63 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Friends <span class="highlighted">82</span></p>
+        <p className="widget-box-title">Friends <span className="highlighted">82</span></p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="user-status-list">
+          <div className="user-status-list">
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">26</p>
+                    <p className="user-avatar-badge-text">26</p>
                     
                   </div>
                   
@@ -326,19 +326,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="profile-timeline.html">Sarah Diamond</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Sarah Diamond</a></p>
               
           
               
-              <p class="user-status-text small">2 friends in common</p>
+              <p className="user-status-text small">2 friends in common</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-add-friend">
+                  <svg className="action-request-icon icon-add-friend">
                     <use xlinkHref="#svg-add-friend"></use>
                   </svg>
                   
@@ -350,55 +350,55 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">16</p>
+                    <p className="user-avatar-badge-text">16</p>
                     
                   </div>
                   
@@ -408,19 +408,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Nick Grissom</a></p>
               
           
               
-              <p class="user-status-text small">5 friends in common</p>
+              <p className="user-status-text small">5 friends in common</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-add-friend">
+                  <svg className="action-request-icon icon-add-friend">
                     <use xlinkHref="#svg-add-friend"></use>
                   </svg>
                   
@@ -432,55 +432,55 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">13</p>
+                    <p className="user-avatar-badge-text">13</p>
                     
                   </div>
                   
@@ -490,19 +490,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="profile-timeline.html">Destroy Dex</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Destroy Dex</a></p>
               
           
               
-              <p class="user-status-text small">0 friends in common</p>
+              <p className="user-status-text small">0 friends in common</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-add-friend">
+                  <svg className="action-request-icon icon-add-friend">
                     <use xlinkHref="#svg-add-friend"></use>
                   </svg>
                   
@@ -514,55 +514,55 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">12</p>
+                    <p className="user-avatar-badge-text">12</p>
                     
                   </div>
                   
@@ -572,19 +572,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="profile-timeline.html">Neko Bebop</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Neko Bebop</a></p>
               
           
               
-              <p class="user-status-text small">1 friends in common</p>
+              <p className="user-status-text small">1 friends in common</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request decline">
+                <div className="action-request decline">
                   
-                  <svg class="action-request-icon icon-remove-friend">
+                  <svg className="action-request-icon icon-remove-friend">
                     <use xlinkHref="#svg-remove-friend"></use>
                   </svg>
                   
@@ -596,55 +596,55 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/10.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/10.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">5</p>
+                    <p className="user-avatar-badge-text">5</p>
                     
                   </div>
                   
@@ -654,19 +654,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="profile-timeline.html">The Green Goo</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline.html">The Green Goo</a></p>
               
           
               
-              <p class="user-status-text small">8 friends in common</p>
+              <p className="user-status-text small">8 friends in common</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-add-friend">
+                  <svg className="action-request-icon icon-add-friend">
                     <use xlinkHref="#svg-add-friend"></use>
                   </svg>
                   
@@ -682,21 +682,21 @@ const ProfileTimeline = () => {
         
     
         
-        <a class="widget-box-button button small secondary" href="profile-friends.html">See all Friends</a>
+        <a className="widget-box-button button small secondary" href="profile-friends.html">See all Friends</a>
         
       </div>
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -704,9 +704,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -716,27 +716,27 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Videos <span class="highlighted">7</span></p>
+        <p className="widget-box-title">Videos <span className="highlighted">7</span></p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="video-box-list">
+          <div className="video-box-list">
             
-            <div class="video-box small">
+            <div className="video-box small">
               
-              <div class="video-box-cover popup-video-trigger">
+              <div className="video-box-cover popup-video-trigger">
                 
-                <figure class="video-box-cover-image liquid">
+                <figure className="video-box-cover-image liquid">
                   <img src="img/cover/08.jpg" alt="cover-08"/>
                 </figure>
                 
           
                 
-                <div class="play-button">
+                <div className="play-button">
                   
-                  <svg class="play-button-icon icon-play">
+                  <svg className="play-button-icon icon-play">
                     <use xlinkHref="#svg-play"></use>
                   </svg>
                   
@@ -744,13 +744,13 @@ const ProfileTimeline = () => {
                 
           
                 
-                <div class="video-box-info">
+                <div className="video-box-info">
                   
-                  <p class="video-box-title">Mochi's Island Story Mode</p>
+                  <p className="video-box-title">Mochi's Island Story Mode</p>
                   
             
                   
-                  <p class="video-box-text">1 hour ago</p>
+                  <p className="video-box-text">1 hour ago</p>
                   
                 </div>
                 
@@ -760,19 +760,19 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="video-box small">
+            <div className="video-box small">
               
-              <div class="video-box-cover popup-video-trigger">
+              <div className="video-box-cover popup-video-trigger">
                 
-                <figure class="video-box-cover-image liquid">
+                <figure className="video-box-cover-image liquid">
                   <img src="img/cover/09.jpg" alt="cover-09"/>
                 </figure>
                 
           
                 
-                <div class="play-button">
+                <div className="play-button">
                   
-                  <svg class="play-button-icon icon-play">
+                  <svg className="play-button-icon icon-play">
                     <use xlinkHref="#svg-play"></use>
                   </svg>
                   
@@ -780,13 +780,13 @@ const ProfileTimeline = () => {
                 
           
                 
-                <div class="video-box-info">
+                <div className="video-box-info">
                   
-                  <p class="video-box-title">Sunset Cowboys - Walkthrough</p>
+                  <p className="video-box-title">Sunset Cowboys - Walkthrough</p>
                   
             
                   
-                  <p class="video-box-text">3 days ago</p>
+                  <p className="video-box-text">3 days ago</p>
                   
                 </div>
                 
@@ -796,19 +796,19 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="video-box small">
+            <div className="video-box small">
               
-              <div class="video-box-cover popup-video-trigger">
+              <div className="video-box-cover popup-video-trigger">
                 
-                <figure class="video-box-cover-image liquid">
+                <figure className="video-box-cover-image liquid">
                   <img src="img/cover/05.jpg" alt="cover-05"/>
                 </figure>
                 
           
                 
-                <div class="play-button">
+                <div className="play-button">
                   
-                  <svg class="play-button-icon icon-play">
+                  <svg className="play-button-icon icon-play">
                     <use xlinkHref="#svg-play"></use>
                   </svg>
                   
@@ -816,13 +816,13 @@ const ProfileTimeline = () => {
                 
           
                 
-                <div class="video-box-info">
+                <div className="video-box-info">
                   
-                  <p class="video-box-title">Quest of the Ogre II: The Revenge USA...</p>
+                  <p className="video-box-title">Quest of the Ogre II: The Revenge USA...</p>
                   
             
                   
-                  <p class="video-box-text">5 days ago</p>
+                  <p className="video-box-text">5 days ago</p>
                   
                 </div>
                 
@@ -838,15 +838,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -854,9 +854,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -866,109 +866,109 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Blog Posts <span class="highlighted">5</span></p>
+        <p className="widget-box-title">Blog Posts <span className="highlighted">5</span></p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="post-peek-list">
+          <div className="post-peek-list">
             
-            <div class="post-peek">
+            <div className="post-peek">
               
-              <a class="post-peek-image" href="profile-post.html">
-                <figure class="picture small round liquid">
+              <a className="post-peek-image" href="profile-post.html">
+                <figure className="picture small round liquid">
                   <img src="img/cover/19.jpg" alt="cover-19"/>
                 </figure>
               </a>
               
           
               
-              <p class="post-peek-title"><a href="profile-post.html">Here's the how and why did I became a full time Gaming Streamer</a></p>
+              <p className="post-peek-title"><a href="profile-post.html">Here's the how and why did I became a full time Gaming Streamer</a></p>
               
           
               
-              <p class="post-peek-text">6 days ago</p>
+              <p className="post-peek-text">6 days ago</p>
               
             </div>
             
     
             
-            <div class="post-peek">
+            <div className="post-peek">
               
-              <a class="post-peek-image" href="profile-post.html">
-                <figure class="picture small round liquid">
+              <a className="post-peek-image" href="profile-post.html">
+                <figure className="picture small round liquid">
                   <img src="img/cover/10.jpg" alt="cover-10"/>
                 </figure>
               </a>
               
           
               
-              <p class="post-peek-title"><a href="profile-post.html">I spoke with the developers of RoBot SaMurai II at the 2019 GamingCon</a></p>
+              <p className="post-peek-title"><a href="profile-post.html">I spoke with the developers of RoBot SaMurai II at the 2019 GamingCon</a></p>
               
           
               
-              <p class="post-peek-text">3 weeks ago</p>
+              <p className="post-peek-text">3 weeks ago</p>
               
             </div>
             
     
             
-            <div class="post-peek">
+            <div className="post-peek">
               
-              <a class="post-peek-image" href="profile-post.html">
-                <figure class="picture small round liquid">
+              <a className="post-peek-image" href="profile-post.html">
+                <figure className="picture small round liquid">
                   <img src="img/cover/20.jpg" alt="cover-20"/>
                 </figure>
               </a>
               
           
               
-              <p class="post-peek-title"><a href="profile-post.html">I will be at this month's StreamCon with NekoBebop</a></p>
+              <p className="post-peek-title"><a href="profile-post.html">I will be at this month's StreamCon with NekoBebop</a></p>
               
           
               
-              <p class="post-peek-text">4 weeks ago</p>
+              <p className="post-peek-text">4 weeks ago</p>
               
             </div>
             
     
             
-            <div class="post-peek">
+            <div className="post-peek">
               
-              <a class="post-peek-image" href="profile-post.html">
-                <figure class="picture small round liquid">
+              <a className="post-peek-image" href="profile-post.html">
+                <figure className="picture small round liquid">
                   <img src="img/cover/06.jpg" alt="cover-06"/>
                 </figure>
               </a>
               
           
               
-              <p class="post-peek-title"><a href="profile-post.html">[Exclusive!] Check out all the new missions and story of the Fire Witch DLC!</a></p>
+              <p className="post-peek-title"><a href="profile-post.html">[Exclusive!] Check out all the new missions and story of the Fire Witch DLC!</a></p>
               
           
               
-              <p class="post-peek-text">1 month ago</p>
+              <p className="post-peek-text">1 month ago</p>
               
             </div>
             
     
             
-            <div class="post-peek">
+            <div className="post-peek">
               
-              <a class="post-peek-image" href="profile-post.html">
-                <figure class="picture small round liquid">
+              <a className="post-peek-image" href="profile-post.html">
+                <figure className="picture small round liquid">
                   <img src="img/cover/07.jpg" alt="cover-07"/>
                 </figure>
               </a>
               
           
               
-              <p class="post-peek-title"><a href="profile-post.html">Old Super Mochi's Island is getting a remake!</a></p>
+              <p className="post-peek-title"><a href="profile-post.html">Old Super Mochi's Island is getting a remake!</a></p>
               
           
               
-              <p class="post-peek-text">1 month ago</p>
+              <p className="post-peek-text">1 month ago</p>
               
             </div>
             
@@ -982,17 +982,17 @@ const ProfileTimeline = () => {
     
 
     
-    <div class="grid-column">
+    <div className="grid-column">
       
-      <div class="widget-box no-padding">
+      <div className="widget-box no-padding">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -1000,25 +1000,25 @@ const ProfileTimeline = () => {
             
 
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Edit Post</p>
-              
-
-              
-              <p class="simple-dropdown-link">Delete Post</p>
+              <p className="simple-dropdown-link">Edit Post</p>
               
 
               
-              <p class="simple-dropdown-link">Make it Featured</p>
+              <p className="simple-dropdown-link">Delete Post</p>
               
 
               
-              <p class="simple-dropdown-link">Report Post</p>
+              <p className="simple-dropdown-link">Make it Featured</p>
               
 
               
-              <p class="simple-dropdown-link">Report Author</p>
+              <p className="simple-dropdown-link">Report Post</p>
+              
+
+              
+              <p className="simple-dropdown-link">Report Author</p>
               
             </div>
             
@@ -1028,11 +1028,11 @@ const ProfileTimeline = () => {
         
         
         
-        <div class="widget-box-status">
+        <div className="widget-box-status">
           
-          <div class="tag-sticker">
+          <div className="tag-sticker">
             
-            <svg class="tag-sticker-icon primary icon-pinned">
+            <svg className="tag-sticker-icon primary icon-pinned">
               <use xlinkHref="#svg-pinned"></use>
             </svg>
             
@@ -1040,57 +1040,57 @@ const ProfileTimeline = () => {
           
 
           
-          <div class="widget-box-status-content">
+          <div className="widget-box-status-content">
             
-            <div class="user-status">
+            <div className="user-status">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">24</p>
+                    <p className="user-avatar-badge-text">24</p>
                     
                   </div>
                   
@@ -1100,43 +1100,43 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
               
           
               
-              <p class="user-status-text small">5 hours ago</p>
+              <p className="user-status-text small">5 hours ago</p>
               
             </div>
             
 
             
-            <p class="widget-box-status-text">Hi to all! Remember that today I'll be livestreaming along with <a href="profile-timeline.html">@NekoBebop</a> the new character of the brand new Xenowatch patch "Anya Darkness". See you there!</p>
+            <p className="widget-box-status-text">Hi to all! Remember that today I'll be livestreaming along with <a href="profile-timeline.html">@NekoBebop</a> the new character of the brand new Xenowatch patch "Anya Darkness". See you there!</p>
             
 
             
-            <a class="video-status small" href="https://www.twitch.tv/" target="_blank">
+            <a className="video-status small" href="https://www.twitch.tv/" target="_blank">
               
-              <img class="video-status-image mobile" src="img/cover/06.jpg" alt="cover-06"/>
+              <img className="video-status-image mobile" src="img/cover/06.jpg" alt="cover-06"/>
              
 
               
-              <figure class="video-status-image liquid">
+              <figure className="video-status-image liquid">
                 <img src="img/cover/06.jpg" alt="cover-06"/>
               </figure>
               
 
               
-              <div class="video-status-info">
+              <div className="video-status-info">
                 
-                <p class="video-status-title"><span class="bold">GameHuntress</span> on <span class="highlighted">Twitch</span></p>
-                
-
-                
-                <p class="video-status-text">Watch the GameHuntress play all the greatest games for both new and old consoles!. Join her in this epic quest!</p>
+                <p className="video-status-title"><span className="bold">GameHuntress</span> on <span className="highlighted">Twitch</span></p>
                 
 
                 
-                <p class="video-status-meta">twitch.tv</p>
+                <p className="video-status-text">Watch the GameHuntress play all the greatest games for both new and old consoles!. Join her in this epic quest!</p>
+                
+
+                
+                <p className="video-status-meta">twitch.tv</p>
                 
               </div>
               
@@ -1144,55 +1144,55 @@ const ProfileTimeline = () => {
             
 
             
-            <div class="tag-list">
+            <div className="tag-list">
               
-              <a class="tag-item secondary" href="newsfeed.html">Stream</a>
-              
-
-              
-              <a class="tag-item secondary" href="newsfeed.html">Xenowatch</a>
+              <a className="tag-item secondary" href="newsfeed.html">Stream</a>
               
 
               
-              <a class="tag-item secondary" href="newsfeed.html">Gaming</a>
+              <a className="tag-item secondary" href="newsfeed.html">Xenowatch</a>
               
 
               
-              <a class="tag-item secondary" href="newsfeed.html">Twitch</a>
+              <a className="tag-item secondary" href="newsfeed.html">Gaming</a>
+              
+
+              
+              <a className="tag-item secondary" href="newsfeed.html">Twitch</a>
               
             </div>
             
 
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list reaction-item-list">
+                  <div className="meta-line-list reaction-item-list">
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span class="bold">Happy</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span className="bold">Happy</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Matt Parker</p>
+                        <p className="simple-dropdown-text">Matt Parker</p>
                         
 
                         
-                        <p class="simple-dropdown-text">Destroy Dex</p>
+                        <p className="simple-dropdown-text">Destroy Dex</p>
                         
 
                         
-                        <p class="simple-dropdown-text">The Green Goo</p>
+                        <p className="simple-dropdown-text">The Green Goo</p>
                         
                       </div>
                       
@@ -1200,19 +1200,19 @@ const ProfileTimeline = () => {
                     
 
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span class="bold">Love</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span className="bold">Love</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Sandra Strange</p>
+                        <p className="simple-dropdown-text">Sandra Strange</p>
                         
                       </div>
                       
@@ -1220,43 +1220,43 @@ const ProfileTimeline = () => {
                     
 
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span class="bold">Like</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span className="bold">Like</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
 
                         
-                        <p class="simple-dropdown-text">Nick Grissom</p>
+                        <p className="simple-dropdown-text">Nick Grissom</p>
                         
 
                         
-                        <p class="simple-dropdown-text">Sarah Diamond</p>
+                        <p className="simple-dropdown-text">Sarah Diamond</p>
                         
 
                         
-                        <p class="simple-dropdown-text">Jett Spiegel</p>
+                        <p className="simple-dropdown-text">Jett Spiegel</p>
                         
 
                         
-                        <p class="simple-dropdown-text">Marcus Jhonson</p>
+                        <p className="simple-dropdown-text">Marcus Jhonson</p>
                         
 
                         
-                        <p class="simple-dropdown-text">Jane Rodgers</p>
+                        <p className="simple-dropdown-text">Jane Rodgers</p>
                         
 
                         
-                        <p class="simple-dropdown-text"><span class="bold">and 2 more...</span></p>
+                        <p className="simple-dropdown-text"><span className="bold">and 2 more...</span></p>
                         
                       </div>
                       
@@ -1266,29 +1266,29 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">12</p>
+                  <p className="meta-line-text">12</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list user-avatar-list">
+                  <div className="meta-line-list user-avatar-list">
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/09.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/09.jpg"></div>
                         
                       </div>
                       
@@ -1296,19 +1296,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/08.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/08.jpg"></div>
                         
                       </div>
                       
@@ -1316,19 +1316,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/12.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/12.jpg"></div>
                         
                       </div>
                       
@@ -1336,19 +1336,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/16.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/16.jpg"></div>
                         
                       </div>
                       
@@ -1356,19 +1356,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/06.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/06.jpg"></div>
                         
                       </div>
                       
@@ -1378,7 +1378,7 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">14 Participants</p>
+                  <p className="meta-line-text">14 Participants</p>
                   
                 </div>
                 
@@ -1386,19 +1386,19 @@ const ProfileTimeline = () => {
               
           
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link">3 Comments</p>
+                  <p className="meta-line-link">3 Comments</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-text">0 Shares</p>
+                  <p className="meta-line-text">0 Shares</p>
                   
                 </div>
                 
@@ -1412,85 +1412,85 @@ const ProfileTimeline = () => {
         
 
         
-        <div class="post-options">
+        <div className="post-options">
           
-          <div class="post-option-wrap">
+          <div className="post-option-wrap">
             
-            <div class="post-option reaction-options-dropdown-trigger">
+            <div className="post-option reaction-options-dropdown-trigger">
               
-              <svg class="post-option-icon icon-thumbs-up">
+              <svg className="post-option-icon icon-thumbs-up">
                 <use xlinkHref="#svg-thumbs-up"></use>
               </svg>
               
 
               
-              <p class="post-option-text">React!</p>
+              <p className="post-option-text">React!</p>
               
             </div>
             
 
             
-            <div class="reaction-options reaction-options-dropdown">
+            <div className="reaction-options reaction-options-dropdown">
               
-              <div class="reaction-option text-tooltip-tft" data-title="Like">
+              <div className="reaction-option text-tooltip-tft" data-title="Like">
                 
-                <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
+                <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                 
               </div>
               
 
               
-              <div class="reaction-option text-tooltip-tft" data-title="Love">
+              <div className="reaction-option text-tooltip-tft" data-title="Love">
                 
-                <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                
               </div>
               
 
               
-              <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+              <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                 
-                <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
+                <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                
               </div>
               
 
               
-              <div class="reaction-option text-tooltip-tft" data-title="Happy">
+              <div className="reaction-option text-tooltip-tft" data-title="Happy">
                 
-                <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
             
               </div>
               
 
               
-              <div class="reaction-option text-tooltip-tft" data-title="Funny">
+              <div className="reaction-option text-tooltip-tft" data-title="Funny">
                 
-                <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
                
               </div>
               
 
               
-              <div class="reaction-option text-tooltip-tft" data-title="Wow">
+              <div className="reaction-option text-tooltip-tft" data-title="Wow">
                 
-                <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
                
               </div>
               
 
               
-              <div class="reaction-option text-tooltip-tft" data-title="Angry">
+              <div className="reaction-option text-tooltip-tft" data-title="Angry">
                 
-                <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
                
               </div>
               
 
               
-              <div class="reaction-option text-tooltip-tft" data-title="Sad">
+              <div className="reaction-option text-tooltip-tft" data-title="Sad">
                 
-                <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                
               </div>
               
@@ -1500,29 +1500,29 @@ const ProfileTimeline = () => {
           
 
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-comment">
+            <svg className="post-option-icon icon-comment">
               <use xlinkHref="#svg-comment"></use>
             </svg>
             
 
             
-            <p class="post-option-text">Comment</p>
+            <p className="post-option-text">Comment</p>
             
           </div>
           
 
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-share">
+            <svg className="post-option-icon icon-share">
               <use xlinkHref="#svg-share"></use>
             </svg>
             
 
             
-            <p class="post-option-text">Share</p>
+            <p className="post-option-text">Share</p>
             
           </div>
           
@@ -1532,15 +1532,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box no-padding">
+      <div className="widget-box no-padding">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -1548,25 +1548,25 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Edit Post</p>
-              
-    
-              
-              <p class="simple-dropdown-link">Delete Post</p>
+              <p className="simple-dropdown-link">Edit Post</p>
               
     
               
-              <p class="simple-dropdown-link">Make it Featured</p>
+              <p className="simple-dropdown-link">Delete Post</p>
               
     
               
-              <p class="simple-dropdown-link">Report Post</p>
+              <p className="simple-dropdown-link">Make it Featured</p>
               
     
               
-              <p class="simple-dropdown-link">Report Author</p>
+              <p className="simple-dropdown-link">Report Post</p>
+              
+    
+              
+              <p className="simple-dropdown-link">Report Author</p>
               
             </div>
             
@@ -1576,59 +1576,59 @@ const ProfileTimeline = () => {
         
     
         
-        <div class="widget-box-status">
+        <div className="widget-box-status">
           
-          <div class="widget-box-status-content">
+          <div className="widget-box-status-content">
             
-            <div class="user-status">
+            <div className="user-status">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">24</p>
+                    <p className="user-avatar-badge-text">24</p>
                     
                   </div>
                   
@@ -1638,53 +1638,53 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
               
           
               
-              <p class="user-status-text small">29 minutes ago</p>
+              <p className="user-status-text small">29 minutes ago</p>
               
             </div>
             
     
             
-            <p class="widget-box-status-text">I have great news to share with you all! I've been officially made a game streaming verified partner by Streamy <a href="#">http://lyt.ly/snej25</a>. What does this mean? I'll be uploading new content every day, improving the quality and I'm gonna have access to games a month before the official release.</p>
+            <p className="widget-box-status-text">I have great news to share with you all! I've been officially made a game streaming verified partner by Streamy <a href="#">http://lyt.ly/snej25</a>. What does this mean? I'll be uploading new content every day, improving the quality and I'm gonna have access to games a month before the official release.</p>
             
     
             
-            <p class="widget-box-status-text">This is a dream come true, thanks to all for the support!!!</p>
+            <p className="widget-box-status-text">This is a dream come true, thanks to all for the support!!!</p>
             
     
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list reaction-item-list">
+                  <div className="meta-line-list reaction-item-list">
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span class="bold">Like</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span className="bold">Like</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
           
                         
-                        <p class="simple-dropdown-text">Nick Grissom</p>
+                        <p className="simple-dropdown-text">Nick Grissom</p>
                         
           
                         
-                        <p class="simple-dropdown-text">Sarah Diamond</p>
+                        <p className="simple-dropdown-text">Sarah Diamond</p>
                         
                       </div>
                       
@@ -1692,19 +1692,19 @@ const ProfileTimeline = () => {
                     
     
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span class="bold">Love</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span className="bold">Love</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Jett Spiegel</p>
+                        <p className="simple-dropdown-text">Jett Spiegel</p>
                         
                       </div>
                       
@@ -1714,29 +1714,29 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">4</p>
+                  <p className="meta-line-text">4</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list user-avatar-list">
+                  <div className="meta-line-list user-avatar-list">
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/10.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/10.jpg"></div>
                         
                       </div>
                       
@@ -1744,19 +1744,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/07.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/07.jpg"></div>
                         
                       </div>
                       
@@ -1764,19 +1764,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/06.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/06.jpg"></div>
                         
                       </div>
                       
@@ -1784,19 +1784,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/23.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/23.jpg"></div>
                         
                       </div>
                       
@@ -1804,19 +1804,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/08.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/08.jpg"></div>
                         
                       </div>
                       
@@ -1826,7 +1826,7 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">7 Participants</p>
+                  <p className="meta-line-text">7 Participants</p>
                   
                 </div>
                 
@@ -1834,19 +1834,19 @@ const ProfileTimeline = () => {
               
           
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link">8 Comments</p>
+                  <p className="meta-line-link">8 Comments</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-text">0 Shares</p>
+                  <p className="meta-line-text">0 Shares</p>
                   
                 </div>
                 
@@ -1860,85 +1860,85 @@ const ProfileTimeline = () => {
         
     
         
-        <div class="post-options">
+        <div className="post-options">
           
-          <div class="post-option-wrap">
+          <div className="post-option-wrap">
             
-            <div class="post-option reaction-options-dropdown-trigger">
+            <div className="post-option reaction-options-dropdown-trigger">
               
-              <svg class="post-option-icon icon-thumbs-up">
+              <svg className="post-option-icon icon-thumbs-up">
                 <use xlinkHref="#svg-thumbs-up"></use>
               </svg>
               
     
               
-              <p class="post-option-text">React!</p>
+              <p className="post-option-text">React!</p>
               
             </div>
             
     
             
-            <div class="reaction-options reaction-options-dropdown">
+            <div className="reaction-options reaction-options-dropdown">
               
-              <div class="reaction-option text-tooltip-tft" data-title="Like">
+              <div className="reaction-option text-tooltip-tft" data-title="Like">
                 
-                <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
+                <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Love">
+              <div className="reaction-option text-tooltip-tft" data-title="Love">
                 
-                <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
              
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+              <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                 
-                <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
+                <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Happy">
+              <div className="reaction-option text-tooltip-tft" data-title="Happy">
                 
-                <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Funny">
+              <div className="reaction-option text-tooltip-tft" data-title="Funny">
                 
-                <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Wow">
+              <div className="reaction-option text-tooltip-tft" data-title="Wow">
                 
-                <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Angry">
+              <div className="reaction-option text-tooltip-tft" data-title="Angry">
                 
-                <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Sad">
+              <div className="reaction-option text-tooltip-tft" data-title="Sad">
                 
-                <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                
               </div>
               
@@ -1948,29 +1948,29 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-comment">
+            <svg className="post-option-icon icon-comment">
               <use xlinkHref="#svg-comment"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Comment</p>
+            <p className="post-option-text">Comment</p>
             
           </div>
           
     
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-share">
+            <svg className="post-option-icon icon-share">
               <use xlinkHref="#svg-share"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Share</p>
+            <p className="post-option-text">Share</p>
             
           </div>
           
@@ -1980,15 +1980,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box no-padding">
+      <div className="widget-box no-padding">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -1996,25 +1996,25 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Edit Post</p>
-              
-    
-              
-              <p class="simple-dropdown-link">Delete Post</p>
+              <p className="simple-dropdown-link">Edit Post</p>
               
     
               
-              <p class="simple-dropdown-link">Make it Featured</p>
+              <p className="simple-dropdown-link">Delete Post</p>
               
     
               
-              <p class="simple-dropdown-link">Report Post</p>
+              <p className="simple-dropdown-link">Make it Featured</p>
               
     
               
-              <p class="simple-dropdown-link">Report Author</p>
+              <p className="simple-dropdown-link">Report Post</p>
+              
+    
+              
+              <p className="simple-dropdown-link">Report Author</p>
               
             </div>
             
@@ -2024,59 +2024,59 @@ const ProfileTimeline = () => {
         
         
         
-        <div class="widget-box-status">
+        <div className="widget-box-status">
           
-          <div class="widget-box-status-content">
+          <div className="widget-box-status-content">
             
-            <div class="user-status">
+            <div className="user-status">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">24</p>
+                    <p className="user-avatar-badge-text">24</p>
                     
                   </div>
                   
@@ -2086,99 +2086,99 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
               
           
               
-              <p class="user-status-text small">29 minutes ago</p>
+              <p className="user-status-text small">29 minutes ago</p>
               
             </div>
             
             
             
-            <p class="widget-box-status-text">Here's a sneak peek of the official box cover art for <a href="#">Machine Wasteland II</a>! Remember that I'll be having a stream showing a preview tommorrow at 9PM PCT!</p>
+            <p className="widget-box-status-text">Here's a sneak peek of the official box cover art for <a href="#">Machine Wasteland II</a>! Remember that I'll be having a stream showing a preview tommorrow at 9PM PCT!</p>
             
           </div>
           
     
           
-          <figure class="widget-box-picture popup-picture-trigger">
+          <figure className="widget-box-picture popup-picture-trigger">
             <img src="img/cover/04.jpg" alt="cover-04"/>
           </figure>
           
     
           
-          <div class="widget-box-status-content">
+          <div className="widget-box-status-content">
             
-            <div class="tag-list">
+            <div className="tag-list">
               
-              <a class="tag-item secondary" href="newsfeed.html">Cover</a>
-              
-    
-              
-              <a class="tag-item secondary" href="newsfeed.html">Preview</a>
+              <a className="tag-item secondary" href="newsfeed.html">Cover</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Art</a>
+              <a className="tag-item secondary" href="newsfeed.html">Preview</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Machine</a>
+              <a className="tag-item secondary" href="newsfeed.html">Art</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Wasteland</a>
+              <a className="tag-item secondary" href="newsfeed.html">Machine</a>
+              
+    
+              
+              <a className="tag-item secondary" href="newsfeed.html">Wasteland</a>
               
             </div>
             
     
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list reaction-item-list">
+                  <div className="meta-line-list reaction-item-list">
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span class="bold">Love</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span className="bold">Love</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Destroy Dex</p>
+                        <p className="simple-dropdown-text">Destroy Dex</p>
                         
     
                         
-                        <p class="simple-dropdown-text">The Green Goo</p>
+                        <p className="simple-dropdown-text">The Green Goo</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Bearded Wonder</p>
+                        <p className="simple-dropdown-text">Bearded Wonder</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Sandra Strange</p>
+                        <p className="simple-dropdown-text">Sandra Strange</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Matt Parker</p>
+                        <p className="simple-dropdown-text">Matt Parker</p>
                         
     
                         
-                        <p class="simple-dropdown-text">James Murdock</p>
+                        <p className="simple-dropdown-text">James Murdock</p>
                         
     
                         
-                        <p class="simple-dropdown-text"><span class="bold">and 14 more...</span></p>
+                        <p className="simple-dropdown-text"><span className="bold">and 14 more...</span></p>
                         
                       </div>
                       
@@ -2186,19 +2186,19 @@ const ProfileTimeline = () => {
                     
     
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/wow.png" alt="reaction-wow"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/wow.png" alt="reaction-wow"/> <span class="bold">Wow</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/wow.png" alt="reaction-wow"/> <span className="bold">Wow</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Jett Spiegel</p>
+                        <p className="simple-dropdown-text">Jett Spiegel</p>
                         
                       </div>
                       
@@ -2206,27 +2206,27 @@ const ProfileTimeline = () => {
                     
     
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span class="bold">Like</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span className="bold">Like</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
           
                         
-                        <p class="simple-dropdown-text">Nick Grissom</p>
+                        <p className="simple-dropdown-text">Nick Grissom</p>
                         
           
                         
-                        <p class="simple-dropdown-text">Sarah Diamond</p>
+                        <p className="simple-dropdown-text">Sarah Diamond</p>
                         
                       </div>
                       
@@ -2236,29 +2236,29 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">24</p>
+                  <p className="meta-line-text">24</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list user-avatar-list">
+                  <div className="meta-line-list user-avatar-list">
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/07.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/07.jpg"></div>
                         
                       </div>
                       
@@ -2266,19 +2266,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/02.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/02.jpg"></div>
                         
                       </div>
                       
@@ -2286,19 +2286,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/10.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/10.jpg"></div>
                         
                       </div>
                       
@@ -2306,19 +2306,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/05.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/05.jpg"></div>
                         
                       </div>
                       
@@ -2326,19 +2326,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/03.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/03.jpg"></div>
                         
                       </div>
                       
@@ -2348,7 +2348,7 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">27 Participants</p>
+                  <p className="meta-line-text">27 Participants</p>
                   
                 </div>
                 
@@ -2356,19 +2356,19 @@ const ProfileTimeline = () => {
               
           
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link">13 Comments</p>
+                  <p className="meta-line-link">13 Comments</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-text">0 Shares</p>
+                  <p className="meta-line-text">0 Shares</p>
                   
                 </div>
                 
@@ -2382,85 +2382,85 @@ const ProfileTimeline = () => {
         
     
         
-        <div class="post-options">
+        <div className="post-options">
           
-          <div class="post-option-wrap">
+          <div className="post-option-wrap">
             
-            <div class="post-option reaction-options-dropdown-trigger">
+            <div className="post-option reaction-options-dropdown-trigger">
               
-              <svg class="post-option-icon icon-thumbs-up">
+              <svg className="post-option-icon icon-thumbs-up">
                 <use xlinkHref="#svg-thumbs-up"></use>
               </svg>
               
     
               
-              <p class="post-option-text">React!</p>
+              <p className="post-option-text">React!</p>
               
             </div>
             
     
             
-            <div class="reaction-options reaction-options-dropdown">
+            <div className="reaction-options reaction-options-dropdown">
               
-              <div class="reaction-option text-tooltip-tft" data-title="Like">
+              <div className="reaction-option text-tooltip-tft" data-title="Like">
                 
-                <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
+                <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Love">
+              <div className="reaction-option text-tooltip-tft" data-title="Love">
                 
-                <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+              <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                 
-                <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
+                <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Happy">
+              <div className="reaction-option text-tooltip-tft" data-title="Happy">
                 
-                <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Funny">
+              <div className="reaction-option text-tooltip-tft" data-title="Funny">
                 
-                <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Wow">
+              <div className="reaction-option text-tooltip-tft" data-title="Wow">
                 
-                <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Angry">
+              <div className="reaction-option text-tooltip-tft" data-title="Angry">
                 
-                <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Sad">
+              <div className="reaction-option text-tooltip-tft" data-title="Sad">
                 
-                <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                 
               </div>
               
@@ -2470,29 +2470,29 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="post-option active">
+          <div className="post-option active">
             
-            <svg class="post-option-icon icon-comment">
+            <svg className="post-option-icon icon-comment">
               <use xlinkHref="#svg-comment"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Comment</p>
+            <p className="post-option-text">Comment</p>
             
           </div>
           
     
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-share">
+            <svg className="post-option-icon icon-share">
               <use xlinkHref="#svg-share"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Share</p>
+            <p className="post-option-text">Share</p>
             
           </div>
           
@@ -2500,55 +2500,55 @@ const ProfileTimeline = () => {
         
     
         
-        <div class="post-comment-list">
+        <div className="post-comment-list">
           
-          <div class="post-comment">
+          <div className="post-comment">
             
-            <a class="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline.html">
               
-              <div class="user-avatar-content">
+              <div className="user-avatar-content">
                 
-                <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
-                
-              </div>
-              
-          
-              
-              <div class="user-avatar-progress">
-                
-                <div class="hexagon-progress-40-44"></div>
+                <div className="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-progress-border">
+              <div className="user-avatar-progress">
                 
-                <div class="hexagon-border-40-44"></div>
+                <div className="hexagon-progress-40-44"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-badge">
+              <div className="user-avatar-progress-border">
                 
-                <div class="user-avatar-badge-border">
+                <div className="hexagon-border-40-44"></div>
+                
+              </div>
+              
+          
+              
+              <div className="user-avatar-badge">
+                
+                <div className="user-avatar-badge-border">
                   
-                  <div class="hexagon-22-24"></div>
+                  <div className="hexagon-22-24"></div>
                   
                 </div>
                 
           
                 
-                <div class="user-avatar-badge-content">
+                <div className="user-avatar-badge-content">
                   
-                  <div class="hexagon-dark-16-18"></div>
+                  <div className="hexagon-dark-16-18"></div>
                   
                 </div>
                 
           
                 
-                <p class="user-avatar-badge-text">12</p>
+                <p className="user-avatar-badge-text">12</p>
                 
               </div>
               
@@ -2556,31 +2556,31 @@ const ProfileTimeline = () => {
             
       
             
-            <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Neko Bebop</a>It's always a pleasure to do this streams with you! If we have at least half the fun than last time it will be an incredible success!</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Neko Bebop</a>It's always a pleasure to do this streams with you! If we have at least half the fun than last time it will be an incredible success!</p>
             
       
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list reaction-item-list small">
+                  <div className="meta-line-list reaction-item-list small">
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span class="bold">Happy</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span className="bold">Happy</span></p>
                         
       
                         
-                        <p class="simple-dropdown-text">Marcus Jhonson</p>
+                        <p className="simple-dropdown-text">Marcus Jhonson</p>
                         
                       </div>
                       
@@ -2588,27 +2588,27 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span class="bold">Like</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span className="bold">Like</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
           
                         
-                        <p class="simple-dropdown-text">Nick Grissom</p>
+                        <p className="simple-dropdown-text">Nick Grissom</p>
                         
           
                         
-                        <p class="simple-dropdown-text">Sarah Diamond</p>
+                        <p className="simple-dropdown-text">Sarah Diamond</p>
                         
                       </div>
                       
@@ -2618,79 +2618,79 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">4</p>
+                  <p className="meta-line-text">4</p>
                   
                 </div>
                 
       
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
+                  <p className="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
                   
       
                   
-                  <div class="reaction-options small reaction-options-small-dropdown">
+                  <div className="reaction-options small reaction-options-small-dropdown">
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Like">
+                    <div className="reaction-option text-tooltip-tft" data-title="Like">
                       
-                      <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
+                      <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                      
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Love">
+                    <div className="reaction-option text-tooltip-tft" data-title="Love">
                       
-                      <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                      
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+                    <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                       
-                      <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Happy">
-                      
-                      <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Funny">
+                    <div className="reaction-option text-tooltip-tft" data-title="Happy">
                       
-                      <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Wow">
-                      
-                      <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Angry">
+                    <div className="reaction-option text-tooltip-tft" data-title="Funny">
                       
-                      <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                      <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Sad">
+                    <div className="reaction-option text-tooltip-tft" data-title="Wow">
                       
-                      <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                      <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Angry">
+                      
+                      <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Sad">
+                      
+                      <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                      
                     </div>
                     
@@ -2700,29 +2700,29 @@ const ProfileTimeline = () => {
                 
       
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light">Reply</p>
-                  
-                </div>
-                
-      
-                
-                <div class="meta-line">
-                  
-                  <p class="meta-line-timestamp">15 minutes ago</p>
+                  <p className="meta-line-link light">Reply</p>
                   
                 </div>
                 
       
                 
-                <div class="meta-line settings">
+                <div className="meta-line">
                   
-                  <div class="post-settings-wrap">
+                  <p className="meta-line-timestamp">15 minutes ago</p>
+                  
+                </div>
+                
+      
+                
+                <div className="meta-line settings">
+                  
+                  <div className="post-settings-wrap">
                     
-                    <div class="post-settings post-settings-dropdown-trigger">
+                    <div className="post-settings post-settings-dropdown-trigger">
                       
-                      <svg class="post-settings-icon icon-more-dots">
+                      <svg className="post-settings-icon icon-more-dots">
                         <use xlinkHref="#svg-more-dots"></use>
                       </svg>
                       
@@ -2730,9 +2730,9 @@ const ProfileTimeline = () => {
                     
       
                     
-                    <div class="simple-dropdown post-settings-dropdown">
+                    <div className="simple-dropdown post-settings-dropdown">
                       
-                      <p class="simple-dropdown-link">Report Post</p>
+                      <p className="simple-dropdown-link">Report Post</p>
                       
                     </div>
                     
@@ -2748,53 +2748,53 @@ const ProfileTimeline = () => {
           
       
           
-          <div class="post-comment unread reply-2">
+          <div className="post-comment unread reply-2">
             
-            <a class="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline.html">
               
-              <div class="user-avatar-content">
+              <div className="user-avatar-content">
                 
-                <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
-                
-              </div>
-              
-          
-              
-              <div class="user-avatar-progress">
-                
-                <div class="hexagon-progress-40-44"></div>
+                <div className="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-progress-border">
+              <div className="user-avatar-progress">
                 
-                <div class="hexagon-border-40-44"></div>
+                <div className="hexagon-progress-40-44"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-badge">
+              <div className="user-avatar-progress-border">
                 
-                <div class="user-avatar-badge-border">
+                <div className="hexagon-border-40-44"></div>
+                
+              </div>
+              
+          
+              
+              <div className="user-avatar-badge">
+                
+                <div className="user-avatar-badge-border">
                   
-                  <div class="hexagon-22-24"></div>
+                  <div className="hexagon-22-24"></div>
                   
                 </div>
                 
           
                 
-                <div class="user-avatar-badge-content">
+                <div className="user-avatar-badge-content">
                   
-                  <div class="hexagon-dark-16-18"></div>
+                  <div className="hexagon-dark-16-18"></div>
                   
                 </div>
                 
           
                 
-                <p class="user-avatar-badge-text">16</p>
+                <p className="user-avatar-badge-text">16</p>
                 
               </div>
               
@@ -2802,31 +2802,31 @@ const ProfileTimeline = () => {
             
       
             
-            <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Nick Grissom</a>I wouldn't miss it for anything!! Love both streams!</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Nick Grissom</a>I wouldn't miss it for anything!! Love both streams!</p>
             
       
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list reaction-item-list small">
+                  <div className="meta-line-list reaction-item-list small">
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span class="bold">Like</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span className="bold">Like</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
                       </div>
                       
@@ -2836,79 +2836,79 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">1</p>
+                  <p className="meta-line-text">1</p>
                   
                 </div>
                 
       
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
+                  <p className="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
                   
       
                   
-                  <div class="reaction-options small reaction-options-small-dropdown">
+                  <div className="reaction-options small reaction-options-small-dropdown">
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Like">
+                    <div className="reaction-option text-tooltip-tft" data-title="Like">
                       
-                      <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Love">
-                      
-                      <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+                    <div className="reaction-option text-tooltip-tft" data-title="Love">
                       
-                      <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Happy">
-                      
-                      <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Funny">
+                    <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                       
-                      <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                      <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Wow">
+                    <div className="reaction-option text-tooltip-tft" data-title="Happy">
                       
-                      <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Funny">
+                      
+                      <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Wow">
+                      
+                      <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
                      / 
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Angry">
+                    <div className="reaction-option text-tooltip-tft" data-title="Angry">
                       
-                      <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                      <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Sad">
+                    <div className="reaction-option text-tooltip-tft" data-title="Sad">
                       
-                      <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                      <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                      
                     </div>
                     
@@ -2918,29 +2918,29 @@ const ProfileTimeline = () => {
                 
       
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light">Reply</p>
-                  
-                </div>
-                
-      
-                
-                <div class="meta-line">
-                  
-                  <p class="meta-line-timestamp">2 minutes ago</p>
+                  <p className="meta-line-link light">Reply</p>
                   
                 </div>
                 
       
                 
-                <div class="meta-line settings">
+                <div className="meta-line">
                   
-                  <div class="post-settings-wrap">
+                  <p className="meta-line-timestamp">2 minutes ago</p>
+                  
+                </div>
+                
+      
+                
+                <div className="meta-line settings">
+                  
+                  <div className="post-settings-wrap">
                     
-                    <div class="post-settings post-settings-dropdown-trigger">
+                    <div className="post-settings post-settings-dropdown-trigger">
                       
-                      <svg class="post-settings-icon icon-more-dots">
+                      <svg className="post-settings-icon icon-more-dots">
                         <use xlinkHref="#svg-more-dots"></use>
                       </svg>
                       
@@ -2948,9 +2948,9 @@ const ProfileTimeline = () => {
                     
       
                     
-                    <div class="simple-dropdown post-settings-dropdown">
+                    <div className="simple-dropdown post-settings-dropdown">
                       
-                      <p class="simple-dropdown-link">Report Post</p>
+                      <p className="simple-dropdown-link">Report Post</p>
                       
                     </div>
                     
@@ -2966,53 +2966,53 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="post-comment">
+          <div className="post-comment">
             
-            <a class="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline.html">
               
-              <div class="user-avatar-content">
+              <div className="user-avatar-content">
                 
-                <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
-                
-              </div>
-              
-          
-              
-              <div class="user-avatar-progress">
-                
-                <div class="hexagon-progress-40-44"></div>
+                <div className="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-progress-border">
+              <div className="user-avatar-progress">
                 
-                <div class="hexagon-border-40-44"></div>
+                <div className="hexagon-progress-40-44"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-badge">
+              <div className="user-avatar-progress-border">
                 
-                <div class="user-avatar-badge-border">
+                <div className="hexagon-border-40-44"></div>
+                
+              </div>
+              
+          
+              
+              <div className="user-avatar-badge">
+                
+                <div className="user-avatar-badge-border">
                   
-                  <div class="hexagon-22-24"></div>
+                  <div className="hexagon-22-24"></div>
                   
                 </div>
                 
           
                 
-                <div class="user-avatar-badge-content">
+                <div className="user-avatar-badge-content">
                   
-                  <div class="hexagon-dark-16-18"></div>
+                  <div className="hexagon-dark-16-18"></div>
                   
                 </div>
                 
           
                 
-                <p class="user-avatar-badge-text">19</p>
+                <p className="user-avatar-badge-text">19</p>
                 
               </div>
               
@@ -3020,81 +3020,81 @@ const ProfileTimeline = () => {
             
       
             
-            <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Destroy Dex</a>YEAHHH!! <a href="profile-timeline.html">@MarinaValentine</a> I really enjoyed your last stream and it also was really funny! Can't wait!</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Destroy Dex</a>YEAHHH!! <a href="profile-timeline.html">@MarinaValentine</a> I really enjoyed your last stream and it also was really funny! Can't wait!</p>
             
       
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
+                  <p className="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
                   
       
                   
-                  <div class="reaction-options small reaction-options-small-dropdown">
+                  <div className="reaction-options small reaction-options-small-dropdown">
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Like">
+                    <div className="reaction-option text-tooltip-tft" data-title="Like">
                       
-                      <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Love">
-                      
-                      <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+                    <div className="reaction-option text-tooltip-tft" data-title="Love">
                       
-                      <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Happy">
-                      
-                      <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Funny">
+                    <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                       
-                      <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Wow">
-                      
-                      <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Angry">
+                    <div className="reaction-option text-tooltip-tft" data-title="Happy">
                       
-                      <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                      <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Sad">
+                    <div className="reaction-option text-tooltip-tft" data-title="Funny">
                       
-                      <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                      <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Wow">
+                      
+                      <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Angry">
+                      
+                      <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Sad">
+                      
+                      <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                       
                     </div>
                     
@@ -3104,29 +3104,29 @@ const ProfileTimeline = () => {
                 
       
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light">Reply</p>
-                  
-                </div>
-                
-      
-                
-                <div class="meta-line">
-                  
-                  <p class="meta-line-timestamp">27 minutes ago</p>
+                  <p className="meta-line-link light">Reply</p>
                   
                 </div>
                 
       
                 
-                <div class="meta-line settings">
+                <div className="meta-line">
                   
-                  <div class="post-settings-wrap">
+                  <p className="meta-line-timestamp">27 minutes ago</p>
+                  
+                </div>
+                
+      
+                
+                <div className="meta-line settings">
+                  
+                  <div className="post-settings-wrap">
                     
-                    <div class="post-settings post-settings-dropdown-trigger">
+                    <div className="post-settings post-settings-dropdown-trigger">
                       
-                      <svg class="post-settings-icon icon-more-dots">
+                      <svg className="post-settings-icon icon-more-dots">
                         <use xlinkHref="#svg-more-dots"></use>
                       </svg>
                       
@@ -3134,9 +3134,9 @@ const ProfileTimeline = () => {
                     
       
                     
-                    <div class="simple-dropdown post-settings-dropdown">
+                    <div className="simple-dropdown post-settings-dropdown">
                       
-                      <p class="simple-dropdown-link">Report Post</p>
+                      <p className="simple-dropdown-link">Report Post</p>
                       
                     </div>
                     
@@ -3152,53 +3152,53 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="post-comment">
+          <div className="post-comment">
             
-            <a class="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline.html">
               
-              <div class="user-avatar-content">
+              <div className="user-avatar-content">
                 
-                <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
-                
-              </div>
-              
-          
-              
-              <div class="user-avatar-progress">
-                
-                <div class="hexagon-progress-40-44"></div>
+                <div className="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-progress-border">
+              <div className="user-avatar-progress">
                 
-                <div class="hexagon-border-40-44"></div>
+                <div className="hexagon-progress-40-44"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-badge">
+              <div className="user-avatar-progress-border">
                 
-                <div class="user-avatar-badge-border">
+                <div className="hexagon-border-40-44"></div>
+                
+              </div>
+              
+          
+              
+              <div className="user-avatar-badge">
+                
+                <div className="user-avatar-badge-border">
                   
-                  <div class="hexagon-22-24"></div>
+                  <div className="hexagon-22-24"></div>
                   
                 </div>
                 
           
                 
-                <div class="user-avatar-badge-content">
+                <div className="user-avatar-badge-content">
                   
-                  <div class="hexagon-dark-16-18"></div>
+                  <div className="hexagon-dark-16-18"></div>
                   
                 </div>
                 
           
                 
-                <p class="user-avatar-badge-text">26</p>
+                <p className="user-avatar-badge-text">26</p>
                 
               </div>
               
@@ -3206,81 +3206,81 @@ const ProfileTimeline = () => {
             
       
             
-            <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Sarah Diamond</a>That sounds awesome Marina! And also thanks a lot for the art sneak peek! I went to the GameCon last week and had a great time playing the game's open demo.</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Sarah Diamond</a>That sounds awesome Marina! And also thanks a lot for the art sneak peek! I went to the GameCon last week and had a great time playing the game's open demo.</p>
             
       
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
+                  <p className="meta-line-link light reaction-options-small-dropdown-trigger">React!</p>
                   
       
                   
-                  <div class="reaction-options small reaction-options-small-dropdown">
+                  <div className="reaction-options small reaction-options-small-dropdown">
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Like">
+                    <div className="reaction-option text-tooltip-tft" data-title="Like">
                       
-                      <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Love">
-                      
-                      <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+                    <div className="reaction-option text-tooltip-tft" data-title="Love">
                       
-                      <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Happy">
-                      
-                      <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Funny">
+                    <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                       
-                      <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
-                      
-                    </div>
-                    
-          
-                    
-                    <div class="reaction-option text-tooltip-tft" data-title="Wow">
-                      
-                      <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Angry">
+                    <div className="reaction-option text-tooltip-tft" data-title="Happy">
                       
-                      <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                      <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
                       
                     </div>
                     
           
                     
-                    <div class="reaction-option text-tooltip-tft" data-title="Sad">
+                    <div className="reaction-option text-tooltip-tft" data-title="Funny">
                       
-                      <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                      <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Wow">
+                      
+                      <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Angry">
+                      
+                      <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                      
+                    </div>
+                    
+          
+                    
+                    <div className="reaction-option text-tooltip-tft" data-title="Sad">
+                      
+                      <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                       
                     </div>
                     
@@ -3290,29 +3290,29 @@ const ProfileTimeline = () => {
                 
       
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link light">Reply</p>
-                  
-                </div>
-                
-      
-                
-                <div class="meta-line">
-                  
-                  <p class="meta-line-timestamp">39 minutes ago</p>
+                  <p className="meta-line-link light">Reply</p>
                   
                 </div>
                 
       
                 
-                <div class="meta-line settings">
+                <div className="meta-line">
                   
-                  <div class="post-settings-wrap">
+                  <p className="meta-line-timestamp">39 minutes ago</p>
+                  
+                </div>
+                
+      
+                
+                <div className="meta-line settings">
+                  
+                  <div className="post-settings-wrap">
                     
-                    <div class="post-settings post-settings-dropdown-trigger">
+                    <div className="post-settings post-settings-dropdown-trigger">
                       
-                      <svg class="post-settings-icon icon-more-dots">
+                      <svg className="post-settings-icon icon-more-dots">
                         <use xlinkHref="#svg-more-dots"></use>
                       </svg>
                       
@@ -3320,9 +3320,9 @@ const ProfileTimeline = () => {
                     
       
                     
-                    <div class="simple-dropdown post-settings-dropdown">
+                    <div className="simple-dropdown post-settings-dropdown">
                       
-                      <p class="simple-dropdown-link">Report Post</p>
+                      <p className="simple-dropdown-link">Report Post</p>
                       
                     </div>
                     
@@ -3338,57 +3338,57 @@ const ProfileTimeline = () => {
           
       
           
-          <p class="post-comment-heading">Load More Comments <span class="highlighted">9+</span></p>
+          <p className="post-comment-heading">Load More Comments <span className="highlighted">9+</span></p>
           
       
           
-          <div class="post-comment-form">
+          <div className="post-comment-form">
             
-            <div class="user-avatar small no-outline">
+            <div className="user-avatar small no-outline">
               
-              <div class="user-avatar-content">
+              <div className="user-avatar-content">
                 
-                <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
-                
-              </div>
-              
-          
-              
-              <div class="user-avatar-progress">
-                
-                <div class="hexagon-progress-40-44"></div>
+                <div className="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-progress-border">
+              <div className="user-avatar-progress">
                 
-                <div class="hexagon-border-40-44"></div>
+                <div className="hexagon-progress-40-44"></div>
                 
               </div>
               
           
               
-              <div class="user-avatar-badge">
+              <div className="user-avatar-progress-border">
                 
-                <div class="user-avatar-badge-border">
+                <div className="hexagon-border-40-44"></div>
+                
+              </div>
+              
+          
+              
+              <div className="user-avatar-badge">
+                
+                <div className="user-avatar-badge-border">
                   
-                  <div class="hexagon-22-24"></div>
+                  <div className="hexagon-22-24"></div>
                   
                 </div>
                 
           
                 
-                <div class="user-avatar-badge-content">
+                <div className="user-avatar-badge-content">
                   
-                  <div class="hexagon-dark-16-18"></div>
+                  <div className="hexagon-dark-16-18"></div>
                   
                 </div>
                 
           
                 
-                <p class="user-avatar-badge-text">24</p>
+                <p className="user-avatar-badge-text">24</p>
                 
               </div>
               
@@ -3396,14 +3396,14 @@ const ProfileTimeline = () => {
             
       
             
-            <form class="form">
+            <form className="form">
               
-              <div class="form-row">
+              <div className="form-row">
                 
-                <div class="form-item">
+                <div className="form-item">
                   
-                  <div class="form-input small">
-                    <label for="post-reply">Your Reply</label>
+                  <div className="form-input small">
+                    <label htmlFor="post-reply">Your Reply</label>
                     <input type="text" id="post-reply" name="post_reply"/>
                   </div>
                   
@@ -3421,15 +3421,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box no-padding">
+      <div className="widget-box no-padding">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -3437,25 +3437,25 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Edit Post</p>
-              
-    
-              
-              <p class="simple-dropdown-link">Delete Post</p>
+              <p className="simple-dropdown-link">Edit Post</p>
               
     
               
-              <p class="simple-dropdown-link">Make it Featured</p>
+              <p className="simple-dropdown-link">Delete Post</p>
               
     
               
-              <p class="simple-dropdown-link">Report Post</p>
+              <p className="simple-dropdown-link">Make it Featured</p>
               
     
               
-              <p class="simple-dropdown-link">Report Author</p>
+              <p className="simple-dropdown-link">Report Post</p>
+              
+    
+              
+              <p className="simple-dropdown-link">Report Author</p>
               
             </div>
             
@@ -3465,59 +3465,59 @@ const ProfileTimeline = () => {
         
         
         
-        <div class="widget-box-status">
+        <div className="widget-box-status">
           
-          <div class="widget-box-status-content">
+          <div className="widget-box-status-content">
             
-            <div class="user-status">
+            <div className="user-status">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">24</p>
+                    <p className="user-avatar-badge-text">24</p>
                     
                   </div>
                   
@@ -3527,37 +3527,37 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
               
           
               
-              <p class="user-status-text small">17 hours ago</p>
+              <p className="user-status-text small">17 hours ago</p>
               
             </div>
             
     
             
-            <p class="widget-box-status-text">Tomorow I'll be livestreaming along with <a href="profile-timeline.html">@DestroyDex</a> on my Youtube channel. We are gonna do a spedrun of Super Mochi Bros 3!</p>
+            <p className="widget-box-status-text">Tomorow I'll be livestreaming along with <a href="profile-timeline.html">@DestroyDex</a> on my Youtube channel. We are gonna do a spedrun of Super Mochi Bros 3!</p>
             
     
             
-            <a class="video-status" href="https://www.youtube.com/" target="_blank">
+            <a className="video-status" href="https://www.youtube.com/" target="_blank">
               
-              <img class="video-status-image" src="img/cover/50.jpg" alt="cover-50"/>
+              <img className="video-status-image" src="img/cover/50.jpg" alt="cover-50"/>
               
     
               
-              <div class="video-status-info">
+              <div className="video-status-info">
                 
-                <p class="video-status-meta">youtube.com</p>
-                
-    
-                
-                <p class="video-status-title"><span class="bold">GameHuntress</span> on <span class="highlighted">Youtube</span></p>
+                <p className="video-status-meta">youtube.com</p>
                 
     
                 
-                <p class="video-status-text">Watch the GameHuntress play all the greatest games.</p>
+                <p className="video-status-title"><span className="bold">GameHuntress</span> on <span className="highlighted">Youtube</span></p>
+                
+    
+                
+                <p className="video-status-text">Watch the GameHuntress play all the greatest games.</p>
                 
               </div>
               
@@ -3565,55 +3565,55 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="tag-list">
+            <div className="tag-list">
               
-              <a class="tag-item secondary" href="newsfeed.html">Stream</a>
-              
-    
-              
-              <a class="tag-item secondary" href="newsfeed.html">Youtube</a>
+              <a className="tag-item secondary" href="newsfeed.html">Stream</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Gaming</a>
+              <a className="tag-item secondary" href="newsfeed.html">Youtube</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Retro</a>
+              <a className="tag-item secondary" href="newsfeed.html">Gaming</a>
+              
+    
+              
+              <a className="tag-item secondary" href="newsfeed.html">Retro</a>
               
             </div>
             
     
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list reaction-item-list">
+                  <div className="meta-line-list reaction-item-list">
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span class="bold">Happy</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span className="bold">Happy</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Matt Parker</p>
+                        <p className="simple-dropdown-text">Matt Parker</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Destroy Dex</p>
+                        <p className="simple-dropdown-text">Destroy Dex</p>
                         
     
                         
-                        <p class="simple-dropdown-text">The Green Goo</p>
+                        <p className="simple-dropdown-text">The Green Goo</p>
                         
                       </div>
                       
@@ -3621,23 +3621,23 @@ const ProfileTimeline = () => {
                     
     
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/love.png" alt="reaction-love"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span class="bold">Love</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/love.png" alt="reaction-love"/> <span className="bold">Love</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Sandra Strange</p>
+                        <p className="simple-dropdown-text">Sandra Strange</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Jane Rodgers</p>
+                        <p className="simple-dropdown-text">Jane Rodgers</p>
                         
                       </div>
                       
@@ -3645,39 +3645,39 @@ const ProfileTimeline = () => {
                     
     
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/funny.png" alt="reaction-funny"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/funny.png" alt="reaction-funny"/>
                       
           
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/funny.png" alt="reaction-funny"/> <span class="bold">Funny</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/funny.png" alt="reaction-funny"/> <span className="bold">Funny</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Nick Grissom</p>
+                        <p className="simple-dropdown-text">Nick Grissom</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Sarah Diamond</p>
+                        <p className="simple-dropdown-text">Sarah Diamond</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Jett Spiegel</p>
+                        <p className="simple-dropdown-text">Jett Spiegel</p>
                         
     
                         
-                        <p class="simple-dropdown-text">Marcus Jhonson</p>
+                        <p className="simple-dropdown-text">Marcus Jhonson</p>
                         
     
                         
-                        <p class="simple-dropdown-text"><span class="bold">and 12 more...</span></p>
+                        <p className="simple-dropdown-text"><span className="bold">and 12 more...</span></p>
                         
                       </div>
                       
@@ -3687,29 +3687,29 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">22</p>
+                  <p className="meta-line-text">22</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list user-avatar-list">
+                  <div className="meta-line-list user-avatar-list">
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/09.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/09.jpg"></div>
                         
                       </div>
                       
@@ -3717,19 +3717,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/08.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/08.jpg"></div>
                         
                       </div>
                       
@@ -3737,19 +3737,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/12.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/12.jpg"></div>
                         
                       </div>
                       
@@ -3757,19 +3757,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/16.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/16.jpg"></div>
                         
                       </div>
                       
@@ -3777,19 +3777,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/06.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/06.jpg"></div>
                         
                       </div>
                       
@@ -3799,7 +3799,7 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">30 Participants</p>
+                  <p className="meta-line-text">30 Participants</p>
                   
                 </div>
                 
@@ -3807,19 +3807,19 @@ const ProfileTimeline = () => {
               
           
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link">12 Comments</p>
+                  <p className="meta-line-link">12 Comments</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-text">0 Shares</p>
+                  <p className="meta-line-text">0 Shares</p>
                   
                 </div>
                 
@@ -3833,85 +3833,85 @@ const ProfileTimeline = () => {
         
     
         
-        <div class="post-options">
+        <div className="post-options">
           
-          <div class="post-option-wrap">
+          <div className="post-option-wrap">
             
-            <div class="post-option reaction-options-dropdown-trigger">
+            <div className="post-option reaction-options-dropdown-trigger">
               
-              <svg class="post-option-icon icon-thumbs-up">
+              <svg className="post-option-icon icon-thumbs-up">
                 <use xlinkHref="#svg-thumbs-up"></use>
               </svg>
               
     
               
-              <p class="post-option-text">React!</p>
+              <p className="post-option-text">React!</p>
               
             </div>
             
     
             
-            <div class="reaction-options reaction-options-dropdown">
+            <div className="reaction-options reaction-options-dropdown">
               
-              <div class="reaction-option text-tooltip-tft" data-title="Like">
+              <div className="reaction-option text-tooltip-tft" data-title="Like">
                 
-                <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
-                
-              </div>
-              
-    
-              
-              <div class="reaction-option text-tooltip-tft" data-title="Love">
-                
-                <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+              <div className="reaction-option text-tooltip-tft" data-title="Love">
                 
-                <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
-                
-              </div>
-              
-    
-              
-              <div class="reaction-option text-tooltip-tft" data-title="Happy">
-                
-                <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Funny">
+              <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                 
-                <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
-                
-              </div>
-              
-    
-              
-              <div class="reaction-option text-tooltip-tft" data-title="Wow">
-                
-                <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Angry">
+              <div className="reaction-option text-tooltip-tft" data-title="Happy">
                 
-                <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Sad">
+              <div className="reaction-option text-tooltip-tft" data-title="Funny">
                 
-                <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                
+              </div>
+              
+    
+              
+              <div className="reaction-option text-tooltip-tft" data-title="Wow">
+                
+                <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                
+              </div>
+              
+    
+              
+              <div className="reaction-option text-tooltip-tft" data-title="Angry">
+                
+                <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                
+              </div>
+              
+    
+              
+              <div className="reaction-option text-tooltip-tft" data-title="Sad">
+                
+                <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                 
               </div>
               
@@ -3921,29 +3921,29 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-comment">
+            <svg className="post-option-icon icon-comment">
               <use xlinkHref="#svg-comment"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Comment</p>
+            <p className="post-option-text">Comment</p>
             
           </div>
           
     
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-share">
+            <svg className="post-option-icon icon-share">
               <use xlinkHref="#svg-share"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Share</p>
+            <p className="post-option-text">Share</p>
             
           </div>
           
@@ -3953,15 +3953,15 @@ const ProfileTimeline = () => {
       
     
       
-      <div class="widget-box no-padding">
+      <div className="widget-box no-padding">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -3969,25 +3969,25 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Edit Post</p>
-              
-    
-              
-              <p class="simple-dropdown-link">Delete Post</p>
+              <p className="simple-dropdown-link">Edit Post</p>
               
     
               
-              <p class="simple-dropdown-link">Make it Featured</p>
+              <p className="simple-dropdown-link">Delete Post</p>
               
     
               
-              <p class="simple-dropdown-link">Report Post</p>
+              <p className="simple-dropdown-link">Make it Featured</p>
               
     
               
-              <p class="simple-dropdown-link">Report Author</p>
+              <p className="simple-dropdown-link">Report Post</p>
+              
+    
+              
+              <p className="simple-dropdown-link">Report Author</p>
               
             </div>
             
@@ -3997,59 +3997,59 @@ const ProfileTimeline = () => {
         
         
         
-        <div class="widget-box-status">
+        <div className="widget-box-status">
           
-          <div class="widget-box-status-content">
+          <div className="widget-box-status-content">
             
-            <div class="user-status">
+            <div className="user-status">
               
-              <a class="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline.html">
                 
-                <div class="user-avatar small no-outline">
+                <div className="user-avatar small no-outline">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
-                    
-                  </div>
-                  
-              
-                  
-                  <div class="user-avatar-progress">
-                    
-                    <div class="hexagon-progress-40-44"></div>
+                    <div className="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-progress-border">
+                  <div className="user-avatar-progress">
                     
-                    <div class="hexagon-border-40-44"></div>
+                    <div className="hexagon-progress-40-44"></div>
                     
                   </div>
                   
               
                   
-                  <div class="user-avatar-badge">
+                  <div className="user-avatar-progress-border">
                     
-                    <div class="user-avatar-badge-border">
+                    <div className="hexagon-border-40-44"></div>
+                    
+                  </div>
+                  
+              
+                  
+                  <div className="user-avatar-badge">
+                    
+                    <div className="user-avatar-badge-border">
                       
-                      <div class="hexagon-22-24"></div>
+                      <div className="hexagon-22-24"></div>
                       
                     </div>
                     
               
                     
-                    <div class="user-avatar-badge-content">
+                    <div className="user-avatar-badge-content">
                       
-                      <div class="hexagon-dark-16-18"></div>
+                      <div className="hexagon-dark-16-18"></div>
                       
                     </div>
                     
               
                     
-                    <p class="user-avatar-badge-text">24</p>
+                    <p className="user-avatar-badge-text">24</p>
                     
                   </div>
                   
@@ -4059,11 +4059,11 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Marina Valentine</a> wrote a <span class="bold">Blog Post</span></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a> wrote a <span className="bold">Blog Post</span></p>
               
           
               
-              <p class="user-status-text small">2 days ago</p>
+              <p className="user-status-text small">2 days ago</p>
               
             </div>
             
@@ -4071,33 +4071,33 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="post-preview medium">
+          <div className="post-preview medium">
             
-            <figure class="post-preview-image liquid">
+            <figure className="post-preview-image liquid">
               <img src="img/cover/19.jpg" alt="cover-19"/>
             </figure>
             
         
             
-            <div class="post-preview-info">
+            <div className="post-preview-info">
               
-              <p class="post-preview-timestamp">5 mins read</p>
-              
-        
-              
-              <p class="post-preview-title">Here's the how and why did I became a full time Gaming Streamer</p>
+              <p className="post-preview-timestamp">5 mins read</p>
               
         
               
-              <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p className="post-preview-title">Here's the how and why did I became a full time Gaming Streamer</p>
               
         
               
-              <p class="post-preview-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam...</p>
+              <p className="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               
         
               
-              <a class="post-preview-link" href="profile-post.html">Read more...</a>
+              <p className="post-preview-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam...</p>
+              
+        
+              
+              <a className="post-preview-link" href="profile-post.html">Read more...</a>
               
             </div>
             
@@ -4105,65 +4105,65 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="widget-box-status-content">
+          <div className="widget-box-status-content">
             
-            <div class="tag-list">
+            <div className="tag-list">
               
-              <a class="tag-item secondary" href="newsfeed.html">Streamer</a>
-              
-    
-              
-              <a class="tag-item secondary" href="newsfeed.html">Gaming</a>
+              <a className="tag-item secondary" href="newsfeed.html">Streamer</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Job</a>
+              <a className="tag-item secondary" href="newsfeed.html">Gaming</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Life</a>
+              <a className="tag-item secondary" href="newsfeed.html">Job</a>
               
     
               
-              <a class="tag-item secondary" href="newsfeed.html">Experience</a>
+              <a className="tag-item secondary" href="newsfeed.html">Life</a>
+              
+    
+              
+              <a className="tag-item secondary" href="newsfeed.html">Experience</a>
               
             </div>
             
     
             
-            <div class="content-actions">
+            <div className="content-actions">
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list reaction-item-list">
+                  <div className="meta-line-list reaction-item-list">
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/wow.png" alt="reaction-wow"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/wow.png" alt="reaction-wow"/>
                       
         
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/wow.png" alt="reaction-wow"/> <span class="bold">Wow</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/wow.png" alt="reaction-wow"/> <span className="bold">Wow</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Nick Grissom</p>
+                        <p className="simple-dropdown-text">Nick Grissom</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Sarah Diamond</p>
+                        <p className="simple-dropdown-text">Sarah Diamond</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Marcus Jhonson</p>
+                        <p className="simple-dropdown-text">Marcus Jhonson</p>
                         
                       </div>
                       
@@ -4171,23 +4171,23 @@ const ProfileTimeline = () => {
                     
         
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/happy.png" alt="reaction-happy"/>
                       
         
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span class="bold">Happy</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> <span className="bold">Happy</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Jett Spiegel</p>
+                        <p className="simple-dropdown-text">Jett Spiegel</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Jane Rodgers</p>
+                        <p className="simple-dropdown-text">Jane Rodgers</p>
                         
                       </div>
                       
@@ -4195,43 +4195,43 @@ const ProfileTimeline = () => {
                     
         
                     
-                    <div class="reaction-item">
+                    <div className="reaction-item">
                       
-                      <img class="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
+                      <img className="reaction-image reaction-item-dropdown-trigger" src="img/reaction/like.png" alt="reaction-like"/>
                       
         
                       
-                      <div class="simple-dropdown padded reaction-item-dropdown">
+                      <div className="simple-dropdown padded reaction-item-dropdown">
                         
-                        <p class="simple-dropdown-text"><img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span class="bold">Like</span></p>
+                        <p className="simple-dropdown-text"><img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> <span className="bold">Like</span></p>
                         
                       
                         
-                        <p class="simple-dropdown-text">Neko Bebop</p>
+                        <p className="simple-dropdown-text">Neko Bebop</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Nick Grissom</p>
+                        <p className="simple-dropdown-text">Nick Grissom</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Sarah Diamond</p>
+                        <p className="simple-dropdown-text">Sarah Diamond</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Jett Spiegel</p>
+                        <p className="simple-dropdown-text">Jett Spiegel</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Marcus Jhonson</p>
+                        <p className="simple-dropdown-text">Marcus Jhonson</p>
                         
         
                         
-                        <p class="simple-dropdown-text">Jane Rodgers</p>
+                        <p className="simple-dropdown-text">Jane Rodgers</p>
                         
         
                         
-                        <p class="simple-dropdown-text"><span class="bold">and 7 more...</span></p>
+                        <p className="simple-dropdown-text"><span className="bold">and 7 more...</span></p>
                         
                       </div>
                       
@@ -4241,29 +4241,29 @@ const ProfileTimeline = () => {
                   
         
                   
-                  <p class="meta-line-text">19</p>
+                  <p className="meta-line-text">19</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <div class="meta-line-list user-avatar-list">
+                  <div className="meta-line-list user-avatar-list">
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/13.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/13.jpg"></div>
                         
                       </div>
                       
@@ -4271,19 +4271,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/12.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/12.jpg"></div>
                         
                       </div>
                       
@@ -4291,19 +4291,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/11.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/11.jpg"></div>
                         
                       </div>
                       
@@ -4311,19 +4311,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/03.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/03.jpg"></div>
                         
                       </div>
                       
@@ -4331,19 +4331,19 @@ const ProfileTimeline = () => {
                     
           
                     
-                    <div class="user-avatar micro no-stats">
+                    <div className="user-avatar micro no-stats">
                       
-                      <div class="user-avatar-border">
+                      <div className="user-avatar-border">
                         
-                        <div class="hexagon-22-24"></div>
+                        <div className="hexagon-22-24"></div>
                         
                       </div>
                       
                   
                       
-                      <div class="user-avatar-content">
+                      <div className="user-avatar-content">
                         
-                        <div class="hexagon-image-18-20" data-src="img/avatar/04.jpg"></div>
+                        <div className="hexagon-image-18-20" data-src="img/avatar/04.jpg"></div>
                         
                       </div>
                       
@@ -4353,7 +4353,7 @@ const ProfileTimeline = () => {
                   
           
                   
-                  <p class="meta-line-text">22 Participants</p>
+                  <p className="meta-line-text">22 Participants</p>
                   
                 </div>
                 
@@ -4361,19 +4361,19 @@ const ProfileTimeline = () => {
               
           
               
-              <div class="content-action">
+              <div className="content-action">
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-link">5 Comments</p>
+                  <p className="meta-line-link">5 Comments</p>
                   
                 </div>
                 
           
                 
-                <div class="meta-line">
+                <div className="meta-line">
                   
-                  <p class="meta-line-text">0 Shares</p>
+                  <p className="meta-line-text">0 Shares</p>
                   
                 </div>
                 
@@ -4387,85 +4387,85 @@ const ProfileTimeline = () => {
         
     
         
-        <div class="post-options">
+        <div className="post-options">
           
-          <div class="post-option-wrap">
+          <div className="post-option-wrap">
             
-            <div class="post-option reaction-options-dropdown-trigger">
+            <div className="post-option reaction-options-dropdown-trigger">
               
-              <svg class="post-option-icon icon-thumbs-up">
+              <svg className="post-option-icon icon-thumbs-up">
                 <use xlinkHref="#svg-thumbs-up"></use>
               </svg>
               
     
               
-              <p class="post-option-text">React!</p>
+              <p className="post-option-text">React!</p>
               
             </div>
             
     
             
-            <div class="reaction-options reaction-options-dropdown">
+            <div className="reaction-options reaction-options-dropdown">
               
-              <div class="reaction-option text-tooltip-tft" data-title="Like">
+              <div className="reaction-option text-tooltip-tft" data-title="Like">
                 
-                <img class="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
+                <img className="reaction-option-image" src="img/reaction/like.png" alt="reaction-like"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Love">
+              <div className="reaction-option text-tooltip-tft" data-title="Love">
                 
-                <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
+                <img className="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                 
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Dislike">
+              <div className="reaction-option text-tooltip-tft" data-title="Dislike">
                 
-                <img class="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
+                <img className="reaction-option-image" src="img/reaction/dislike.png" alt="reaction-dislike"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Happy">
+              <div className="reaction-option text-tooltip-tft" data-title="Happy">
                 
-                <img class="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
+                <img className="reaction-option-image" src="img/reaction/happy.png" alt="reaction-happy"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Funny">
+              <div className="reaction-option text-tooltip-tft" data-title="Funny">
                 
-                <img class="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
+                <img className="reaction-option-image" src="img/reaction/funny.png" alt="reaction-funny"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Wow">
+              <div className="reaction-option text-tooltip-tft" data-title="Wow">
                 
-                <img class="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
+                <img className="reaction-option-image" src="img/reaction/wow.png" alt="reaction-wow"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Angry">
+              <div className="reaction-option text-tooltip-tft" data-title="Angry">
                 
-                <img class="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
+                <img className="reaction-option-image" src="img/reaction/angry.png" alt="reaction-angry"/>
                
               </div>
               
     
               
-              <div class="reaction-option text-tooltip-tft" data-title="Sad">
+              <div className="reaction-option text-tooltip-tft" data-title="Sad">
                 
-                <img class="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
+                <img className="reaction-option-image" src="img/reaction/sad.png" alt="reaction-sad"/>
                 
               </div>
               
@@ -4475,29 +4475,29 @@ const ProfileTimeline = () => {
           
     
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-comment">
+            <svg className="post-option-icon icon-comment">
               <use xlinkHref="#svg-comment"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Comment</p>
+            <p className="post-option-text">Comment</p>
             
           </div>
           
     
           
-          <div class="post-option">
+          <div className="post-option">
             
-            <svg class="post-option-icon icon-share">
+            <svg className="post-option-icon icon-share">
               <use xlinkHref="#svg-share"></use>
             </svg>
             
     
             
-            <p class="post-option-text">Share</p>
+            <p className="post-option-text">Share</p>
             
           </div>
           
@@ -4507,32 +4507,32 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="loader-bars">
-        <div class="loader-bar"></div>
-        <div class="loader-bar"></div>
-        <div class="loader-bar"></div>
-        <div class="loader-bar"></div>
-        <div class="loader-bar"></div>
-        <div class="loader-bar"></div>
-        <div class="loader-bar"></div>
-        <div class="loader-bar"></div>
+      <div className="loader-bars">
+        <div className="loader-bar"></div>
+        <div className="loader-bar"></div>
+        <div className="loader-bar"></div>
+        <div className="loader-bar"></div>
+        <div className="loader-bar"></div>
+        <div className="loader-bar"></div>
+        <div className="loader-bar"></div>
+        <div className="loader-bar"></div>
       </div>
       
     </div>
     
 
     
-    <div class="grid-column">
+    <div className="grid-column">
       
-      <div class="widget-box no-padding">
+      <div className="widget-box no-padding">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -4540,9 +4540,9 @@ const ProfileTimeline = () => {
             
 
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -4552,35 +4552,35 @@ const ProfileTimeline = () => {
         
 
         
-        <p class="widget-box-title">Stream Box</p>
+        <p className="widget-box-title">Stream Box</p>
         
 
         
-        <div class="widget-box-content small-margin-top">
+        <div className="widget-box-content small-margin-top">
           
-          <div class="stream-box no-video-radius">
+          <div className="stream-box no-video-radius">
             
-            <div class="stream-box-video">
-              <iframe src="https://player.twitch.tv/?channel=cohhcarnage" allowfullscreen></iframe>
+            <div className="stream-box-video">
+              <iframe src="https://player.twitch.tv/?channel=cohhcarnage" allowFullScreen></iframe>
             </div>
             
         
             
-            <div class="stream-box-image">
-              <figure class="picture tiny circle liquid">
+            <div className="stream-box-image">
+              <figure className="picture tiny circle liquid">
                 <img src="img/avatar/01-social.png" alt="avatar-01-social"/>
               </figure>
             </div>
             
         
             
-            <div class="stream-box-info">
+            <div className="stream-box-info">
               
-              <p class="stream-box-title"><a href="profile-stream.html">I'm Playing Athena’s Goddess Story...</a></p>
+              <p className="stream-box-title"><a href="profile-stream.html">I'm Playing Athena’s Goddess Story...</a></p>
               
         
               
-              <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@GameHuntress</a></p>
+              <p className="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@GameHuntress</a></p>
               
             </div>
             
@@ -4592,15 +4592,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -4608,9 +4608,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -4620,17 +4620,17 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Photos <span class="highlighted">74</span></p>
+        <p className="widget-box-title">Photos <span className="highlighted">74</span></p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="picture-item-list small">
+          <div className="picture-item-list small">
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/avatar/01.jpg" alt="avatar-01"/>
               </figure>
               
@@ -4638,9 +4638,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/10.jpg" alt="avatar-10"/>
               </figure>
               
@@ -4648,9 +4648,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/12.jpg" alt="avatar-12"/>
               </figure>
               
@@ -4658,9 +4658,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/02.jpg" alt="avatar-02"/>
               </figure>
               
@@ -4668,9 +4668,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/06.jpg" alt="avatar-06"/>
               </figure>
               
@@ -4678,9 +4678,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/13.jpg" alt="avatar-13"/>
               </figure>
               
@@ -4688,9 +4688,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/04.jpg" alt="avatar-04"/>
               </figure>
               
@@ -4698,9 +4698,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/15.jpg" alt="avatar-15"/>
               </figure>
               
@@ -4708,9 +4708,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/11.jpg" alt="avatar-11"/>
               </figure>
               
@@ -4718,9 +4718,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/08.jpg" alt="avatar-08"/>
               </figure>
               
@@ -4728,9 +4728,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="picture-item">
+            <div className="picture-item">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/16.jpg" alt="avatar-16"/>
               </figure>
               
@@ -4738,17 +4738,17 @@ const ProfileTimeline = () => {
             
     
             
-            <a class="picture-item" href="profile-photos.html">
+            <a className="picture-item" href="profile-photos.html">
               
-              <figure class="picture round liquid">
+              <figure className="picture round liquid">
                 <img src="img/cover/17.jpg" alt="avatar-17"/>
               </figure>
               
     
               
-              <div class="picture-item-overlay round">
+              <div className="picture-item-overlay round">
                 
-                <p class="picture-item-overlay-text">+61</p>
+                <p className="picture-item-overlay-text">+61</p>
                 
               </div>
               
@@ -4762,15 +4762,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -4778,9 +4778,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -4790,13 +4790,13 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Twitter Feed</p>
+        <p className="widget-box-title">Twitter Feed</p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="tweet-feed"></div>
+          <div className="tweet-feed"></div>
           
         </div>
         
@@ -4804,15 +4804,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -4820,9 +4820,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -4832,39 +4832,39 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Groups <span class="highlighted">7</span></p>
+        <p className="widget-box-title">Groups <span className="highlighted">7</span></p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="filters">
+          <div className="filters">
             
-            <p class="filter">Newest</p>
-            
-    
-            
-            <p class="filter active">Popular</p>
+            <p className="filter">Newest</p>
             
     
             
-            <p class="filter">Active</p>
+            <p className="filter active">Popular</p>
+            
+    
+            
+            <p className="filter">Active</p>
             
           </div>
           
     
           
-          <div class="user-status-list">
+          <div className="user-status-list">
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline.html">
                 
-                <div class="user-avatar small no-border">
+                <div className="user-avatar small no-border">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-40-44" data-src="img/avatar/29.jpg"></div>
+                    <div className="hexagon-image-40-44" data-src="img/avatar/29.jpg"></div>
                     
                   </div>
                   
@@ -4874,19 +4874,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="group-timeline.html">Twitch Streamers</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline.html">Twitch Streamers</a></p>
               
           
               
-              <p class="user-status-text small">265 members</p>
+              <p className="user-status-text small">265 members</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-join-group">
+                  <svg className="action-request-icon icon-join-group">
                     <use xlinkHref="#svg-join-group"></use>
                   </svg>
                   
@@ -4898,15 +4898,15 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline.html">
                 
-                <div class="user-avatar small no-border">
+                <div className="user-avatar small no-border">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-40-44" data-src="img/avatar/24.jpg"></div>
+                    <div className="hexagon-image-40-44" data-src="img/avatar/24.jpg"></div>
                     
                   </div>
                   
@@ -4916,19 +4916,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="group-timeline.html">Cosplayers of the World</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline.html">Cosplayers of the World</a></p>
               
           
               
-              <p class="user-status-text small">139 members</p>
+              <p className="user-status-text small">139 members</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-join-group">
+                  <svg className="action-request-icon icon-join-group">
                     <use xlinkHref="#svg-join-group"></use>
                   </svg>
                   
@@ -4940,15 +4940,15 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline.html">
                 
-                <div class="user-avatar small no-border">
+                <div className="user-avatar small no-border">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-40-44" data-src="img/avatar/25.jpg"></div>
+                    <div className="hexagon-image-40-44" data-src="img/avatar/25.jpg"></div>
                     
                   </div>
                   
@@ -4958,19 +4958,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="group-timeline.html">Stream Designers</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline.html">Stream Designers</a></p>
               
           
               
-              <p class="user-status-text small">466 members</p>
+              <p className="user-status-text small">466 members</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-join-group">
+                  <svg className="action-request-icon icon-join-group">
                     <use xlinkHref="#svg-join-group"></use>
                   </svg>
                   
@@ -4982,15 +4982,15 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline.html">
                 
-                <div class="user-avatar small no-border">
+                <div className="user-avatar small no-border">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-40-44" data-src="img/avatar/28.jpg"></div>
+                    <div className="hexagon-image-40-44" data-src="img/avatar/28.jpg"></div>
                     
                   </div>
                   
@@ -5000,19 +5000,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="group-timeline.html">Street Artists</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline.html">Street Artists</a></p>
               
           
               
-              <p class="user-status-text small">951 members</p>
+              <p className="user-status-text small">951 members</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request decline">
+                <div className="action-request decline">
                   
-                  <svg class="action-request-icon icon-leave-group">
+                  <svg className="action-request-icon icon-leave-group">
                     <use xlinkHref="#svg-leave-group"></use>
                   </svg>
                   
@@ -5024,15 +5024,15 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="user-status request-small">
+            <div className="user-status request-small">
               
-              <a class="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline.html">
                 
-                <div class="user-avatar small no-border">
+                <div className="user-avatar small no-border">
                   
-                  <div class="user-avatar-content">
+                  <div className="user-avatar-content">
                     
-                    <div class="hexagon-image-40-44" data-src="img/avatar/27.jpg"></div>
+                    <div className="hexagon-image-40-44" data-src="img/avatar/27.jpg"></div>
                     
                   </div>
                   
@@ -5042,19 +5042,19 @@ const ProfileTimeline = () => {
               
           
               
-              <p class="user-status-title"><a class="bold" href="group-timeline.html">Gaming Watchtower</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline.html">Gaming Watchtower</a></p>
               
           
               
-              <p class="user-status-text small">2.365 members</p>
+              <p className="user-status-text small">2.365 members</p>
               
           
               
-              <div class="action-request-list">
+              <div className="action-request-list">
                 
-                <div class="action-request accept">
+                <div className="action-request accept">
                   
-                  <svg class="action-request-icon icon-join-group">
+                  <svg className="action-request-icon icon-join-group">
                     <use xlinkHref="#svg-join-group"></use>
                   </svg>
                   
@@ -5072,15 +5072,15 @@ const ProfileTimeline = () => {
       
 
       
-      <div class="widget-box">
+      <div className="widget-box">
         
-        <div class="widget-box-settings">
+        <div className="widget-box-settings">
           
-          <div class="post-settings-wrap">
+          <div className="post-settings-wrap">
             
-            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+            <div className="post-settings widget-box-post-settings-dropdown-trigger">
               
-              <svg class="post-settings-icon icon-more-dots">
+              <svg className="post-settings-icon icon-more-dots">
                 <use xlinkHref="#svg-more-dots"></use>
               </svg>
               
@@ -5088,9 +5088,9 @@ const ProfileTimeline = () => {
             
     
             
-            <div class="simple-dropdown widget-box-post-settings-dropdown">
+            <div className="simple-dropdown widget-box-post-settings-dropdown">
               
-              <p class="simple-dropdown-link">Widget Settings</p>
+              <p className="simple-dropdown-link">Widget Settings</p>
               
             </div>
             
@@ -5100,33 +5100,33 @@ const ProfileTimeline = () => {
         
     
         
-        <p class="widget-box-title">Latest Item</p>
+        <p className="widget-box-title">Latest Item</p>
         
     
         
-        <div class="widget-box-content">
+        <div className="widget-box-content">
           
-          <div class="product-preview small">
+          <div className="product-preview small">
             
             <a href="marketplace-product.html">
-              <figure class="product-preview-image liquid">
+              <figure className="product-preview-image liquid">
                 <img src="img/marketplace/items/01.jpg" alt="item-01"/>
               </figure>
             </a>
             
         
             
-            <div class="product-preview-info">
+            <div className="product-preview-info">
               
-              <p class="text-sticker"><span class="highlighted">$</span> 12.00</p>
-              
-        
-              
-              <p class="product-preview-title"><a href="marketplace-product.html">Twitch Stream UI Pack</a></p>
+              <p className="text-sticker"><span className="highlighted">$</span> 12.00</p>
               
         
               
-              <p class="product-preview-category digital"><a href="marketplace-category.html">Stream Packs</a></p>
+              <p className="product-preview-title"><a href="marketplace-product.html">Twitch Stream UI Pack</a></p>
+              
+        
+              
+              <p className="product-preview-category digital"><a href="marketplace-category.html">Stream Packs</a></p>
               
             </div>
             

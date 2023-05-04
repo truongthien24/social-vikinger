@@ -5,6 +5,8 @@ import Page404 from "../page/public/404/Page404";
 import * as Private from '../page/private'
 import ProfileAbout from "../page/private/profile/profileAbout/ProfileAbout";
 import ProfileTimeline from "../page/private/profile/profileTimeline/ProfileTimeline";
+import ProfileFriends from "../page/private/profile/profileFriends/ProfileFriends";
+import ProfileGroups from "../page/private/profile/profileGroups/ProfileGroups";
 // import { ProfileAbout } from "../page/private/profile";
 
 export const publicRoutes = [
@@ -32,6 +34,22 @@ export const privateRoutes = [
         element: (
             <Layouts.LayoutPrivate>
                 <ProfileTimeline/>
+            </Layouts.LayoutPrivate>
+        ),
+    },
+    {
+        path: "/profile-friends",
+        element: (
+            <Layouts.LayoutPrivate>
+                <ProfileFriends/>
+            </Layouts.LayoutPrivate>
+        ),
+    },
+    {
+        path: "/profile-groups",
+        element: (
+            <Layouts.LayoutPrivate>
+                <ProfileGroups/>
             </Layouts.LayoutPrivate>
         ),
     },

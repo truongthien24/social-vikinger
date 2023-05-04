@@ -8,7 +8,8 @@ export const accountReducer = (state = initialValue, action) => {
             state.userLogin = action.payload.data[0];
             localStorage.setItem('role', JSON.stringify(action.payload.data[0].role));
             localStorage.setItem('jwt', JSON.stringify(action.payload.data[0].id));
-            window.location.replace('/profile')
+            localStorage.setItem('profileId', JSON.stringify(action.payload.data[0].id))
+            window.location.replace('/profile-about')
             return {...state};
         } 
         default: return state;

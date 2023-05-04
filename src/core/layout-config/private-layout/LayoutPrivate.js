@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import HeaderPrivate from './component/headerPrivate/HeaderPrivate'
 import ProfileHeader from './component/profileHeader/ProfileHeader'
@@ -8,13 +8,19 @@ const LayoutPrivate = ({ children }) => {
 
   const {id} = useParams();
 
+  const [isNavigationWidget, setIsNavigationWidget] = useState(false)
+
   useEffect(()=> {
   })
+
+  const handleNavigationWidget = () => {
+    setIsNavigationWidget(!isNavigationWidget);
+  }
 
   return (
     <>
          
-      <nav id="navigation-widget-small" className="navigation-widget navigation-widget-desktop closed sidebar left delayed">
+      <nav id="navigation-widget-small" className={`navigation-widget navigation-widget-desktop closed sidebar left ${isNavigationWidget ? 'hidden' : 'delayed'}`}>
         
         <a className="user-avatar small no-outline online" href="profile-timeline.html">
           
@@ -214,7 +220,7 @@ const LayoutPrivate = ({ children }) => {
       
 
       
-      <nav id="navigation-widget" className="navigation-widget navigation-widget-desktop sidebar left hidden" data-simplebar>
+      <nav id="navigation-widget" className={`navigation-widget navigation-widget-desktop sidebar left ${isNavigationWidget ? 'delayed' : 'hidden'}`} data-simplebar>
         
         <figure className="navigation-widget-cover liquid">
           <img src="img/cover/01.jpg" alt="cover-01"/>
@@ -1970,7 +1976,9 @@ const LayoutPrivate = ({ children }) => {
       </aside>
       
 
-      <HeaderPrivate/>
+      <HeaderPrivate
+        setIsNavigationWidget={handleNavigationWidget}
+      />
       
 
       
