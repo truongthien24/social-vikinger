@@ -30,65 +30,65 @@ const UserPreviewList = (props) => {
 
     // Return
     return (
-        <div class="user-preview landscape">
+        <div className="user-preview landscape">
         
-            <figure class="user-preview-cover liquid">
+            <figure className="user-preview-cover liquid">
                 <img src={data?.userBackground} alt="cover-04" style={{borderTopLeftRadius: '12px', borderBottomLeftRadius: '12px'}}/>
             </figure>
-            <div class="user-preview-info">
+            <div className="user-preview-info">
             
-                <div class="user-short-description landscape tiny">
+                <div className="user-short-description landscape tiny">
                     
-                    <a class="user-short-description-avatar user-avatar small" onClick={()=> {
+                    <a className="user-short-description-avatar user-avatar small" onClick={()=> {
                         localStorage.setItem('profileId', JSON.stringify(data?.id));
                         navigate('/profile-timeline')
                     }}>
                     
-                        <div class="user-avatar-border">
+                        <div className="user-avatar-border">
                             
-                            <div class="hexagon-50-56"></div>
-                            
-                        </div>
-                        
-                        <div class="user-avatar-content">
-                            
-                            <div class="hexagon-image-30-32" data-src={data?.userAvatar}></div>
+                            <div className="hexagon-50-56"></div>
                             
                         </div>
                         
-                        <div class="user-avatar-progress">
+                        <div className="user-avatar-content">
                             
-                            <div class="hexagon-progress-40-44"></div>
+                            <div className="hexagon-image-30-32" data-src={data?.userAvatar}></div>
                             
                         </div>
                         
-                        <div class="user-avatar-progress-border">
+                        <div className="user-avatar-progress">
                             
-                            <div class="hexagon-border-40-44"></div>
+                            <div className="hexagon-progress-40-44"></div>
+                            
+                        </div>
+                        
+                        <div className="user-avatar-progress-border">
+                            
+                            <div className="hexagon-border-40-44"></div>
                             
                         </div>
                         
                     
                         
-                        <div class="user-avatar-badge">
+                        <div className="user-avatar-badge">
                             
-                            <div class="user-avatar-badge-border">
+                            <div className="user-avatar-badge-border">
                             
-                                <div class="hexagon-22-24"></div>
+                                <div className="hexagon-22-24"></div>
                             
                             </div>
                             
                     
                             
-                            <div class="user-avatar-badge-content">
+                            <div className="user-avatar-badge-content">
                             
-                                <div class="hexagon-dark-16-18"></div>
+                                <div className="hexagon-dark-16-18"></div>
                             
                             </div>
                             
                     
                             
-                            <p class="user-avatar-badge-text">{data?.userLevel}</p>
+                            <p className="user-avatar-badge-text">{data?.userLevel}</p>
                             
                         </div>
                     
@@ -96,53 +96,53 @@ const UserPreviewList = (props) => {
                     
             
                     
-                    <p class="user-short-description-title"><a href="profile-timeline.html">{data?.userName}</a></p>
+                    <p className="user-short-description-title"><a href="profile-timeline.html">{data?.userName}</a></p>
                     
             
                     
-                    <p class="user-short-description-text"><a href="#">{data?.userPath}</a></p>
+                    <p className="user-short-description-text"><a href="#">{data?.userPath}</a></p>
                     
                 </div>
 
-                <div class="badge-list small">
+                <div className="badge-list small">
                     
                     {
                         renderBadge()
                     }
                     
-                    <a class="badge-item" href="profile-badges.html">
+                    <a className="badge-item" href="profile-badges.html">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     
-                    <p class="badge-item-text">+29</p>
+                    <p className="badge-item-text">+29</p>
                     
                     </a>
                     
                 </div>
 
-                <div class="user-stats">
+                <div className="user-stats">
                     
-                    <div class="user-stat">
+                    <div className="user-stat">
                     
-                        <p class="user-stat-title">{data?.userPreviewStats?.numberPost}</p>
-                        <p class="user-stat-text">posts</p>
+                        <p className="user-stat-title">{data?.userPreviewStats?.numberPost}</p>
+                        <p className="user-stat-text">posts</p>
                     
                     </div>
-                    <div class="user-stat">
+                    <div className="user-stat">
                     
-                        <p class="user-stat-title">{data?.userPreviewStats?.numberFriends}</p>
-                        <p class="user-stat-text">friends</p>
+                        <p className="user-stat-title">{data?.userPreviewStats?.numberFriends}</p>
+                        <p className="user-stat-text">friends</p>
                         
                     </div>
-                    <div class="user-stat">
+                    <div className="user-stat">
                     
-                        <p class="user-stat-title">{data?.userPreviewStats?.numberVisited}</p>
-                        <p class="user-stat-text">visits</p>
+                        <p className="user-stat-title">{data?.userPreviewStats?.numberVisited}</p>
+                        <p className="user-stat-text">visits</p>
                     
                     </div>
                     
                 </div>
                 
-                <div class="social-links small">
+                <div className="social-links small">
                     
                     {
                         renderSocial()
@@ -150,19 +150,19 @@ const UserPreviewList = (props) => {
                     
                 </div>
 
-                <div class="user-preview-actions">
+                <div className="user-preview-actions">
                     
-                    <p class="button secondary">
+                    <p className="button secondary">
                     
-                    <svg class="button-icon icon-add-friend">
+                    <svg className="button-icon icon-add-friend">
                         <use xlinkHref="#svg-add-friend"></use>
                     </svg>
                     
                     </p>
                     
-                    <p class="button primary">
+                    <p className="button primary">
                     
-                    <svg class="button-icon icon-comment">
+                    <svg className="button-icon icon-comment">
                         <use xlinkHref="#svg-comment"></use>
                     </svg>
                     

@@ -3,6 +3,10 @@ import { fakeData } from './helper'
 import { useDispatch } from 'react-redux';
 import { getProfileByID } from '../../../../redux/action/accountAction';
 import { setLoading } from '../../../../redux/action/homeAction';
+import ProfileGroupsNormalGrid from './component/ProfileGroupsNormalGrid';
+import { getGroupByIDUser } from '../../../../redux/action/groupAction';
+import ProfileGroupsSmallGrid from './component/ProfileGroupsSmallGrid';
+import ProfileGroupsList from './component/ProfileGroupList';
 
 const ProfileGroups = () => {
 
@@ -15,17 +19,21 @@ const ProfileGroups = () => {
 
     // Effect
     useEffect(async()=> {
-        const res = await dispatch(getProfileByID(profileId))
+        const res = await dispatch(getGroupByIDUser(profileId));
         setProfileInfo(res);
     },[profileId])
 
     useEffect(()=> {
+        let script = document.createElement("script");
         let script11 = document.createElement("script");
         let script16 = document.createElement("script");
+        script.src = "/js/utils/app.js";
         script16.src = "/js/content/content.js";
         script11.src = "/js/global/global.hexagons.js";
+        script.async = true;
         script11.async = true;
         script16.async = true;
+        document.body.appendChild(script);
         document.body.appendChild(script11);
         document.body.appendChild(script16);
         setTimeout(()=> {
@@ -34,23 +42,37 @@ const ProfileGroups = () => {
             }))
         }, 700)
     }, [grid])
-    
+
+    useEffect(()=> {
+        let script = document.createElement("script");
+        let script11 = document.createElement("script");
+        let script16 = document.createElement("script");
+        script.src = "/js/utils/app.js";
+        script16.src = "/js/content/content.js";
+        script11.src = "/js/global/global.hexagons.js";
+        script.async = true;
+        script11.async = true;
+        script16.async = true;
+        document.body.appendChild(script);
+        document.body.appendChild(script11);
+        document.body.appendChild(script16);
+    })
 
     // Method
-    // const renderGrid = () => {
-    //     if(grid === 'normal-grid')  {
-    //         return <ProfileFriendsNormal
-    //             data={fakeData}
-    //         />
-    //     } else if (grid === 'small-grid') {
-    //         return <ProfileFriendGridSmall
-    //             data={fakeData}
-    //         />
-    //     } else 
-    //     return <ProfileFriendList
-    //         data={fakeData}
-    //     />
-    // }
+    const renderGrid = () => {
+        if(grid === 'normal-grid')  {
+            return <ProfileGroupsNormalGrid
+                data={profileInfo}
+            />
+        } else if (grid === 'small-grid') {
+            return <ProfileGroupsSmallGrid
+                data={profileInfo}
+            />
+        } else 
+        return <ProfileGroupsList
+            data={profileInfo}
+        />
+    }
 
     // Return
     return (
@@ -76,8 +98,8 @@ const ProfileGroups = () => {
                         <div className="form-input small with-button">
                             <label htmlFor="groups-search">Search Groups</label>
                             <input type="text" id="groups-search" name="groups_search"/>
-                            <button class="button primary">
-                                <svg class="icon-magnifying-glass">
+                            <button className="button primary">
+                                <svg className="icon-magnifying-glass">
                                     <use xlinkHref="#svg-magnifying-glass"></use>
                                 </svg>
                             </button>
@@ -91,7 +113,7 @@ const ProfileGroups = () => {
                                 <option value="1">Most Members</option>
                                 <option value="2">Alphabetical</option>
                             </select>
-                            <svg class="form-select-icon icon-small-arrow">
+                            <svg className="form-select-icon icon-small-arrow">
                                 <use xlinkHref="#svg-small-arrow"></use>
                             </svg>
                         </div>
@@ -101,115 +123,51 @@ const ProfileGroups = () => {
                             <p className="filter-tab-text">Newly Created</p>
                         </div>
                         <div className="filter-tab">
-                            <p className="filter-tab-text">ost Members</p>
+                            <p className="filter-tab-text">Post Members</p>
                         </div>
                         <div className="filter-tab">
                             <p className="filter-tab-text">Alphabetical</p>
                         </div>
                     </div>
                 </div>
-            <div className="section-filters-bar-actions">
-                <div className="view-actions">
-                    <a className={`view-action text-tooltip-tft-medium ${grid === 'normal-grid' ? 'active' : ''}`} onClick={()=>{
-                        dispatch(setLoading({
-                            status: 'isLoading'
-                        }))
-                        setGrid("normal-grid")
-                    }} data-title="Big Grid">
-                        <svg className="view-action-icon icon-big-grid-view">
-                            <use xlinkHref="#svg-big-grid-view"></use>
-                        </svg>
-                    </a>
-                    <a className={`view-action text-tooltip-tft-medium ${grid === 'small-grid' ? 'active' : ''}`} onClick={()=>{
-                        dispatch(setLoading({
-                            status: 'isLoading'
-                        }))
-                        setGrid("small-grid")
-                    }} data-title="Small Grid">
-                        <svg className="view-action-icon icon-small-grid-view">
-                            <use xlinkHref="#svg-small-grid-view"></use>
-                        </svg>
-                    </a>
-                    <a className={`view-action text-tooltip-tft-medium ${grid === 'list' ? 'active' : ''}`} onClick={()=>{
-                        dispatch(setLoading({
-                            status: 'isLoading'
-                        }))
-                        setGrid("list")
-                    }} data-title="List">
-                        <svg className="view-action-icon icon-list-grid-view">
-                            <use xlinkHref="#svg-list-grid-view"></use>
-                        </svg>
-                    </a>
+                <div className="section-filters-bar-actions">
+                    <div className="view-actions">
+                        <a className={`view-action text-tooltip-tft-medium ${grid === 'normal-grid' ? 'active' : ''}`} onClick={()=>{
+                            dispatch(setLoading({
+                                status: 'isLoading'
+                            }))
+                            setGrid("normal-grid")
+                        }} data-title="Big Grid">
+                            <svg className="view-action-icon icon-big-grid-view">
+                                <use xlinkHref="#svg-big-grid-view"></use>
+                            </svg>
+                        </a>
+                        <a className={`view-action text-tooltip-tft-medium ${grid === 'small-grid' ? 'active' : ''}`} onClick={()=>{
+                            dispatch(setLoading({
+                                status: 'isLoading'
+                            }))
+                            setGrid("small-grid")
+                        }} data-title="Small Grid">
+                            <svg className="view-action-icon icon-small-grid-view">
+                                <use xlinkHref="#svg-small-grid-view"></use>
+                            </svg>
+                        </a>
+                        <a className={`view-action text-tooltip-tft-medium ${grid === 'list' ? 'active' : ''}`} onClick={()=>{
+                            dispatch(setLoading({
+                                status: 'isLoading'
+                            }))
+                            setGrid("list")
+                        }} data-title="List">
+                            <svg className="view-action-icon icon-list-grid-view">
+                                <use xlinkHref="#svg-list-grid-view"></use>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-            </div>
-            {/* {
+            {
                 renderGrid()
-            } */}
-            <div className="section-pager-bar">
-            
-                <div className="section-pager">
-                    
-                    <div className="section-pager-item active">
-                    
-                        <p className="section-pager-item-text">01</p>
-                    
-                    </div>
-                    
-                    <div className="section-pager-item">
-                    
-                        <p className="section-pager-item-text">02</p>
-                    
-                    </div>
-            
-                    <div className="section-pager-item">
-                    
-                        <p className="section-pager-item-text">03</p>
-                    
-                    </div>
-                    
-                    <div className="section-pager-item">
-                    
-                        <p className="section-pager-item-text">04</p>
-                    
-                    </div>
-                    
-                    <div className="section-pager-item">
-                    
-                        <p className="section-pager-item-text">05</p>
-                    
-                    </div>
-                    
-            
-                    
-                    <div className="section-pager-item">
-                    
-                        <p className="section-pager-item-text">06</p>
-                    
-                    </div>
-                    
-                </div>
-                <div className="section-pager-controls">
-                    
-                    <div className="slider-control left disabled">
-                    
-                        <svg className="slider-control-icon icon-small-arrow">
-                            <use xlinkHref="#svg-small-arrow"></use>
-                        </svg>
-                    
-                    </div>
-                    
-                    <div className="slider-control right">
-                    
-                        <svg className="slider-control-icon icon-small-arrow">
-                            <use xlinkHref="#svg-small-arrow"></use>
-                        </svg>
-                    
-                    </div>
-                    
-                </div>
-            
-            </div>
+            }
         </section>
     </>
     )

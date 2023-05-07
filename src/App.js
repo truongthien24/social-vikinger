@@ -101,6 +101,17 @@ function App() {
         }, 500)
      }, [pathname])
 
+    useEffect(()=> {
+      dispatch(setLoading({
+        status: 'isLoading'
+      }))
+      setTimeout(()=> {
+        dispatch(setLoading({
+          status: 'done'
+        }))
+      }, 500)
+    }, [])
+
     return (
       <>
         {statusLoading && <Loading/>}

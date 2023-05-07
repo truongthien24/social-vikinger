@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import PopupBox from '../../../page/private/profile/profilePhotos/component/PopupBox'
+import PopupPicture from '../../../page/private/profile/profilePhotos/component/PopupPicture'
+import PopupVideo from '../../../page/private/profile/profileVideo/component/PopupVideo'
 import HeaderPrivate from './component/headerPrivate/HeaderPrivate'
 import ProfileHeader from './component/profileHeader/ProfileHeader'
 import ProfileNavigation from './component/profileNavigation/ProfileNavigation'
@@ -226,8 +229,6 @@ const LayoutPrivate = ({ children }) => {
           <img src="img/cover/01.jpg" alt="cover-01"/>
         </figure>
         
-
-        
         <div className="user-short-description">
           
           <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
@@ -298,8 +299,6 @@ const LayoutPrivate = ({ children }) => {
           
         </div>
         
-
-        
         <div className="badge-list small">
           
           <div className="badge-item">
@@ -334,8 +333,6 @@ const LayoutPrivate = ({ children }) => {
           </a>
           
         </div>
-        
-
         
         <div className="user-stats">
           
@@ -374,8 +371,6 @@ const LayoutPrivate = ({ children }) => {
           </div>
           
         </div>
-        
-
         
         <ul className="menu">
           
@@ -530,8 +525,6 @@ const LayoutPrivate = ({ children }) => {
         </ul>
         
       </nav>
-      
-
       
       <nav id="navigation-widget-mobile" className="navigation-widget navigation-widget-mobile sidebar left hidden" data-simplebar>
         
@@ -878,8 +871,6 @@ const LayoutPrivate = ({ children }) => {
         <a className="navigation-widget-section-link" href="#">Privacy Policy</a>
         
       </nav>
-      
-
       
       <aside id="chat-widget-messages" className="chat-widget closed sidebar right">
         
@@ -1780,8 +1771,6 @@ const LayoutPrivate = ({ children }) => {
         
       </aside>
       
-
-      
       <aside id="chat-widget-message" className="chat-widget chat-widget-overlay hidden sidebar right">
         
         <div className="chat-widget-header">
@@ -1975,12 +1964,9 @@ const LayoutPrivate = ({ children }) => {
         
       </aside>
       
-
       <HeaderPrivate
         setIsNavigationWidget={handleNavigationWidget}
       />
-      
-
       
       <aside className="floaty-bar">
         
@@ -2057,6 +2043,7 @@ const LayoutPrivate = ({ children }) => {
           
         </div>
       </aside>
+
       <div className="content-grid">
         
         <ProfileHeader/>
@@ -2066,6 +2053,9 @@ const LayoutPrivate = ({ children }) => {
         {children}
 
       </div>
+      <PopupBox/>
+      <PopupPicture/>
+      <PopupVideo/>
     </>
   )
 }

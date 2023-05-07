@@ -23,12 +23,17 @@ const ProfileFriends = () => {
     },[profileId])
 
     useEffect(()=> {
+        let script = document.createElement("script");
         let script11 = document.createElement("script");
         let script16 = document.createElement("script");
+
+        script.src = "/js/utils/app.js";
         script16.src = "/js/content/content.js";
         script11.src = "/js/global/global.hexagons.js";
+        script.async = true;
         script11.async = true;
         script16.async = true;
+        document.body.appendChild(script);
         document.body.appendChild(script11);
         document.body.appendChild(script16);
         setTimeout(()=> {
