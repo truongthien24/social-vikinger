@@ -1,6 +1,14 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom'
+import { setLoading } from '../../../../redux/action/homeAction';
 
 const ProfileBlog = () => {
+
+    const navigate = useNavigate();
+
+    const dispatch = useDispatch();
+
     return (
         <>
             <div class="section-filters-bar v2">
@@ -61,7 +69,12 @@ const ProfileBlog = () => {
                     <div class="post-preview-info-bottom">
                     <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
                 
-                    <a class="post-preview-link" href="profile-post.html">Read more...</a>
+                    <a class="post-preview-link" onClick={()=>{
+                            dispatch(setLoading({
+                                status: 'isLoading'
+                            }))
+                            navigate('/profile-post')
+                        }}>Read more...</a>
                     </div>
                 </div>
             
@@ -157,7 +170,12 @@ const ProfileBlog = () => {
                     <div class="post-preview-info-bottom">
                     <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
                 
-                    <a class="post-preview-link" href="profile-post.html">Read more...</a>
+                    <a class="post-preview-link" onClick={()=>{
+                            dispatch(setLoading({
+                                status: 'isLoading'
+                            }))
+                            navigate('/profile-post')
+                        }}>Read more...</a>
                     </div>
                 </div>
             
@@ -249,7 +267,12 @@ const ProfileBlog = () => {
                     <div class="post-preview-info-bottom">
                     <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
                 
-                    <a class="post-preview-link" href="profile-post.html">Read more...</a>
+                    <a class="post-preview-link" onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate('/profile-post')
+                    }}>Read more...</a>
                     </div>
                 </div>
             
@@ -329,7 +352,12 @@ const ProfileBlog = () => {
                     <div class="post-preview-info-bottom">
                     <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
                 
-                    <a class="post-preview-link" href="profile-post.html">Read more...</a>
+                    <a class="post-preview-link" onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate('/profile-post')
+                    }}>Read more...</a>
                     </div>
                 </div>
             
@@ -393,7 +421,12 @@ const ProfileBlog = () => {
                     <div class="post-preview-info-bottom">
                     <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
                 
-                    <a class="post-preview-link" href="profile-post.html">Read more...</a>
+                    <a class="post-preview-link" onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate('/profile-post')
+                    }}>Read more...</a>
                     </div>
                 </div>
             

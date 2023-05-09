@@ -1,0 +1,1 @@
+export {default as LayoutProfile} from './profile-layout/LayoutProfile'
