@@ -25,6 +25,17 @@ import MarketPlace from "../page/private/market-place/MarketPlace";
 import Newsfeed from "../page/private/newsfeed/Newsfeed";
 import Quests from "../page/private/quests/Quests";
 import Overview from "../page/private/overview/Overview";
+import Groups from "../page/private/groups/Groups";
+import GroupsTimeLine from "../page/private/groups/groups-timeline/GroupsTimeLine";
+import GroupInfo from "../page/private/groups/group-info/GroupInfo";
+import GroupMembers from "../page/private/groups/group-members/GroupMembers";
+import GroupEvents from "../page/private/groups/group-events/GroupEvents";
+import HubGroupManagement from "../page/private/hub/hub-group-management/HubGroupManagement";
+import HubProfileInfo from "../page/private/hub/hub-profile-info/HubProfileInfo";
+import HubProfileSocial from "../page/private/hub/hub-profile-social/HubProfileSocial";
+import HubProfileNotifications from "../page/private/hub/hub-profile-notifications/HubProfileNotifications";
+import HubProfileMessages from "../page/private/hub/hub-profile-messages/HubProfileMessages";
+import HubProfileRequest from "../page/private/hub/hub-profile-request/HubProfileRequest";
 // import { ProfileAbout } from "../page/private/profile";
 
 export const publicRoutes = [
@@ -228,6 +239,114 @@ export const privateRoutes = [
         element: (
             <Layouts.LayoutPrivate>
                 <Overview/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/groups",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Groups/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/group-timeline",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutGroup>
+                    <GroupsTimeLine/>
+                </LayoutsPrivate.LayoutGroup>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/group-info",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutGroup>
+                    <GroupInfo/>
+                </LayoutsPrivate.LayoutGroup>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/group-members",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutGroup>
+                    <GroupMembers/>
+                </LayoutsPrivate.LayoutGroup>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/group-events",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutGroup>
+                    <GroupEvents/>
+                </LayoutsPrivate.LayoutGroup>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-group-management",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubGroupManagement/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-profile-info",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubProfileInfo/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-profile-social",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubProfileSocial/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-profile-notifications",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubProfileNotifications/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-profile-messages",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubProfileMessages/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-profile-requests",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubProfileRequest/>
+                </LayoutsPrivate.LayoutHub>
             </Layouts.LayoutPrivate>
         )
     },

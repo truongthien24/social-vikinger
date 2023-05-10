@@ -79,24 +79,22 @@ function App() {
         script14.async = true;
         script15.async = true;
         script16.async = true;
-        window.onload(()=> {
-          document.body.appendChild(script10);
-          document.body.appendChild(script);
-          document.body.appendChild(script13);
-          document.body.appendChild(script2);
-          document.body.appendChild(script3);
-          document.body.appendChild(script4);
-          document.body.appendChild(script5);
-          document.body.appendChild(script6);
-          document.body.appendChild(script7);
-          document.body.appendChild(script8);
-          document.body.appendChild(script9);
-          document.body.appendChild(script11);
-          document.body.appendChild(script12);
-          document.body.appendChild(script14);
-          document.body.appendChild(script15);
-          document.body.appendChild(script16);
-        })
+        document.body.appendChild(script10);
+        document.body.appendChild(script);
+        document.body.appendChild(script13);
+        document.body.appendChild(script2);
+        document.body.appendChild(script3);
+        document.body.appendChild(script4);
+        document.body.appendChild(script5);
+        document.body.appendChild(script6);
+        document.body.appendChild(script7);
+        document.body.appendChild(script8);
+        document.body.appendChild(script9);
+        document.body.appendChild(script11);
+        document.body.appendChild(script12);
+        document.body.appendChild(script14);
+        document.body.appendChild(script15);
+        document.body.appendChild(script16);
         setTimeout(()=> {
           dispatch(setLoading({
             status: 'done'
