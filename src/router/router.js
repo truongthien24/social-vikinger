@@ -23,6 +23,8 @@ import MarketPlaceProduct from "../page/private/market-place-product/MarketPlace
 import MarketPlaceCategory from "../page/private/market-place-category/MarketPlaceCategory";
 import MarketPlace from "../page/private/market-place/MarketPlace";
 import Newsfeed from "../page/private/newsfeed/Newsfeed";
+import Quests from "../page/private/quests/Quests";
+import Overview from "../page/private/overview/Overview";
 // import { ProfileAbout } from "../page/private/profile";
 
 export const publicRoutes = [
@@ -210,6 +212,22 @@ export const privateRoutes = [
         element: (
             <Layouts.LayoutPrivate>
                 <Newsfeed/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/quests",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Quests/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/overview",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Overview/>
             </Layouts.LayoutPrivate>
         )
     },
