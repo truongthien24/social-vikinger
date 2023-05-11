@@ -36,6 +36,19 @@ import HubProfileSocial from "../page/private/hub/hub-profile-social/HubProfileS
 import HubProfileNotifications from "../page/private/hub/hub-profile-notifications/HubProfileNotifications";
 import HubProfileMessages from "../page/private/hub/hub-profile-messages/HubProfileMessages";
 import HubProfileRequest from "../page/private/hub/hub-profile-request/HubProfileRequest";
+import HubAccountPassword from "../page/private/hub/hub-account-password/HubAccountPassword";
+import HubAccountInfo from "../page/private/hub/hub-account-info/HubAccountInfo";
+import HubAccountSettings from "../page/private/hub/hub-account-settings/HubAccountSettings";
+import HubGroupInvitations from "../page/private/hub/hub-group-invitations/HubGroupInvitations";
+import HubStoreStatement from "../page/private/hub/hub-store-statement/HubStoreStatement";
+import HubStoreAccount from "../page/private/hub/hub-store-account/HubStoreAccount";
+import HubStoreItems from "../page/private/hub/hub-store-items/HubStoreItems";
+import HubStoreDownloads from "../page/private/hub/hub-store-downloads/HubStoreDownloads";
+import Members from "../page/private/members/Members";
+import Badges from "../page/private/badges/Badges";
+import Stream from "../page/private/streams/Stream";
+import Events from "../page/private/events/Events";
+import Forums from "../page/private/forums/Forums";
 // import { ProfileAbout } from "../page/private/profile";
 
 export const publicRoutes = [
@@ -251,6 +264,46 @@ export const privateRoutes = [
         )
     },
     {
+        path: "/members",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Members/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/badges",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Badges/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/streams",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Stream/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/events",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Events/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/forums",
+        element: (
+            <Layouts.LayoutPrivate>
+                <Forums/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
         path: "/group-timeline",
         element: (
             <Layouts.LayoutPrivate>
@@ -346,6 +399,86 @@ export const privateRoutes = [
             <Layouts.LayoutPrivate>
                 <LayoutsPrivate.LayoutHub>
                     <HubProfileRequest/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-account-info",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubAccountInfo/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-account-password",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubAccountPassword/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-account-settings",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubAccountSettings/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-group-invitations",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubGroupInvitations/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-store-statement",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubStoreStatement/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-store-account",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubStoreAccount/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-store-items",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubStoreItems/>
+                </LayoutsPrivate.LayoutHub>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/hub-store-downloads",
+        element: (
+            <Layouts.LayoutPrivate>
+                <LayoutsPrivate.LayoutHub>
+                    <HubStoreDownloads/>
                 </LayoutsPrivate.LayoutHub>
             </Layouts.LayoutPrivate>
         )

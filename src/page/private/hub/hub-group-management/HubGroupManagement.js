@@ -10,26 +10,17 @@ const HubGroupManagement = () => {
 
     const navigate = useNavigate();
 
-    // useEffect(()=> {
-    //     let script = document.createElement("script");
-    //     let script11 = document.createElement("script");
-    //     let script12 = document.createElement("script");
-    //     script.src = "/js/utils/app.js";
-    //     script11.src = "/js/global/global.accordions.js";
-    //     script12.src = "/js/global/global.popups.js";
-    //     script.async = true;
-    //     script11.async = true;
-    //     script12.async = true;
-    //     document.body.appendChild(script);
-    //     document.body.appendChild(script11);
-    //     document.body.appendChild(script12);
-
-    //     return () => {
-    //         dispatch(setLoading({
-    //             status: 'isLoading'
-    //         }))
-    //     }
-    // }, [])
+    useEffect(()=> {
+        let script = document.createElement("script");
+        let script11 = document.createElement("script");
+        let script12 = document.createElement("script");
+        script.src = "/js/utils/app.js";
+        script12.src = "/js/global/global.popups.js";
+        script.async = true;
+        script12.async = true;
+        document.body.appendChild(script);
+        document.body.appendChild(script12);
+    }, [])
 
   return (
     <>

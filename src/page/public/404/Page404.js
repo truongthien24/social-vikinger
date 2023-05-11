@@ -27,7 +27,7 @@ const Page404 = () => {
         
   
         <button className="button medium primary" onClick={()=> {
-          navigate('/')
+          navigate(-1)
         }}>Go Back</button>
         
       </div>

@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import PopupManageItem from '../../../../../page/private/hub/hub-store-items/component/PopupManageItem';
 import { setLoading } from '../../../../../redux/action/homeAction';
+import PopupBox from '../../../../../share/component/PopupBox';
 import PopupNewGroup from '../../../../../share/component/PopupNewGroup';
 
 const LayoutHub = ({children}) => {
@@ -60,15 +62,15 @@ const LayoutHub = ({children}) => {
                                 </div>
 
                                 <div class="sidebar-menu-body accordion-content-linked">
-                                    <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-profile-info")}}>Profile Info</a>
+                                    <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-profile-info' ? 'active' : ''}`} onClick={()=>{navigate("/hub-profile-info")}}>Profile Info</a>
 
-                                    <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-profile-social")}}>Social &amp; Stream</a>
+                                    <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-profile-social' ? 'active' : ''}`} onClick={()=>{navigate("/hub-profile-social")}}>Social &amp; Stream</a>
 
-                                    <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-profile-notifications")}}>Notifications</a>
+                                    <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-profile-notifications' ? 'active' : ''}`} onClick={()=>{navigate("/hub-profile-notifications")}}>Notifications</a>
 
-                                    <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-profile-messages")}}>Messages</a>
+                                    <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-profile-messages' ? 'active' : ''}`} onClick={()=>{navigate("/hub-profile-messages")}}>Messages</a>
 
-                                    <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-profile-requests")}}>Friend Requests</a>
+                                    <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-profile-requests' ? 'active' : ''}`} onClick={()=>{navigate("/hub-profile-requests")}}>Friend Requests</a>
                                 </div>
                             </div>
 
@@ -94,11 +96,11 @@ const LayoutHub = ({children}) => {
                             </div>
 
                             <div class="sidebar-menu-body accordion-content-linked">
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-account-info")}}>Account Info</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-account-info' ? 'active' : ''}`} onClick={()=>{navigate("/hub-account-info")}}>Account Info</a>
 
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-account-password")}}>Change Password</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-account-password' ? 'active' : ''}`} onClick={()=>{navigate("/hub-account-password")}}>Change Password</a>
 
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-account-settings")}}>General Settings</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-account-settings' ? 'active' : ''}`} onClick={()=>{navigate("/hub-account-settings")}}>General Settings</a>
                             </div>
                             </div>
 
@@ -124,9 +126,9 @@ const LayoutHub = ({children}) => {
                             </div>
 
                             <div class="sidebar-menu-body accordion-content-linked accordion-open">
-                                <a class="sidebar-menu-link active" onClick={()=>{navigate("/hub-group-management")}}>Manage Groups</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-group-management' ? 'active' : ''}`} onClick={()=>{navigate("/hub-group-management")}}>Manage Groups</a>
 
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-group-invitations")}}>Invitations</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-group-invitations' ? 'active' : ''}`} onClick={()=>{navigate("/hub-group-invitations")}}>Invitations</a>
                             </div>
                             </div>
 
@@ -152,13 +154,13 @@ const LayoutHub = ({children}) => {
                             </div>
 
                             <div class="sidebar-menu-body accordion-content-linked">
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-store-account.html")}}>My Account</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-store-account' ? 'active' : ''}`} onClick={()=>{navigate("/hub-store-account")}}>My Account</a>
 
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-store-statement.html")}}>Sales Statement</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-store-statement' ? 'active' : ''}`} onClick={()=>{navigate("/hub-store-statement")}}>Sales Statement</a>
 
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-store-items.html")}}>Manage Items</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-store-items' ? 'active' : ''}`} onClick={()=>{navigate("/hub-store-items")}}>Manage Items</a>
 
-                                <a class="sidebar-menu-link" onClick={()=>{navigate("/hub-store-downloads.html")}}>Downloads</a>
+                                <a class={`sidebar-menu-link ${pathname.substring(1) === 'hub-store-downloads' ? 'active' : ''}`} onClick={()=>{navigate("/hub-store-downloads")}}>Downloads</a>
                             </div>
                             </div>
                         </div>
@@ -169,6 +171,8 @@ const LayoutHub = ({children}) => {
             </div>
         </div>
         <PopupNewGroup/>
+        <PopupBox/>
+        <PopupManageItem/>
     </>
   )
 }

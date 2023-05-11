@@ -1,6 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const HeaderPrivate = (props) => {
+
+    useEffect(() => {
+        let script = document.createElement("script");
+        let script12 = document.createElement("script");
+        script.src = "/js/utils/app.js";
+        script12.src = "/js/header/header.js";
+        script.async = true;
+        script12.async = true;
+        document.body.appendChild(script);
+        document.body.appendChild(script12);
+    }, [])
+
     return (
         <header className="header">
             
@@ -491,7 +503,7 @@ const HeaderPrivate = (props) => {
                     
 
                     
-                    {/* <div className="dropdown-box no-padding-bottom header-dropdown">
+                    <div className="dropdown-box no-padding-bottom header-dropdown">
                         
                         <div className="dropdown-box-header">
                         
@@ -695,7 +707,7 @@ const HeaderPrivate = (props) => {
                         
                         </div>
                         
-                    </div> */}
+                    </div>
                     
                     </div>
                     
@@ -713,7 +725,7 @@ const HeaderPrivate = (props) => {
                     
 
                     
-                    {/* <div className="dropdown-box header-dropdown">
+                    <div className="dropdown-box header-dropdown">
                         
                         <div className="dropdown-box-header">
                         
@@ -1029,7 +1041,7 @@ const HeaderPrivate = (props) => {
                         
                         <a className="dropdown-box-button secondary" href="hub-profile-requests.html">View all Requests</a>
                         
-                    </div> */}
+                    </div>
                     
                     </div>
                     
@@ -1047,7 +1059,7 @@ const HeaderPrivate = (props) => {
                     
 
                     
-                    {/* <div className="dropdown-box header-dropdown">
+                    <div className="dropdown-box header-dropdown">
                         
                         <div className="dropdown-box-header">
                         
@@ -1532,7 +1544,7 @@ const HeaderPrivate = (props) => {
                         <a className="dropdown-box-button primary" href="hub-profile-messages.html">View all Messages</a>
                         
                     </div>
-                    */}
+                   
                     </div>
                     
 
@@ -1549,7 +1561,7 @@ const HeaderPrivate = (props) => {
                     
 
                     
-                    {/* <div className="dropdown-box header-dropdown">
+                    <div className="dropdown-box header-dropdown">
                         
                         <div className="dropdown-box-header">
                         
@@ -1987,7 +1999,7 @@ const HeaderPrivate = (props) => {
                         
                         <a className="dropdown-box-button secondary" href="hub-profile-notifications.html">View all Notifications</a>
                         
-                    </div> */}
+                    </div>
                     
                     </div>
                     
@@ -2007,7 +2019,7 @@ const HeaderPrivate = (props) => {
                     
 
                     
-                    {/* <div className="dropdown-navigation header-settings-dropdown">
+                    <div className="dropdown-navigation header-settings-dropdown">
                         
                         <div className="dropdown-navigation-header">
                         
@@ -2155,7 +2167,7 @@ const HeaderPrivate = (props) => {
                         
                         <p className="dropdown-navigation-button button small secondary">Logout</p>
                         
-                    </div> */}
+                    </div>
                     
                 </div>
             
