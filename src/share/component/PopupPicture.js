@@ -36,7 +36,7 @@ const PopupPicture = () => {
                 <div class="widget-box-status">
                 <div class="widget-box-status-content">
                     <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
@@ -64,7 +64,7 @@ const PopupPicture = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Marina Valentine</a></p>
                 
                     <p class="user-status-text small">29 minutes ago</p>
                     </div>
@@ -72,15 +72,15 @@ const PopupPicture = () => {
                     <p class="widget-box-status-text">Here's a sneak peek of the official box cover art for <a href="#">Machine Wasteland II</a>! Remember that I'll be having a stream showing a preview tommorrow at 9PM PCT!</p>
 
                     <div class="tag-list">
-                    <a class="tag-item secondary" href="newsfeed.html">Cover</a>
+                    <a class="tag-item secondary" href="newsfeed">Cover</a>
             
-                    <a class="tag-item secondary" href="newsfeed.html">Preview</a>
+                    <a class="tag-item secondary" href="newsfeed">Preview</a>
             
-                    <a class="tag-item secondary" href="newsfeed.html">Art</a>
+                    <a class="tag-item secondary" href="newsfeed">Art</a>
             
-                    <a class="tag-item secondary" href="newsfeed.html">Machine</a>
+                    <a class="tag-item secondary" href="newsfeed">Machine</a>
             
-                    <a class="tag-item secondary" href="newsfeed.html">Wasteland</a>
+                    <a class="tag-item secondary" href="newsfeed">Wasteland</a>
                     </div>
             
                     <div class="content-actions">
@@ -210,7 +210,7 @@ const PopupPicture = () => {
             
                 <div class="post-comment-list">
                 <div class="post-comment">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
                     </div>
@@ -236,7 +236,7 @@ const PopupPicture = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Neko Bebop</a>It's always a pleasure to do this streams with you! If we have at least half the fun than last time it will be an incredible success!</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Neko Bebop</a>It's always a pleasure to do this streams with you! If we have at least half the fun than last time it will be an incredible success!</p>
             
                     <div class="content-actions">
                     <div class="content-action">
@@ -334,7 +334,7 @@ const PopupPicture = () => {
                 </div>
             
                 <div class="post-comment unread reply-2">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                     </div>
@@ -360,7 +360,7 @@ const PopupPicture = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Nick Grissom</a>I wouldn't miss it for anything!! Love both streams!</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Nick Grissom</a>I wouldn't miss it for anything!! Love both streams!</p>
             
                     <div class="content-actions">
                     <div class="content-action">
@@ -444,7 +444,7 @@ const PopupPicture = () => {
                 </div>
             
                 <div class="post-comment">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
                     </div>
@@ -470,7 +470,7 @@ const PopupPicture = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Destroy Dex</a>YEAHHH!! <a href="profile-timeline.html">@MarinaValentine</a> I really enjoyed your last stream and it also was really funny! Can't wait!</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Destroy Dex</a>YEAHHH!! <a href="profile-timeline">@MarinaValentine</a> I really enjoyed your last stream and it also was really funny! Can't wait!</p>
             
                     <div class="content-actions">
                     <div class="content-action">
@@ -538,7 +538,7 @@ const PopupPicture = () => {
                 </div>
             
                 <div class="post-comment">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
                     </div>
@@ -564,7 +564,7 @@ const PopupPicture = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Sarah Diamond</a>That sounds awesome Marina! And also thanks a lot for the art sneak peek! I went to the GameCon last week and had a great time playing the game's open demo.</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Sarah Diamond</a>That sounds awesome Marina! And also thanks a lot for the art sneak peek! I went to the GameCon last week and had a great time playing the game's open demo.</p>
             
                     <div class="content-actions">
                     <div class="content-action">

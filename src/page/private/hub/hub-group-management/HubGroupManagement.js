@@ -59,7 +59,7 @@ const HubGroupManagement = () => {
 
                 <div class="user-preview-info">
                 <div class="user-short-description small">
-                    <a class="user-short-description-avatar user-avatar no-stats" onClick={()=>{navigate("/group-timeline.html")}}>
+                    <a class="user-short-description-avatar user-avatar no-stats" onClick={()=>{navigate("/group-timeline")}}>
                     <div class="user-avatar-border">
                         <div class="hexagon-100-108"></div>
                     </div>
@@ -69,7 +69,7 @@ const HubGroupManagement = () => {
                     </div>
                     </a>
             
-                    <p class="user-short-description-title small"><a onClick={()=>{navigate("/group-timeline.html")}}>Cosplayers of the World</a></p>
+                    <p class="user-short-description-title small"><a onClick={()=>{navigate("/group-timeline")}}>Cosplayers of the World</a></p>
             
                     <p class="user-short-description-text regular">Group Organizer</p>
                 </div>

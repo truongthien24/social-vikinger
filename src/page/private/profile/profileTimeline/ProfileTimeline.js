@@ -270,7 +270,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -326,7 +326,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Sarah Diamond</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline">Sarah Diamond</a></p>
               
           
               
@@ -352,7 +352,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -408,7 +408,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Nick Grissom</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline">Nick Grissom</a></p>
               
           
               
@@ -434,7 +434,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -490,7 +490,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Destroy Dex</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline">Destroy Dex</a></p>
               
           
               
@@ -516,7 +516,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -572,7 +572,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="profile-timeline.html">Neko Bebop</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline">Neko Bebop</a></p>
               
           
               
@@ -598,7 +598,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -654,7 +654,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="profile-timeline.html">The Green Goo</a></p>
+              <p className="user-status-title"><a className="bold" href="profile-timeline">The Green Goo</a></p>
               
           
               
@@ -682,7 +682,7 @@ const ProfileTimeline = () => {
         
     
         
-        <a className="widget-box-button button small secondary" href="profile-friends.html">See all Friends</a>
+        <a className="widget-box-button button small secondary" href="profile-friends">See all Friends</a>
         
       </div>
       
@@ -876,7 +876,7 @@ const ProfileTimeline = () => {
             
             <div className="post-peek">
               
-              <a className="post-peek-image" href="profile-post.html">
+              <a className="post-peek-image" href="profile-post">
                 <figure className="picture small round liquid">
                   <img src="img/cover/19.jpg" alt="cover-19"/>
                 </figure>
@@ -884,7 +884,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="post-peek-title"><a href="profile-post.html">Here's the how and why did I became a full time Gaming Streamer</a></p>
+              <p className="post-peek-title"><a href="profile-post">Here's the how and why did I became a full time Gaming Streamer</a></p>
               
           
               
@@ -896,7 +896,7 @@ const ProfileTimeline = () => {
             
             <div className="post-peek">
               
-              <a className="post-peek-image" href="profile-post.html">
+              <a className="post-peek-image" href="profile-post">
                 <figure className="picture small round liquid">
                   <img src="img/cover/10.jpg" alt="cover-10"/>
                 </figure>
@@ -904,7 +904,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="post-peek-title"><a href="profile-post.html">I spoke with the developers of RoBot SaMurai II at the 2019 GamingCon</a></p>
+              <p className="post-peek-title"><a href="profile-post">I spoke with the developers of RoBot SaMurai II at the 2019 GamingCon</a></p>
               
           
               
@@ -916,7 +916,7 @@ const ProfileTimeline = () => {
             
             <div className="post-peek">
               
-              <a className="post-peek-image" href="profile-post.html">
+              <a className="post-peek-image" href="profile-post">
                 <figure className="picture small round liquid">
                   <img src="img/cover/20.jpg" alt="cover-20"/>
                 </figure>
@@ -924,7 +924,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="post-peek-title"><a href="profile-post.html">I will be at this month's StreamCon with NekoBebop</a></p>
+              <p className="post-peek-title"><a href="profile-post">I will be at this month's StreamCon with NekoBebop</a></p>
               
           
               
@@ -936,7 +936,7 @@ const ProfileTimeline = () => {
             
             <div className="post-peek">
               
-              <a className="post-peek-image" href="profile-post.html">
+              <a className="post-peek-image" href="profile-post">
                 <figure className="picture small round liquid">
                   <img src="img/cover/06.jpg" alt="cover-06"/>
                 </figure>
@@ -944,7 +944,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="post-peek-title"><a href="profile-post.html">[Exclusive!] Check out all the new missions and story of the Fire Witch DLC!</a></p>
+              <p className="post-peek-title"><a href="profile-post">[Exclusive!] Check out all the new missions and story of the Fire Witch DLC!</a></p>
               
           
               
@@ -956,7 +956,7 @@ const ProfileTimeline = () => {
             
             <div className="post-peek">
               
-              <a className="post-peek-image" href="profile-post.html">
+              <a className="post-peek-image" href="profile-post">
                 <figure className="picture small round liquid">
                   <img src="img/cover/07.jpg" alt="cover-07"/>
                 </figure>
@@ -964,7 +964,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="post-peek-title"><a href="profile-post.html">Old Super Mochi's Island is getting a remake!</a></p>
+              <p className="post-peek-title"><a href="profile-post">Old Super Mochi's Island is getting a remake!</a></p>
               
           
               
@@ -1044,7 +1044,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -1100,7 +1100,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline">Marina Valentine</a></p>
               
           
               
@@ -1110,7 +1110,7 @@ const ProfileTimeline = () => {
             
 
             
-            <p className="widget-box-status-text">Hi to all! Remember that today I'll be livestreaming along with <a href="profile-timeline.html">@NekoBebop</a> the new character of the brand new Xenowatch patch "Anya Darkness". See you there!</p>
+            <p className="widget-box-status-text">Hi to all! Remember that today I'll be livestreaming along with <a href="profile-timeline">@NekoBebop</a> the new character of the brand new Xenowatch patch "Anya Darkness". See you there!</p>
             
 
             
@@ -1146,19 +1146,19 @@ const ProfileTimeline = () => {
             
             <div className="tag-list">
               
-              <a className="tag-item secondary" href="newsfeed.html">Stream</a>
+              <a className="tag-item secondary" href="newsfeed">Stream</a>
               
 
               
-              <a className="tag-item secondary" href="newsfeed.html">Xenowatch</a>
+              <a className="tag-item secondary" href="newsfeed">Xenowatch</a>
               
 
               
-              <a className="tag-item secondary" href="newsfeed.html">Gaming</a>
+              <a className="tag-item secondary" href="newsfeed">Gaming</a>
               
 
               
-              <a className="tag-item secondary" href="newsfeed.html">Twitch</a>
+              <a className="tag-item secondary" href="newsfeed">Twitch</a>
               
             </div>
             
@@ -1582,7 +1582,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -1638,7 +1638,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline">Marina Valentine</a></p>
               
           
               
@@ -2030,7 +2030,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -2086,7 +2086,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline">Marina Valentine</a></p>
               
           
               
@@ -2112,23 +2112,23 @@ const ProfileTimeline = () => {
             
             <div className="tag-list">
               
-              <a className="tag-item secondary" href="newsfeed.html">Cover</a>
+              <a className="tag-item secondary" href="newsfeed">Cover</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Preview</a>
+              <a className="tag-item secondary" href="newsfeed">Preview</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Art</a>
+              <a className="tag-item secondary" href="newsfeed">Art</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Machine</a>
+              <a className="tag-item secondary" href="newsfeed">Machine</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Wasteland</a>
+              <a className="tag-item secondary" href="newsfeed">Wasteland</a>
               
             </div>
             
@@ -2504,7 +2504,7 @@ const ProfileTimeline = () => {
           
           <div className="post-comment">
             
-            <a className="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline">
               
               <div className="user-avatar-content">
                 
@@ -2556,7 +2556,7 @@ const ProfileTimeline = () => {
             
       
             
-            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Neko Bebop</a>It's always a pleasure to do this streams with you! If we have at least half the fun than last time it will be an incredible success!</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline">Neko Bebop</a>It's always a pleasure to do this streams with you! If we have at least half the fun than last time it will be an incredible success!</p>
             
       
             
@@ -2750,7 +2750,7 @@ const ProfileTimeline = () => {
           
           <div className="post-comment unread reply-2">
             
-            <a className="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline">
               
               <div className="user-avatar-content">
                 
@@ -2802,7 +2802,7 @@ const ProfileTimeline = () => {
             
       
             
-            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Nick Grissom</a>I wouldn't miss it for anything!! Love both streams!</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline">Nick Grissom</a>I wouldn't miss it for anything!! Love both streams!</p>
             
       
             
@@ -2968,7 +2968,7 @@ const ProfileTimeline = () => {
           
           <div className="post-comment">
             
-            <a className="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline">
               
               <div className="user-avatar-content">
                 
@@ -3020,7 +3020,7 @@ const ProfileTimeline = () => {
             
       
             
-            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Destroy Dex</a>YEAHHH!! <a href="profile-timeline.html">@MarinaValentine</a> I really enjoyed your last stream and it also was really funny! Can't wait!</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline">Destroy Dex</a>YEAHHH!! <a href="profile-timeline">@MarinaValentine</a> I really enjoyed your last stream and it also was really funny! Can't wait!</p>
             
       
             
@@ -3154,7 +3154,7 @@ const ProfileTimeline = () => {
           
           <div className="post-comment">
             
-            <a className="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" href="profile-timeline">
               
               <div className="user-avatar-content">
                 
@@ -3206,7 +3206,7 @@ const ProfileTimeline = () => {
             
       
             
-            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline.html">Sarah Diamond</a>That sounds awesome Marina! And also thanks a lot for the art sneak peek! I went to the GameCon last week and had a great time playing the game's open demo.</p>
+            <p className="post-comment-text"><a className="post-comment-text-author" href="profile-timeline">Sarah Diamond</a>That sounds awesome Marina! And also thanks a lot for the art sneak peek! I went to the GameCon last week and had a great time playing the game's open demo.</p>
             
       
             
@@ -3471,7 +3471,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -3527,7 +3527,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline">Marina Valentine</a></p>
               
           
               
@@ -3537,7 +3537,7 @@ const ProfileTimeline = () => {
             
     
             
-            <p className="widget-box-status-text">Tomorow I'll be livestreaming along with <a href="profile-timeline.html">@DestroyDex</a> on my Youtube channel. We are gonna do a spedrun of Super Mochi Bros 3!</p>
+            <p className="widget-box-status-text">Tomorow I'll be livestreaming along with <a href="profile-timeline">@DestroyDex</a> on my Youtube channel. We are gonna do a spedrun of Super Mochi Bros 3!</p>
             
     
             
@@ -3567,19 +3567,19 @@ const ProfileTimeline = () => {
             
             <div className="tag-list">
               
-              <a className="tag-item secondary" href="newsfeed.html">Stream</a>
+              <a className="tag-item secondary" href="newsfeed">Stream</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Youtube</a>
+              <a className="tag-item secondary" href="newsfeed">Youtube</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Gaming</a>
+              <a className="tag-item secondary" href="newsfeed">Gaming</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Retro</a>
+              <a className="tag-item secondary" href="newsfeed">Retro</a>
               
             </div>
             
@@ -4003,7 +4003,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status">
               
-              <a className="user-status-avatar" href="profile-timeline.html">
+              <a className="user-status-avatar" href="profile-timeline">
                 
                 <div className="user-avatar small no-outline">
                   
@@ -4059,7 +4059,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title medium"><a className="bold" href="profile-timeline.html">Marina Valentine</a> wrote a <span className="bold">Blog Post</span></p>
+              <p className="user-status-title medium"><a className="bold" href="profile-timeline">Marina Valentine</a> wrote a <span className="bold">Blog Post</span></p>
               
           
               
@@ -4097,7 +4097,7 @@ const ProfileTimeline = () => {
               
         
               
-              <a className="post-preview-link" href="profile-post.html">Read more...</a>
+              <a className="post-preview-link" href="profile-post">Read more...</a>
               
             </div>
             
@@ -4109,23 +4109,23 @@ const ProfileTimeline = () => {
             
             <div className="tag-list">
               
-              <a className="tag-item secondary" href="newsfeed.html">Streamer</a>
+              <a className="tag-item secondary" href="newsfeed">Streamer</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Gaming</a>
+              <a className="tag-item secondary" href="newsfeed">Gaming</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Job</a>
+              <a className="tag-item secondary" href="newsfeed">Job</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Life</a>
+              <a className="tag-item secondary" href="newsfeed">Life</a>
               
     
               
-              <a className="tag-item secondary" href="newsfeed.html">Experience</a>
+              <a className="tag-item secondary" href="newsfeed">Experience</a>
               
             </div>
             
@@ -4576,7 +4576,7 @@ const ProfileTimeline = () => {
             
             <div className="stream-box-info">
               
-              <p className="stream-box-title"><a href="profile-stream.html">I'm Playing Athena’s Goddess Story...</a></p>
+              <p className="stream-box-title"><a href="profile-stream">I'm Playing Athena’s Goddess Story...</a></p>
               
         
               
@@ -4738,7 +4738,7 @@ const ProfileTimeline = () => {
             
     
             
-            <a className="picture-item" href="profile-photos.html">
+            <a className="picture-item" href="profile-photos">
               
               <figure className="picture round liquid">
                 <img src="img/cover/17.jpg" alt="avatar-17"/>
@@ -4858,7 +4858,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline">
                 
                 <div className="user-avatar small no-border">
                   
@@ -4874,7 +4874,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="group-timeline.html">Twitch Streamers</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline">Twitch Streamers</a></p>
               
           
               
@@ -4900,7 +4900,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline">
                 
                 <div className="user-avatar small no-border">
                   
@@ -4916,7 +4916,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="group-timeline.html">Cosplayers of the World</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline">Cosplayers of the World</a></p>
               
           
               
@@ -4942,7 +4942,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline">
                 
                 <div className="user-avatar small no-border">
                   
@@ -4958,7 +4958,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="group-timeline.html">Stream Designers</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline">Stream Designers</a></p>
               
           
               
@@ -4984,7 +4984,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline">
                 
                 <div className="user-avatar small no-border">
                   
@@ -5000,7 +5000,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="group-timeline.html">Street Artists</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline">Street Artists</a></p>
               
           
               
@@ -5026,7 +5026,7 @@ const ProfileTimeline = () => {
             
             <div className="user-status request-small">
               
-              <a className="user-status-avatar" href="group-timeline.html">
+              <a className="user-status-avatar" href="group-timeline">
                 
                 <div className="user-avatar small no-border">
                   
@@ -5042,7 +5042,7 @@ const ProfileTimeline = () => {
               
           
               
-              <p className="user-status-title"><a className="bold" href="group-timeline.html">Gaming Watchtower</a></p>
+              <p className="user-status-title"><a className="bold" href="group-timeline">Gaming Watchtower</a></p>
               
           
               
@@ -5108,7 +5108,7 @@ const ProfileTimeline = () => {
           
           <div className="product-preview small">
             
-            <a href="marketplace-product.html">
+            <a href="marketplace-product">
               <figure className="product-preview-image liquid">
                 <img src="img/marketplace/items/01.jpg" alt="item-01"/>
               </figure>
@@ -5122,11 +5122,11 @@ const ProfileTimeline = () => {
               
         
               
-              <p className="product-preview-title"><a href="marketplace-product.html">Twitch Stream UI Pack</a></p>
+              <p className="product-preview-title"><a href="marketplace-product">Twitch Stream UI Pack</a></p>
               
         
               
-              <p className="product-preview-category digital"><a href="marketplace-category.html">Stream Packs</a></p>
+              <p className="product-preview-category digital"><a href="marketplace-category">Stream Packs</a></p>
               
             </div>
             

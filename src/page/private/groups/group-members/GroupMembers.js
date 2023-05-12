@@ -74,7 +74,7 @@ const GroupMembers = () => {
         
             <div class="user-preview-info">
                 <div class="user-short-description">
-                <a class="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+                <a class="user-short-description-avatar user-avatar medium" href="profile-timeline">
                     <div class="user-avatar-border">
                     <div class="hexagon-120-132"></div>
                     </div>
@@ -104,7 +104,7 @@ const GroupMembers = () => {
                     </div>
                 </a>
             
-                <p class="user-short-description-title"><a href="profile-timeline.html">NekoBebop</a></p>
+                <p class="user-short-description-title"><a href="profile-timeline">NekoBebop</a></p>
             
                 <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
                 </div>
@@ -126,7 +126,7 @@ const GroupMembers = () => {
                     <img src="img/badge/rmachine-s.png" alt="badge-rmachine-s"/>
                 </div>
             
-                <a class="badge-item" href="profile-badges.html">
+                <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+29</p>
                 </a>

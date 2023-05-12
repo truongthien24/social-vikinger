@@ -198,7 +198,7 @@ const Groups = () => {
                 </div>
                 </div>
         
-                <a class="user-avatar smaller no-stats" href="group-members.html">
+                <a class="user-avatar smaller no-stats" href="group-members">
                 <div class="user-avatar-border">
                     <div class="hexagon-34-36"></div>
                 </div>
@@ -341,7 +341,7 @@ const Groups = () => {
                 </div>
                 </div>
         
-                <a class="user-avatar smaller no-stats" href="group-members.html">
+                <a class="user-avatar smaller no-stats" href="group-members">
                 <div class="user-avatar-border">
                     <div class="hexagon-34-36"></div>
                 </div>
@@ -484,7 +484,7 @@ const Groups = () => {
                 </div>
                 </div>
         
-                <a class="user-avatar smaller no-stats" href="group-members.html">
+                <a class="user-avatar smaller no-stats" href="group-members">
                 <div class="user-avatar-border">
                     <div class="hexagon-34-36"></div>
                 </div>
@@ -627,7 +627,7 @@ const Groups = () => {
                 </div>
                 </div>
         
-                <a class="user-avatar smaller no-stats" href="group-members.html">
+                <a class="user-avatar smaller no-stats" href="group-members">
                 <div class="user-avatar-border">
                     <div class="hexagon-34-36"></div>
                 </div>
@@ -770,7 +770,7 @@ const Groups = () => {
                 </div>
                 </div>
         
-                <a class="user-avatar smaller no-stats" href="group-members.html">
+                <a class="user-avatar smaller no-stats" href="group-members">
                 <div class="user-avatar-border">
                     <div class="hexagon-34-36"></div>
                 </div>
@@ -913,7 +913,7 @@ const Groups = () => {
                 </div>
                 </div>
         
-                <a class="user-avatar smaller no-stats" href="group-members.html">
+                <a class="user-avatar smaller no-stats" href="group-members">
                 <div class="user-avatar-border">
                     <div class="hexagon-34-36"></div>
                 </div>
@@ -1056,7 +1056,7 @@ const Groups = () => {
                 </div>
                 </div>
         
-                <a class="user-avatar smaller no-stats" href="group-members.html">
+                <a class="user-avatar smaller no-stats" href="group-members">
                 <div class="user-avatar-border">
                     <div class="hexagon-34-36"></div>
                 </div>

@@ -200,7 +200,7 @@ const Newsfeed = () => {
 
                 <div class="user-status-list">
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
@@ -228,7 +228,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Sarah Diamond</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Sarah Diamond</a></p>
                 
                     <p class="user-status-text small">24.5K profile views</p>
                 
@@ -242,7 +242,7 @@ const Newsfeed = () => {
                 </div>
 
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -270,7 +270,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a></p>
                 
                     <p class="user-status-text small">20.1K profile views</p>
                 
@@ -284,7 +284,7 @@ const Newsfeed = () => {
                 </div>
 
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/23.jpg"></div>
@@ -312,7 +312,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Rosie Sakura</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Rosie Sakura</a></p>
                 
                     <p class="user-status-text small">19.7K profile views</p>
                 
@@ -326,7 +326,7 @@ const Newsfeed = () => {
                 </div>
 
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/15.jpg"></div>
@@ -354,7 +354,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Peter Stark</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Peter Stark</a></p>
                 
                     <p class="user-status-text small">16.5K profile views</p>
                 
@@ -368,7 +368,7 @@ const Newsfeed = () => {
                 </div>
 
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
@@ -396,7 +396,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Bearded Wonder</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Bearded Wonder</a></p>
                 
                     <p class="user-status-text small">9.8K profile views</p>
                 
@@ -507,7 +507,7 @@ const Newsfeed = () => {
                 </div>
             </div>
         
-            <a class="widget-box-button button small white" href="quests.html">See all Quests!</a>
+            <a class="widget-box-button button small white" href="quests">See all Quests!</a>
             </div>
         </div>
 
@@ -636,7 +636,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -664,7 +664,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Neko Bebop</a> uploaded a <span class="bold">video</span></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Neko Bebop</a> uploaded a <span class="bold">video</span></p>
                 
                     <p class="user-status-text small">2 minutes ago</p>
                 </div>
@@ -678,13 +678,13 @@ const Newsfeed = () => {
 
                 <div class="widget-box-status-content">
                 <div class="tag-list">
-                    <a class="tag-item secondary" href="newsfeed.html">Stream</a>
+                    <a class="tag-item secondary" href="newsfeed">Stream</a>
 
-                    <a class="tag-item secondary" href="newsfeed.html">StrikerGO</a>
+                    <a class="tag-item secondary" href="newsfeed">StrikerGO</a>
 
-                    <a class="tag-item secondary" href="newsfeed.html">Outlaws</a>
+                    <a class="tag-item secondary" href="newsfeed">Outlaws</a>
 
-                    <a class="tag-item secondary" href="newsfeed.html">Gaming</a>
+                    <a class="tag-item secondary" href="newsfeed">Gaming</a>
                 </div>
 
                 <div class="content-actions">
@@ -900,7 +900,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
@@ -928,7 +928,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Sarah Diamond</a> created a <span class="bold">poll</span></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Sarah Diamond</a> created a <span class="bold">poll</span></p>
                 
                     <p class="user-status-text small">9 minutes ago</p>
                 </div>
@@ -1188,7 +1188,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
@@ -1216,7 +1216,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Destroy Dex</a> uploaded <span class="bold">26 new photos</span></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Destroy Dex</a> uploaded <span class="bold">26 new photos</span></p>
                 
                     <p class="user-status-text small">17 minutes ago</p>
                 </div>
@@ -1340,7 +1340,7 @@ const Newsfeed = () => {
                     </div>
         
                     <div class="picture-collage-item">
-                        <a class="picture-collage-item-overlay" href="profile-photos.html">
+                        <a class="picture-collage-item-overlay" href="profile-photos">
                         <p class="picture-collage-item-overlay-text">+22</p>
                         </a>
         
@@ -1374,11 +1374,11 @@ const Newsfeed = () => {
                 </div>
         
                 <div class="tag-list">
-                    <a class="tag-item secondary" href="newsfeed.html">Photos</a>
+                    <a class="tag-item secondary" href="newsfeed">Photos</a>
         
-                    <a class="tag-item secondary" href="newsfeed.html">StreamCon</a>
+                    <a class="tag-item secondary" href="newsfeed">StreamCon</a>
         
-                    <a class="tag-item secondary" href="newsfeed.html">StarGirl</a>
+                    <a class="tag-item secondary" href="newsfeed">StarGirl</a>
                 </div>
         
                 <div class="content-actions">
@@ -1560,7 +1560,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
@@ -1588,7 +1588,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Bearded Wonder</a></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Bearded Wonder</a></p>
                 
                     <p class="user-status-text small">39 minutes ago</p>
                 </div>
@@ -1806,7 +1806,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -1834,7 +1834,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Nick Grissom</a> shared a <span class="bold">post</span></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Nick Grissom</a> shared a <span class="bold">post</span></p>
                 
                     <p class="user-status-text small">40 minutes ago</p>
                 </div>
@@ -1845,7 +1845,7 @@ const Newsfeed = () => {
                     <div class="widget-box-status">
                     <div class="widget-box-status-content">
                         <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                             <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
@@ -1873,7 +1873,7 @@ const Newsfeed = () => {
                             </div>
                         </a>
                     
-                        <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Destroy Dex</a></p>
+                        <p class="user-status-title medium"><a class="bold" href="profile-timeline">Destroy Dex</a></p>
                     
                         <p class="user-status-text small">6 hours ago</p>
                         </div>
@@ -2108,7 +2108,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -2136,8 +2136,8 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <div class="user-status-title medium"><a class="bold" href="profile-timeline.html">Neko Bebop</a> replied to the discussion <a class="bold" href="forums-discussion.html">In your opinion, who has the best Cosplay?</a> in the forum
-                    <a class="user-avatar micro no-stats" href="group-timeline.html">
+                    <div class="user-status-title medium"><a class="bold" href="profile-timeline">Neko Bebop</a> replied to the discussion <a class="bold" href="forums-discussion">In your opinion, who has the best Cosplay?</a> in the forum
+                    <a class="user-avatar micro no-stats" href="group-timeline">
                         <div class="user-avatar-border">
                         <div class="hexagon-22-24"></div>
                         </div>
@@ -2146,7 +2146,7 @@ const Newsfeed = () => {
                         <div class="hexagon-image-18-20" data-src="img/avatar/24.jpg"></div>
                         </div>
                     </a>
-                    <a class="bold" href="group-timeline.html">Cosplayers of the World</a>
+                    <a class="bold" href="group-timeline">Cosplayers of the World</a>
                     </div>
                 
                     <p class="user-status-text small">42 minutes ago</p>
@@ -2373,7 +2373,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -2401,7 +2401,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Nick Grissom</a></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Nick Grissom</a></p>
                 
                     <p class="user-status-text small">1 hour ago</p>
                 </div>
@@ -2627,7 +2627,7 @@ const Newsfeed = () => {
             <div class="widget-box-status">
                 <div class="widget-box-status-content">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
@@ -2655,7 +2655,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Sarah Diamond</a> created a <span class="bold">poll</span></p>
+                    <p class="user-status-title medium"><a class="bold" href="profile-timeline">Sarah Diamond</a> created a <span class="bold">poll</span></p>
                 
                     <p class="user-status-text small">9 minutes ago</p>
                 </div>
@@ -3590,7 +3590,7 @@ const Newsfeed = () => {
             <div class="widget-box-content">
                 <div class="user-status-list">
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -3618,13 +3618,13 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Neko Bebop</a> commented on Destroy Dex's <a class="highlighted" href="profile-timeline.html">photo</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Neko Bebop</a> commented on Destroy Dex's <a class="highlighted" href="profile-timeline">photo</a></p>
                 
                     <p class="user-status-timestamp">3 minutes ago</p>
                 </div>
         
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -3652,13 +3652,13 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a> liked Marina Valentine's <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a> liked Marina Valentine's <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp">12 minutes ago</p>
                 </div>
         
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/10.jpg"></div>
@@ -3686,13 +3686,13 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">The Green Goo</a> liked Nick Grissom's <a class="highlighted" href="profile-timeline.html">video</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">The Green Goo</a> liked Nick Grissom's <a class="highlighted" href="profile-timeline">video</a></p>
                 
                     <p class="user-status-timestamp">17 minutes ago</p>
                 </div>
         
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -3720,13 +3720,13 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a> changed his <a class="highlighted" href="profile-timeline.html">profile picture</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a> changed his <a class="highlighted" href="profile-timeline">profile picture</a></p>
                 
                     <p class="user-status-timestamp">33 minutes ago</p>
                 </div>
         
                 <div class="user-status">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                     <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
@@ -3754,7 +3754,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Destroy Dex</a> commented on Rosie Sakura's <a class="highlighted" href="profile-timeline.html">profile</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Destroy Dex</a> commented on Rosie Sakura's <a class="highlighted" href="profile-timeline">profile</a></p>
                 
                     <p class="user-status-timestamp">41 minutes ago</p>
                 </div>
@@ -3790,7 +3790,7 @@ const Newsfeed = () => {
         
                 <div class="user-status-list">
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="group-timeline.html">
+                    <a class="user-status-avatar" href="group-timeline">
                     <div class="user-avatar small no-border">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-40-44" data-src="img/avatar/29.jpg"></div>
@@ -3798,7 +3798,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="group-timeline.html">Twitch Streamers</a></p>
+                    <p class="user-status-title"><a class="bold" href="group-timeline">Twitch Streamers</a></p>
                 
                     <p class="user-status-text small">265 members</p>
                 
@@ -3812,7 +3812,7 @@ const Newsfeed = () => {
                 </div>
         
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="group-timeline.html">
+                    <a class="user-status-avatar" href="group-timeline">
                     <div class="user-avatar small no-border">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-40-44" data-src="img/avatar/24.jpg"></div>
@@ -3820,7 +3820,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="group-timeline.html">Cosplayers of the World</a></p>
+                    <p class="user-status-title"><a class="bold" href="group-timeline">Cosplayers of the World</a></p>
                 
                     <p class="user-status-text small">139 members</p>
                 
@@ -3834,7 +3834,7 @@ const Newsfeed = () => {
                 </div>
         
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="group-timeline.html">
+                    <a class="user-status-avatar" href="group-timeline">
                     <div class="user-avatar small no-border">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-40-44" data-src="img/avatar/25.jpg"></div>
@@ -3842,7 +3842,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="group-timeline.html">Stream Designers</a></p>
+                    <p class="user-status-title"><a class="bold" href="group-timeline">Stream Designers</a></p>
                 
                     <p class="user-status-text small">466 members</p>
                 
@@ -3856,7 +3856,7 @@ const Newsfeed = () => {
                 </div>
         
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="group-timeline.html">
+                    <a class="user-status-avatar" href="group-timeline">
                     <div class="user-avatar small no-border">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-40-44" data-src="img/avatar/28.jpg"></div>
@@ -3864,7 +3864,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="group-timeline.html">Street Artists</a></p>
+                    <p class="user-status-title"><a class="bold" href="group-timeline">Street Artists</a></p>
                 
                     <p class="user-status-text small">951 members</p>
                 
@@ -3878,7 +3878,7 @@ const Newsfeed = () => {
                 </div>
         
                 <div class="user-status request-small">
-                    <a class="user-status-avatar" href="group-timeline.html">
+                    <a class="user-status-avatar" href="group-timeline">
                     <div class="user-avatar small no-border">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-40-44" data-src="img/avatar/27.jpg"></div>
@@ -3886,7 +3886,7 @@ const Newsfeed = () => {
                     </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="group-timeline.html">Gaming Watchtower</a></p>
+                    <p class="user-status-title"><a class="bold" href="group-timeline">Gaming Watchtower</a></p>
                 
                     <p class="user-status-text small">2.365 members</p>
                 

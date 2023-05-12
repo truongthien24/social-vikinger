@@ -98,13 +98,13 @@ const ProfileForum = () => {
                             <div class="discussion-preview-meta">
                             <p class="discussion-preview-meta-text">Started by</p>
                 
-                            <a class="user-avatar micro no-border" href="profile-timeline.html">
+                            <a class="user-avatar micro no-border" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                                 </div>
                             </a>
                 
-                            <p class="discussion-preview-meta-text"><a href="profile-timeline.html">Marina Valentine</a> 22 minutes ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Comics</a></p>
+                            <p class="discussion-preview-meta-text"><a href="profile-timeline">Marina Valentine</a> 22 minutes ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Comics</a></p>
                             </div>
                         </div>
                         </div>
@@ -119,7 +119,7 @@ const ProfileForum = () => {
                 
                         <div class="table-column padded-big-left">
                         <div class="user-status">
-                            <a class="user-status-avatar" href="profile-timeline.html">
+                            <a class="user-status-avatar" href="profile-timeline">
                             <div class="user-avatar small no-outline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
@@ -147,7 +147,7 @@ const ProfileForum = () => {
                             </div>
                             </a>
                         
-                            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Bearded Wonder</a></p>
+                            <p class="user-status-title"><a class="bold" href="profile-timeline">Bearded Wonder</a></p>
                         
                             <p class="user-status-text small">3 hours, 22 minutes ago</p>
                         </div>
@@ -162,13 +162,13 @@ const ProfileForum = () => {
                             <div class="discussion-preview-meta">
                             <p class="discussion-preview-meta-text">Started by</p>
                 
-                            <a class="user-avatar micro no-border" href="profile-timeline.html">
+                            <a class="user-avatar micro no-border" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                                 </div>
                             </a>
                 
-                            <p class="discussion-preview-meta-text"><a href="profile-timeline.html">Marina Valentine</a> 6 hours ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>The Arcade</a></p>
+                            <p class="discussion-preview-meta-text"><a href="profile-timeline">Marina Valentine</a> 6 hours ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>The Arcade</a></p>
                             </div>
                         </div>
                         </div>
@@ -183,7 +183,7 @@ const ProfileForum = () => {
                 
                         <div class="table-column padded-big-left">
                         <div class="user-status">
-                            <a class="user-status-avatar" href="profile-timeline.html">
+                            <a class="user-status-avatar" href="profile-timeline">
                             <div class="user-avatar small no-outline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -211,7 +211,7 @@ const ProfileForum = () => {
                             </div>
                             </a>
                         
-                            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a></p>
+                            <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a></p>
                         
                             <p class="user-status-text small">23 minutes ago</p>
                         </div>
@@ -226,13 +226,13 @@ const ProfileForum = () => {
                             <div class="discussion-preview-meta">
                             <p class="discussion-preview-meta-text">Started by</p>
                 
-                            <a class="user-avatar micro no-border" href="profile-timeline.html">
+                            <a class="user-avatar micro no-border" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                                 </div>
                             </a>
                 
-                            <p class="discussion-preview-meta-text"><a href="profile-timeline.html">Marina Valentine</a> 1 day ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Community Hangout</a></p>
+                            <p class="discussion-preview-meta-text"><a href="profile-timeline">Marina Valentine</a> 1 day ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Community Hangout</a></p>
                             </div>
                         </div>
                         </div>
@@ -247,7 +247,7 @@ const ProfileForum = () => {
                 
                         <div class="table-column padded-big-left">
                         <div class="user-status">
-                            <a class="user-status-avatar" href="profile-timeline.html">
+                            <a class="user-status-avatar" href="profile-timeline">
                             <div class="user-avatar small no-outline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
@@ -275,7 +275,7 @@ const ProfileForum = () => {
                             </div>
                             </a>
                         
-                            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+                            <p class="user-status-title"><a class="bold" href="profile-timeline">Marina Valentine</a></p>
                         
                             <p class="user-status-text small">42 minutes ago</p>
                         </div>
@@ -290,13 +290,13 @@ const ProfileForum = () => {
                             <div class="discussion-preview-meta">
                             <p class="discussion-preview-meta-text">Started by</p>
                 
-                            <a class="user-avatar micro no-border" href="profile-timeline.html">
+                            <a class="user-avatar micro no-border" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                                 </div>
                             </a>
                 
-                            <p class="discussion-preview-meta-text"><a href="profile-timeline.html">Marina Valentine</a> 3 days ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Community Hangout</a></p>
+                            <p class="discussion-preview-meta-text"><a href="profile-timeline">Marina Valentine</a> 3 days ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Community Hangout</a></p>
                             </div>
                         </div>
                         </div>
@@ -311,7 +311,7 @@ const ProfileForum = () => {
                 
                         <div class="table-column padded-big-left">
                         <div class="user-status">
-                            <a class="user-status-avatar" href="profile-timeline.html">
+                            <a class="user-status-avatar" href="profile-timeline">
                             <div class="user-avatar small no-outline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -339,7 +339,7 @@ const ProfileForum = () => {
                             </div>
                             </a>
                         
-                            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Neko Bebop</a></p>
+                            <p class="user-status-title"><a class="bold" href="profile-timeline">Neko Bebop</a></p>
                         
                             <p class="user-status-text small">1 hour, 35 minutes ago</p>
                         </div>
@@ -354,13 +354,13 @@ const ProfileForum = () => {
                             <div class="discussion-preview-meta">
                             <p class="discussion-preview-meta-text">Started by</p>
                 
-                            <a class="user-avatar micro no-border" href="profile-timeline.html">
+                            <a class="user-avatar micro no-border" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                                 </div>
                             </a>
                 
-                            <p class="discussion-preview-meta-text"><a href="profile-timeline.html">Marina Valentine</a> 1 week ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Anime &amp; Manga</a></p>
+                            <p class="discussion-preview-meta-text"><a href="profile-timeline">Marina Valentine</a> 1 week ago<span class="separator">-</span><a class="highlighted" onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/forums-category')}}>Anime &amp; Manga</a></p>
                             </div>
                         </div>
                         </div>
@@ -375,7 +375,7 @@ const ProfileForum = () => {
                 
                         <div class="table-column padded-big-left">
                         <div class="user-status">
-                            <a class="user-status-avatar" href="profile-timeline.html">
+                            <a class="user-status-avatar" href="profile-timeline">
                             <div class="user-avatar small no-outline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -403,7 +403,7 @@ const ProfileForum = () => {
                             </div>
                             </a>
                         
-                            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a></p>
+                            <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a></p>
                         
                             <p class="user-status-text small">6 days ago</p>
                         </div>

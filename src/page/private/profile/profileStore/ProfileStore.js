@@ -80,7 +80,7 @@ const ProfileStore = () => {
             
                 <div class="product-preview-meta">
                     <div class="product-preview-author">
-                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -88,7 +88,7 @@ const ProfileStore = () => {
             
                     <p class="product-preview-author-title">Posted By</p>
             
-                    <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                    <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
             
                     <div class="rating-list">
@@ -144,7 +144,7 @@ const ProfileStore = () => {
             
                 <div class="product-preview-meta">
                     <div class="product-preview-author">
-                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -152,7 +152,7 @@ const ProfileStore = () => {
             
                     <p class="product-preview-author-title">Posted By</p>
             
-                    <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                    <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
             
                     <div class="rating-list">
@@ -208,7 +208,7 @@ const ProfileStore = () => {
             
                 <div class="product-preview-meta">
                     <div class="product-preview-author">
-                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -216,7 +216,7 @@ const ProfileStore = () => {
             
                     <p class="product-preview-author-title">Posted By</p>
             
-                    <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                    <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
             
                     <div class="rating-list">
@@ -272,7 +272,7 @@ const ProfileStore = () => {
             
                 <div class="product-preview-meta">
                     <div class="product-preview-author">
-                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -280,7 +280,7 @@ const ProfileStore = () => {
             
                     <p class="product-preview-author-title">Posted By</p>
             
-                    <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                    <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
             
                     <div class="rating-list">
@@ -336,7 +336,7 @@ const ProfileStore = () => {
             
                 <div class="product-preview-meta">
                     <div class="product-preview-author">
-                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                    <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                         <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -344,7 +344,7 @@ const ProfileStore = () => {
             
                     <p class="product-preview-author-title">Posted By</p>
             
-                    <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                    <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
             
                     <div class="rating-list">

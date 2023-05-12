@@ -469,7 +469,7 @@ const MarketPlaceCategory = () => {
             <div class="marketplace-content">
                 <div class="grid grid-3-3-3 centered">
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/01.jpg" alt="item-01"/>
                     </figure>
@@ -478,7 +478,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 12.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">Twitch Stream UI Pack</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">Twitch Stream UI Pack</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>Stream Packs</a></p>
                 
@@ -487,7 +487,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -495,7 +495,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -533,7 +533,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/03.jpg" alt="item-03"/>
                     </figure>
@@ -542,7 +542,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 40.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">Flaming Skull Team Logo</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">Flaming Skull Team Logo</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>Logos &amp; Badges</a></p>
                 
@@ -551,7 +551,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -559,7 +559,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -597,7 +597,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/13.jpg" alt="item-13"/>
                     </figure>
@@ -606,7 +606,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 24.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">American Football Team Page</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">American Football Team Page</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>HTML Templates</a></p>
                 
@@ -615,7 +615,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -623,7 +623,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -661,7 +661,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/05.jpg" alt="item-05"/>
                     </figure>
@@ -670,7 +670,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 24.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">Emerald Dragon Digital Marketpl...</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">Emerald Dragon Digital Marketpl...</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>HTML Templates</a></p>
                 
@@ -679,7 +679,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -687,7 +687,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -725,7 +725,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/09.jpg" alt="item-09"/>
                     </figure>
@@ -734,7 +734,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 5.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">People Illustrations Pack 01</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">People Illustrations Pack 01</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>Illustrations</a></p>
                 
@@ -743,7 +743,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/02.jpg"></div>
                         </div>
@@ -751,7 +751,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Destroy Dex</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Destroy Dex</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -789,7 +789,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/08.jpg" alt="item-08"/>
                     </figure>
@@ -798,7 +798,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 5.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">People Illustrations Pack 02</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">People Illustrations Pack 02</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>Illustrations</a></p>
                 
@@ -807,7 +807,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/02.jpg"></div>
                         </div>
@@ -815,7 +815,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Destroy Dex</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Destroy Dex</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -853,7 +853,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/10.jpg" alt="item-10"/>
                     </figure>
@@ -862,7 +862,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 26.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">Pixel Diamond Gaming Magazine</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">Pixel Diamond Gaming Magazine</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>HTML Templates</a></p>
                 
@@ -871,7 +871,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/01.jpg"></div>
                         </div>
@@ -879,7 +879,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Marina Valentine</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Marina Valentine</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -917,7 +917,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/11.jpg" alt="item-11"/>
                     </figure>
@@ -926,7 +926,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 6.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">Gaming Coin Badges Pack</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">Gaming Coin Badges Pack</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>Logos &amp; Badges</a></p>
                 
@@ -935,7 +935,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/03.jpg"></div>
                         </div>
@@ -943,7 +943,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Nick Grissom</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Nick Grissom</a></p>
                     </div>
                 
                     <div class="rating-list">
@@ -981,7 +981,7 @@ const MarketPlaceCategory = () => {
                 </div>
 
                 <div class="product-preview">
-                    <a href="marketplace-product.html">
+                    <a href="marketplace-product">
                     <figure class="product-preview-image liquid">
                         <img src="img/marketplace/items/14.jpg" alt="item-14"/>
                     </figure>
@@ -990,7 +990,7 @@ const MarketPlaceCategory = () => {
                     <div class="product-preview-info">
                     <p class="text-sticker"><span class="highlighted">$</span> 26.00</p>
                 
-                    <p class="product-preview-title"><a href="marketplace-product.html">Asgard- Social Media Builder for...</a></p>
+                    <p class="product-preview-title"><a href="marketplace-product">Asgard- Social Media Builder for...</a></p>
                 
                     <p class="product-preview-category digital"><a onClick={()=> {dispatch(setLoading({status: 'isLoading'})); navigate('/marketplace-category')}}>WP Templates</a></p>
                 
@@ -999,7 +999,7 @@ const MarketPlaceCategory = () => {
                 
                     <div class="product-preview-meta">
                     <div class="product-preview-author">
-                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="product-preview-author-image user-avatar micro no-border" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/03.jpg"></div>
                         </div>
@@ -1007,7 +1007,7 @@ const MarketPlaceCategory = () => {
                 
                         <p class="product-preview-author-title">Posted By</p>
                 
-                        <p class="product-preview-author-text"><a href="profile-timeline.html">Nick Grissom</a></p>
+                        <p class="product-preview-author-text"><a href="profile-timeline">Nick Grissom</a></p>
                     </div>
                 
                     <div class="rating-list">

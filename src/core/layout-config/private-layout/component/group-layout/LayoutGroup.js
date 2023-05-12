@@ -116,7 +116,7 @@ const LayoutGroup = ({children}) => {
                         </svg>
                     </p>
                     
-                    <a class="profile-header-info-action button" href="hub-group-management.html">
+                    <a class="profile-header-info-action button" href="hub-group-management">
                         <svg class="icon-more-dots">
                         <use xlinkHref="#svg-more-dots"></use>
                         </svg>

@@ -19,7 +19,7 @@ const ProfileHeader = () => {
             
                 <div className="user-short-description big">
                     
-                    <a className="user-short-description-avatar user-avatar big" href="profile-timeline.html">
+                    <a className="user-short-description-avatar user-avatar big" href="profile-timeline">
                     
                         <div className="user-avatar-border">
                             
@@ -56,7 +56,7 @@ const ProfileHeader = () => {
                             
                         </div>
                     </a>
-                    <a className="user-short-description-avatar user-short-description-avatar-mobile user-avatar medium" href="profile-timeline.html">
+                    <a className="user-short-description-avatar user-short-description-avatar-mobile user-avatar medium" href="profile-timeline">
                         <div className="user-avatar-border">
                             
                             <div className="hexagon-120-132"></div>
@@ -94,7 +94,7 @@ const ProfileHeader = () => {
                             
                         </div>
                     </a>
-                    <p className="user-short-description-title"><a href="profile-timeline.html">Marina Valentine</a></p>
+                    <p className="user-short-description-title"><a href="profile-timeline">Marina Valentine</a></p>
                     
                     <p className="user-short-description-text"><a href="#">www.gamehuntress.com</a></p>
                     

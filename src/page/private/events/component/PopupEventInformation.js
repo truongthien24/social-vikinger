@@ -161,7 +161,7 @@ const PopupEventInformation = () => {
             </div>
             </div>
 
-            <a class="user-avatar smaller no-stats" href="group-members.html">
+            <a class="user-avatar smaller no-stats" href="group-members">
             <div class="user-avatar-border">
                 <div class="hexagon-34-36"></div>
             </div>
@@ -373,7 +373,7 @@ const PopupEventInformation = () => {
 
         <div class="post-comment-list">
       <div class="post-comment">
-        <a class="user-avatar small no-outline" href="profile-timeline.html">
+        <a class="user-avatar small no-outline" href="profile-timeline">
           <div class="user-avatar-content">
             <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
           </div>
@@ -399,7 +399,7 @@ const PopupEventInformation = () => {
           </div>
         </a>
   
-        <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Destroy Dex</a>Can't wait to see everyone at the party! Last year's was incredible and I'm hoping this year will be even better!</p>
+        <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Destroy Dex</a>Can't wait to see everyone at the party! Last year's was incredible and I'm hoping this year will be even better!</p>
   
         <div class="content-actions">
           <div class="content-action">

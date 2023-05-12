@@ -149,16 +149,16 @@ const HubStoreAccount = () => {
                     <div class="table-row tiny">
                         <div class="table-column">
                         <div class="product-preview micro">
-                            <a href="marketplace-product.html">
+                            <a href="marketplace-product">
                             <figure class="product-preview-image liquid">
                                 <img src="img/marketplace/items/10.jpg" alt="item-10"/>
                             </figure>
                             </a>
                         
                             <div class="product-preview-info">
-                            <p class="product-preview-title"><a href="marketplace-product.html">Pixel Diamond Gaming Magazine</a></p>
+                            <p class="product-preview-title"><a href="marketplace-product">Pixel Diamond Gaming Magazine</a></p>
                         
-                            <p class="product-preview-category digital"><a href="marketplace-category.html">HTML Templates</a></p>
+                            <p class="product-preview-category digital"><a href="marketplace-category">HTML Templates</a></p>
                             </div>
                         </div>
                         </div>
@@ -175,16 +175,16 @@ const HubStoreAccount = () => {
                     <div class="table-row tiny">
                         <div class="table-column">
                         <div class="product-preview micro">
-                            <a href="marketplace-product.html">
+                            <a href="marketplace-product">
                             <figure class="product-preview-image liquid">
                                 <img src="img/marketplace/items/01.jpg" alt="item-01"/>
                             </figure>
                             </a>
                         
                             <div class="product-preview-info">
-                            <p class="product-preview-title"><a href="marketplace-product.html">Twitch Stream UI Pack</a></p>
+                            <p class="product-preview-title"><a href="marketplace-product">Twitch Stream UI Pack</a></p>
                         
-                            <p class="product-preview-category digital"><a href="marketplace-category.html">Stream Packs</a></p>
+                            <p class="product-preview-category digital"><a href="marketplace-category">Stream Packs</a></p>
                             </div>
                         </div>
                         </div>
@@ -201,16 +201,16 @@ const HubStoreAccount = () => {
                     <div class="table-row tiny">
                         <div class="table-column">
                         <div class="product-preview micro">
-                            <a href="marketplace-product.html">
+                            <a href="marketplace-product">
                             <figure class="product-preview-image liquid">
                                 <img src="img/marketplace/items/13.jpg" alt="item-13"/>
                             </figure>
                             </a>
                         
                             <div class="product-preview-info">
-                            <p class="product-preview-title"><a href="marketplace-product.html">American Football Team Page</a></p>
+                            <p class="product-preview-title"><a href="marketplace-product">American Football Team Page</a></p>
                         
-                            <p class="product-preview-category digital"><a href="marketplace-category.html">HTML Templates</a></p>
+                            <p class="product-preview-category digital"><a href="marketplace-category">HTML Templates</a></p>
                             </div>
                         </div>
                         </div>

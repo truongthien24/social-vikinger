@@ -20,7 +20,7 @@ const HubProfileNotifications = () => {
             <div class="notification-box-list">
                 <div class="notification-box">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -48,7 +48,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a> posted a comment on your <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a> posted a comment on your <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp small-space">2 minutes ago</p>
                 
@@ -70,7 +70,7 @@ const HubProfileNotifications = () => {
 
                 <div class="notification-box unread">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
@@ -98,7 +98,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Sarah Diamond</a> left a like <img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> reaction on your <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Sarah Diamond</a> left a like <img class="reaction" src="img/reaction/like.png" alt="reaction-like"/> reaction on your <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp small-space">17 minutes ago</p>
                 
@@ -120,7 +120,7 @@ const HubProfileNotifications = () => {
 
                 <div class="notification-box">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
@@ -148,7 +148,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Destroy Dex</a> posted a comment on your <a class="highlighted" href="profile-photos.html">photo</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Destroy Dex</a> posted a comment on your <a class="highlighted" href="profile-photos">photo</a></p>
                 
                     <p class="user-status-timestamp small-space">31 minutes ago</p>
                 
@@ -170,7 +170,7 @@ const HubProfileNotifications = () => {
 
                 <div class="notification-box">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -198,7 +198,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a> shared your <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a> shared your <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp small-space">39 minutes ago</p>
                 
@@ -220,7 +220,7 @@ const HubProfileNotifications = () => {
 
                 <div class="notification-box">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/10.jpg"></div>
@@ -248,7 +248,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">The Green Goo</a> left a love <img class="reaction" src="img/reaction/love.png" alt="reaction-love"/> reaction on your <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">The Green Goo</a> left a love <img class="reaction" src="img/reaction/love.png" alt="reaction-love"/> reaction on your <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp small-space">42 minutes ago</p>
                 
@@ -270,7 +270,7 @@ const HubProfileNotifications = () => {
 
                 <div class="notification-box unread">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -298,7 +298,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Neko Bebop</a> replied to a comment you made on your <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Neko Bebop</a> replied to a comment you made on your <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp small-space">54 minutes ago</p>
                 
@@ -320,7 +320,7 @@ const HubProfileNotifications = () => {
 
                 <div class="notification-box">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/23.jpg"></div>
@@ -348,7 +348,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Rosie Sakura</a> shared your <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Rosie Sakura</a> shared your <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp small-space">1 hour 2 minutes ago</p>
                 
@@ -370,7 +370,7 @@ const HubProfileNotifications = () => {
 
                 <div class="notification-box">
                     <div class="user-status notification">
-                    <a class="user-status-avatar" href="profile-timeline.html">
+                    <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
@@ -398,7 +398,7 @@ const HubProfileNotifications = () => {
                         </div>
                     </a>
                 
-                    <p class="user-status-title"><a class="bold" href="profile-timeline.html">Bearded Wonder</a> left a happy <img class="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> reaction on your <a class="highlighted" href="profile-timeline.html">status update</a></p>
+                    <p class="user-status-title"><a class="bold" href="profile-timeline">Bearded Wonder</a> left a happy <img class="reaction" src="img/reaction/happy.png" alt="reaction-happy"/> reaction on your <a class="highlighted" href="profile-timeline">status update</a></p>
                 
                     <p class="user-status-timestamp small-space">1 hour 47 minutes ago</p>
                 

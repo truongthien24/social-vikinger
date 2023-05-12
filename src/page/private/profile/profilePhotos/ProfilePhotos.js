@@ -201,7 +201,7 @@ const ProfilePhotos = () => {
               
         
               
-              <a className="section-header-action" href="profile-photos-inside.html">See All</a>
+              <a className="section-header-action" href="profile-photos-inside">See All</a>
               
             </div>
             

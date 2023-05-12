@@ -10,7 +10,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -70,7 +70,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">NekoBebop</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">NekoBebop</a></p>
             
     
             
@@ -106,7 +106,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+29</p>
@@ -248,7 +248,7 @@
         </figure>
         <div className="user-preview-info">
         <div className="user-short-description">
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             <div className="user-avatar-border">
                 <div className="hexagon-120-132"></div>
             </div>
@@ -271,7 +271,7 @@
                 <p className="user-avatar-badge-text">13</p>
             </div>
             </a>
-            <p className="user-short-description-title"><a href="profile-timeline.html">Destroy Dex</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">Destroy Dex</a></p>
             <p className="user-short-description-text"><a href="#">www.twitch.tv/d-destroyer</a></p>
         </div>
         <div className="badge-list small">
@@ -287,7 +287,7 @@
             <div className="badge-item">
             <img src="img/badge/rulerm-s.png" alt="badge-rulerm-s"/>
             </div>
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             <p className="badge-item-text">+12</p>
             </a>
@@ -445,7 +445,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -500,7 +500,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">Nick Grissom</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">Nick Grissom</a></p>
             
     
             
@@ -536,7 +536,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
                 <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+9</p>
@@ -676,7 +676,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -736,7 +736,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">Sarah Diamond</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">Sarah Diamond</a></p>
             
     
             
@@ -772,7 +772,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+32</p>
@@ -913,7 +913,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -973,7 +973,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">Bearded Wonder</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">Bearded Wonder</a></p>
             
     
             
@@ -1009,7 +1009,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+22</p>
@@ -1160,7 +1160,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -1220,7 +1220,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">The Green Goo</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">The Green Goo</a></p>
             
     
             
@@ -1256,7 +1256,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+7</p>
@@ -1397,7 +1397,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -1457,7 +1457,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">Damian Greyson</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">Damian Greyson</a></p>
             
     
             
@@ -1493,7 +1493,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+2</p>
@@ -1634,7 +1634,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -1694,7 +1694,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">Rosie Sakura</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">Rosie Sakura</a></p>
             
     
             
@@ -1730,7 +1730,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+18</p>
@@ -1939,7 +1939,7 @@
         
         <div className="user-short-description">
             
-            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
+            <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
             
             <div className="user-avatar-border">
                 
@@ -1999,7 +1999,7 @@
             
     
             
-            <p className="user-short-description-title"><a href="profile-timeline.html">Sarah Rodgers</a></p>
+            <p className="user-short-description-title"><a href="profile-timeline">Sarah Rodgers</a></p>
             
     
             
@@ -2035,7 +2035,7 @@
             
     
             
-            <a className="badge-item" href="profile-badges.html">
+            <a className="badge-item" href="profile-badges">
             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
             
             <p className="badge-item-text">+6</p>

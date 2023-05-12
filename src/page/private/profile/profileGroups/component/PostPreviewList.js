@@ -42,7 +42,7 @@ const PostPreviewList = (props) => {
                     
                     </a>
                     
-                    <p className="user-short-description-title"><a href="group-timeline.html">{data?.groupName}</a></p>
+                    <p className="user-short-description-title"><a href="group-timeline">{data?.groupName}</a></p>
                     
                     <p className="user-short-description-text">{data?.groupDescription}</p>
                     
@@ -160,7 +160,7 @@ const PostPreviewList = (props) => {
                     </div>
                     
                     
-                    <a className="user-avatar smaller no-stats" href="group-members.html">
+                    <a className="user-avatar smaller no-stats" href="group-members">
                     
                         <div className="user-avatar-border">
                             

@@ -89,7 +89,7 @@ const NavigationSmall = (props) => {
   return (
     <nav id="navigation-widget-small" className={`navigation-widget navigation-widget-desktop closed sidebar left ${isNavigationWidget ? 'hidden' : 'delayed'}`}>
         
-        <a className="user-avatar small no-outline online" href="profile-timeline.html">
+        <a className="user-avatar small no-outline online" href="profile-timeline">
         
         <div className="user-avatar-content">
             
@@ -147,7 +147,7 @@ const NavigationSmall = (props) => {
         
             <li className="menu-item active">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="newsfeed.html" data-title="Newsfeed">
+                <a className="menu-item-link text-tooltip-tfr" href="newsfeed" data-title="Newsfeed">
                 
                 <svg className="menu-item-link-icon icon-newsfeed">
                     <use xlinkHref="#svg-newsfeed"></use>
@@ -159,7 +159,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="overview.html" data-title="Overview">
+                <a className="menu-item-link text-tooltip-tfr" href="overview" data-title="Overview">
                 
                 <svg className="menu-item-link-icon icon-overview">
                     <use xlinkHref="#svg-overview"></use>
@@ -171,7 +171,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="groups.html" data-title="Groups">
+                <a className="menu-item-link text-tooltip-tfr" href="groups" data-title="Groups">
                 
                 <svg className="menu-item-link-icon icon-group">
                     <use xlinkHref="#svg-group"></use>
@@ -183,7 +183,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="members.html" data-title="Members">
+                <a className="menu-item-link text-tooltip-tfr" href="members" data-title="Members">
                 
                 <svg className="menu-item-link-icon icon-members">
                     <use xlinkHref="#svg-members"></use>
@@ -195,7 +195,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="badges.html" data-title="Badges">
+                <a className="menu-item-link text-tooltip-tfr" href="badges" data-title="Badges">
                 
                 <svg className="menu-item-link-icon icon-badges">
                     <use xlinkHref="#svg-badges"></use>
@@ -207,7 +207,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="quests.html" data-title="Quests">
+                <a className="menu-item-link text-tooltip-tfr" href="quests" data-title="Quests">
                 
                 <svg className="menu-item-link-icon icon-quests">
                     <use xlinkHref="#svg-quests"></use>
@@ -219,7 +219,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="streams.html" data-title="Streams">
+                <a className="menu-item-link text-tooltip-tfr" href="streams" data-title="Streams">
                 
                 <svg className="menu-item-link-icon icon-streams">
                     <use xlinkHref="#svg-streams"></use>
@@ -231,7 +231,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="events.html" data-title="Events">
+                <a className="menu-item-link text-tooltip-tfr" href="events" data-title="Events">
                 
                 <svg className="menu-item-link-icon icon-events">
                     <use xlinkHref="#svg-events"></use>
@@ -243,7 +243,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="forums.html" data-title="Forums">
+                <a className="menu-item-link text-tooltip-tfr" href="forums" data-title="Forums">
                 
                 <svg className="menu-item-link-icon icon-forums">
                     <use xlinkHref="#svg-forums"></use>
@@ -255,7 +255,7 @@ const NavigationSmall = (props) => {
             
             <li className="menu-item">
                 
-                <a className="menu-item-link text-tooltip-tfr" href="marketplace.html" data-title="Marketplace">
+                <a className="menu-item-link text-tooltip-tfr" href="marketplace" data-title="Marketplace">
                 
                 <svg className="menu-item-link-icon icon-marketplace">
                     <use xlinkHref="#svg-marketplace"></use>

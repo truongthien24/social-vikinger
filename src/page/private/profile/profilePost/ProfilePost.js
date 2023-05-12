@@ -75,15 +75,15 @@ const ProfilePost = () => {
                     <p class="post-open-paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas estias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
 
                     <div class="tag-list">
-                    <a class="tag-item secondary" href="newsfeed.html">Streamer</a>
+                    <a class="tag-item secondary" href="newsfeed">Streamer</a>
 
-                    <a class="tag-item secondary" href="newsfeed.html">Gaming</a>
+                    <a class="tag-item secondary" href="newsfeed">Gaming</a>
 
-                    <a class="tag-item secondary" href="newsfeed.html">Job</a>
+                    <a class="tag-item secondary" href="newsfeed">Job</a>
 
-                    <a class="tag-item secondary" href="newsfeed.html">Life</a>
+                    <a class="tag-item secondary" href="newsfeed">Life</a>
 
-                    <a class="tag-item secondary" href="newsfeed.html">Experience</a>
+                    <a class="tag-item secondary" href="newsfeed">Experience</a>
                     </div>
                 </div>
                 </div>
@@ -274,7 +274,7 @@ const ProfilePost = () => {
 
                 <div id="comments" class="post-comment-list">
                 <div class="post-comment">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
                     </div>
@@ -300,7 +300,7 @@ const ProfilePost = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Bearded Wonder</a>It's really inspiring to read about this and how you managed to get all up and running! Super awesome! Congratz <a href="profile-timeline.html">@MarinaValentine</a>!</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Bearded Wonder</a>It's really inspiring to read about this and how you managed to get all up and running! Super awesome! Congratz <a href="profile-timeline">@MarinaValentine</a>!</p>
             
                     <div class="content-actions">
                     <div class="content-action">
@@ -398,7 +398,7 @@ const ProfilePost = () => {
                 </div>
             
                 <div class="post-comment unread reply-2">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/10.jpg"></div>
                     </div>
@@ -424,7 +424,7 @@ const ProfilePost = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">The Green Goo</a>Yeah!! Totally agree!</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">The Green Goo</a>Yeah!! Totally agree!</p>
             
                     <div class="content-actions">
                     <div class="content-action">
@@ -508,7 +508,7 @@ const ProfilePost = () => {
                 </div>
 
                 <div class="post-comment">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                     </div>
@@ -534,7 +534,7 @@ const ProfilePost = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Nick Grissom</a>I also started streaming with a simmilar game! I'm very excited to see what's next on your streams and for your next projects</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Nick Grissom</a>I also started streaming with a simmilar game! I'm very excited to see what's next on your streams and for your next projects</p>
             
                     <div class="content-actions">
                     <div class="content-action">
@@ -602,7 +602,7 @@ const ProfilePost = () => {
                 </div>
 
                 <div class="post-comment">
-                    <a class="user-avatar small no-outline" href="profile-timeline.html">
+                    <a class="user-avatar small no-outline" href="profile-timeline">
                     <div class="user-avatar-content">
                         <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
                     </div>
@@ -628,7 +628,7 @@ const ProfilePost = () => {
                     </div>
                     </a>
             
-                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Neko Bebop</a>It was great to start this with you and keep streming together! I'm hoping that we can do this for many years to come...and for everyone else, keep posted because we have lots of surprises, including a sneak peek of upcoming games and new DLCs</p>
+                    <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Neko Bebop</a>It was great to start this with you and keep streming together! I'm hoping that we can do this for many years to come...and for everyone else, keep posted because we have lots of surprises, including a sneak peek of upcoming games and new DLCs</p>
             
                     <div class="content-actions">
                     <div class="content-action">
@@ -765,7 +765,7 @@ const ProfilePost = () => {
                 <div class="post-preview-info-bottom">
                     <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
             
-                    <a class="post-preview-link" href="profile-post.html">Read more...</a>
+                    <a class="post-preview-link" href="profile-post">Read more...</a>
                 </div>
                 </div>
             
@@ -855,7 +855,7 @@ const ProfilePost = () => {
                 <div class="post-preview-info-bottom">
                     <p class="post-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...</p>
             
-                    <a class="post-preview-link" href="profile-post.html">Read more...</a>
+                    <a class="post-preview-link" href="profile-post">Read more...</a>
                 </div>
                 </div>
             

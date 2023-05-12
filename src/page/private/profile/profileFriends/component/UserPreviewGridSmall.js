@@ -33,7 +33,7 @@ const UserPreviewGridSmall = (props) => {
             </figure>
             <div className="user-preview-info">
                 <div className="user-short-description small">
-                    <a className="user-short-description-avatar user-avatar" href="profile-timeline.html">
+                    <a className="user-short-description-avatar user-avatar" href="profile-timeline">
                         <div className="user-avatar-border">
                             <div className="hexagon-100-110"></div>
                         </div>
@@ -57,7 +57,7 @@ const UserPreviewGridSmall = (props) => {
                         </div>
                     </a>
                     <p className="user-short-description-title">
-                        <a href="profile-timeline.html">{data?.userName}</a>
+                        <a href="profile-timeline">{data?.userName}</a>
                     </p>
                     <p className="user-short-description-text">
                         <a href="#">{data?.userPath}</a>
@@ -65,7 +65,7 @@ const UserPreviewGridSmall = (props) => {
                 </div>
                 <div className="badge-list small">
                     {renderBadge()}
-                    <a className="badge-item" href="profile-badges.html">
+                    <a className="badge-item" href="profile-badges">
                         <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                         <p className="badge-item-text">+{data?.badge?.length - 4}</p>
                     </a>

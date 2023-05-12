@@ -77,19 +77,19 @@ const Events = () => {
 
         <div class="calendar-widget-header-actions">
           <div class="view-actions">
-            <a class="view-action text-tooltip-tft-medium active" href="events.html" data-title="Monthly">
+            <a class="view-action text-tooltip-tft-medium active" href="events" data-title="Monthly">
               <svg class="view-action-icon icon-events-monthly">
                 <use xlinkHref="#svg-events-monthly"></use>
               </svg>
             </a>
     
-            <a class="view-action text-tooltip-tft-medium" href="events-weekly.html" data-title="Weekly">
+            <a class="view-action text-tooltip-tft-medium" href="events-weekly" data-title="Weekly">
               <svg class="view-action-icon icon-events-weekly">
                 <use xlinkHref="#svg-events-weekly"></use>
               </svg>
             </a>
     
-            <a class="view-action text-tooltip-tft-medium" href="events-daily.html" data-title="Daily">
+            <a class="view-action text-tooltip-tft-medium" href="events-daily" data-title="Daily">
               <svg class="view-action-icon icon-events-daily">
                 <use xlinkHref="#svg-events-daily"></use>
               </svg>

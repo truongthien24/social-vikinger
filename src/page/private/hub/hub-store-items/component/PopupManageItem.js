@@ -12,7 +12,7 @@ const PopupManageItem = () => {
         <div class="popup-box-body">
         <div class="popup-box-sidebar">
             <div class="product-preview">
-            <a href="marketplace-product.html">
+            <a href="marketplace-product">
                 <figure class="product-preview-image liquid">
                 <img src="img/marketplace/items/10.jpg" alt="item-10"/>
                 </figure>
@@ -21,9 +21,9 @@ const PopupManageItem = () => {
             <div class="product-preview-info">
                 <p class="text-sticker"><span class="highlighted">$</span> 26.00</p>
         
-                <p class="product-preview-title"><a href="marketplace-product.html">Pixel Diamond Gaming Magazine</a></p>
+                <p class="product-preview-title"><a href="marketplace-product">Pixel Diamond Gaming Magazine</a></p>
         
-                <p class="product-preview-category digital"><a href="marketplace-category.html">HTML Templates</a></p>
+                <p class="product-preview-category digital"><a href="marketplace-category">HTML Templates</a></p>
             </div>
             </div>
 

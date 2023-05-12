@@ -82,7 +82,7 @@ const NavigationDesktop = (props) => {
         
 
         
-        <p className="user-short-description-title"><a href="profile-timeline.html">Marina Valentine</a></p>
+        <p className="user-short-description-title"><a href="profile-timeline">Marina Valentine</a></p>
         
 
         

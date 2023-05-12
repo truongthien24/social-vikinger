@@ -158,7 +158,7 @@ const GroupsTimeLine = () => {
 
                     <div class="user-status-list">
                     <div class="user-status request-small">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
@@ -186,7 +186,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Sarah Diamond</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Sarah Diamond</a></p>
                     
                         <p class="user-status-text small">24.5K profile views</p>
                     
@@ -200,7 +200,7 @@ const GroupsTimeLine = () => {
                     </div>
 
                     <div class="user-status request-small">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -228,7 +228,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Nick Grissom</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Nick Grissom</a></p>
                     
                         <p class="user-status-text small">20.1K profile views</p>
                     
@@ -242,7 +242,7 @@ const GroupsTimeLine = () => {
                     </div>
 
                     <div class="user-status request-small">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/23.jpg"></div>
@@ -270,7 +270,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Rosie Sakura</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Rosie Sakura</a></p>
                     
                         <p class="user-status-text small">19.7K profile views</p>
                     
@@ -284,7 +284,7 @@ const GroupsTimeLine = () => {
                     </div>
 
                     <div class="user-status request-small">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/15.jpg"></div>
@@ -312,7 +312,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Peter Stark</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Peter Stark</a></p>
                     
                         <p class="user-status-text small">16.5K profile views</p>
                     
@@ -326,7 +326,7 @@ const GroupsTimeLine = () => {
                     </div>
 
                     <div class="user-status request-small">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
@@ -354,7 +354,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Bearded Wonder</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Bearded Wonder</a></p>
                     
                         <p class="user-status-text small">9.8K profile views</p>
                     
@@ -578,7 +578,7 @@ const GroupsTimeLine = () => {
 
                     <div class="widget-box-status-content">
                     <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -606,7 +606,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Neko Bebop</a></p>
+                        <p class="user-status-title medium"><a class="bold" href="profile-timeline">Neko Bebop</a></p>
                     
                         <p class="user-status-text small">2 weeks ago</p>
                     </div>
@@ -626,13 +626,13 @@ const GroupsTimeLine = () => {
                     </a>
             
                     <div class="tag-list">
-                        <a class="tag-item secondary" href="newsfeed.html">Discord</a>
+                        <a class="tag-item secondary" href="newsfeed">Discord</a>
             
-                        <a class="tag-item secondary" href="newsfeed.html">Cosplay</a>
+                        <a class="tag-item secondary" href="newsfeed">Cosplay</a>
             
-                        <a class="tag-item secondary" href="newsfeed.html">Costume</a>
+                        <a class="tag-item secondary" href="newsfeed">Costume</a>
             
-                        <a class="tag-item secondary" href="newsfeed.html">Channel</a>
+                        <a class="tag-item secondary" href="newsfeed">Channel</a>
                     </div>
             
                     <div class="content-actions">
@@ -848,7 +848,7 @@ const GroupsTimeLine = () => {
                 <div class="widget-box-status">
                     <div class="widget-box-status-content">
                     <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
@@ -876,7 +876,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Marina Valentine</a> uploaded <span class="bold">23 new photos</span></p>
+                        <p class="user-status-title medium"><a class="bold" href="profile-timeline">Marina Valentine</a> uploaded <span class="bold">23 new photos</span></p>
                     
                         <p class="user-status-text small">17 minutes ago</p>
                     </div>
@@ -1034,11 +1034,11 @@ const GroupsTimeLine = () => {
                     </div>
             
                     <div class="tag-list">
-                        <a class="tag-item secondary" href="newsfeed.html">Photos</a>
+                        <a class="tag-item secondary" href="newsfeed">Photos</a>
             
-                        <a class="tag-item secondary" href="newsfeed.html">Cosplay</a>
+                        <a class="tag-item secondary" href="newsfeed">Cosplay</a>
             
-                        <a class="tag-item secondary" href="newsfeed.html">Inspiration</a>
+                        <a class="tag-item secondary" href="newsfeed">Inspiration</a>
                     </div>
             
                     <div class="content-actions">
@@ -1220,7 +1220,7 @@ const GroupsTimeLine = () => {
                 <div class="widget-box-status">
                     <div class="widget-box-status-content">
                     <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -1248,7 +1248,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <div class="user-status-title medium"><a class="bold" href="profile-timeline.html">Neko Bebop</a> replied to the discussion <a class="bold" href="forums-discussion.html">In your opinion, who has the best Cosplay?</a> in the forum
+                        <div class="user-status-title medium"><a class="bold" href="profile-timeline">Neko Bebop</a> replied to the discussion <a class="bold" href="forums-discussion">In your opinion, who has the best Cosplay?</a> in the forum
                         <a class="user-avatar micro no-stats" onClick={()=>{
                             dispatch(setLoading({
                                 status: 'isLoading'
@@ -1493,7 +1493,7 @@ const GroupsTimeLine = () => {
                 <div class="widget-box-status">
                     <div class="widget-box-status-content">
                     <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
@@ -1521,7 +1521,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Nick Grissom</a> uploaded a <span class="bold">video</span></p>
+                        <p class="user-status-title medium"><a class="bold" href="profile-timeline">Nick Grissom</a> uploaded a <span class="bold">video</span></p>
                     
                         <p class="user-status-text small">1 hour ago</p>
                     </div>
@@ -1747,7 +1747,7 @@ const GroupsTimeLine = () => {
                 <div class="widget-box-status">
                     <div class="widget-box-status-content">
                     <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
@@ -1775,7 +1775,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title medium"><a class="bold" href="profile-timeline.html">Bearded Wonder</a></p>
+                        <p class="user-status-title medium"><a class="bold" href="profile-timeline">Bearded Wonder</a></p>
                     
                         <p class="user-status-text small">39 minutes ago</p>
                     </div>
@@ -2000,7 +2000,7 @@ const GroupsTimeLine = () => {
                 <div class="widget-box-content">
                     <div class="user-status-list">
                     <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
@@ -2028,13 +2028,13 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Marina Valentine</a></p>
                     
                         <p class="user-status-text small">2 friends in common</p>
                     </div>
 
                     <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                         <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
@@ -2062,7 +2062,7 @@ const GroupsTimeLine = () => {
                         </div>
                         </a>
                     
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Neko Bebop</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Neko Bebop</a></p>
                     
                         <p class="user-status-text small">1 friends in common</p>
                     </div>
@@ -2194,80 +2194,80 @@ const GroupsTimeLine = () => {
 
                     <div class="post-preview-line-list">
                     <div class="post-preview-line">
-                        <p class="post-preview-line-title"><a href="forums-discussion.html">In your opinion, who has the best cosplay?</a></p>
+                        <p class="post-preview-line-title"><a href="forums-discussion">In your opinion, who has the best cosplay?</a></p>
                     
                         <div class="post-preview-line-meta">
-                        <a class="user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="user-avatar micro no-border" href="profile-timeline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/05.jpg"></div>
                             </div>
                         </a>
                     
-                        <p class="post-preview-line-author"><a href="profile-timeline.html">By Neko Bebop</a></p>
+                        <p class="post-preview-line-author"><a href="profile-timeline">By Neko Bebop</a></p>
                     
                         <p class="post-preview-line-timestamp">2 weeks ago</p>
                         </div>
                     </div>
 
                     <div class="post-preview-line">
-                        <p class="post-preview-line-title"><a href="forums-discussion.html">Preparing everything for CosWorld 2019, show your works here!</a></p>
+                        <p class="post-preview-line-title"><a href="forums-discussion">Preparing everything for CosWorld 2019, show your works here!</a></p>
                     
                         <div class="post-preview-line-meta">
-                        <a class="user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="user-avatar micro no-border" href="profile-timeline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/03.jpg"></div>
                             </div>
                         </a>
                     
-                        <p class="post-preview-line-author"><a href="profile-timeline.html">By Nick Grissom</a></p>
+                        <p class="post-preview-line-author"><a href="profile-timeline">By Nick Grissom</a></p>
                     
                         <p class="post-preview-line-timestamp">13 hours ago</p>
                         </div>
                     </div>
 
                     <div class="post-preview-line">
-                        <p class="post-preview-line-title"><a href="forums-discussion.html">Official Topic! Let's organize the global meetups for all continents!</a></p>
+                        <p class="post-preview-line-title"><a href="forums-discussion">Official Topic! Let's organize the global meetups for all continents!</a></p>
                     
                         <div class="post-preview-line-meta">
-                        <a class="user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="user-avatar micro no-border" href="profile-timeline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/02.jpg"></div>
                             </div>
                         </a>
                     
-                        <p class="post-preview-line-author"><a href="profile-timeline.html">By Destroy Dex</a></p>
+                        <p class="post-preview-line-author"><a href="profile-timeline">By Destroy Dex</a></p>
                     
                         <p class="post-preview-line-timestamp">5 days ago</p>
                         </div>
                     </div>
 
                     <div class="post-preview-line">
-                        <p class="post-preview-line-title"><a href="forums-discussion.html">Share your cosplay tips here! Tutorials, DIY's, paints and more</a></p>
+                        <p class="post-preview-line-title"><a href="forums-discussion">Share your cosplay tips here! Tutorials, DIY's, paints and more</a></p>
                     
                         <div class="post-preview-line-meta">
-                        <a class="user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="user-avatar micro no-border" href="profile-timeline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/05.jpg"></div>
                             </div>
                         </a>
                     
-                        <p class="post-preview-line-author"><a href="profile-timeline.html">By Neko Bebop</a></p>
+                        <p class="post-preview-line-author"><a href="profile-timeline">By Neko Bebop</a></p>
                     
                         <p class="post-preview-line-timestamp">20 hours ago</p>
                         </div>
                     </div>
 
                     <div class="post-preview-line">
-                        <p class="post-preview-line-title"><a href="forums-discussion.html">Check out all the pictures I took at the CosplayWonder 2018</a></p>
+                        <p class="post-preview-line-title"><a href="forums-discussion">Check out all the pictures I took at the CosplayWonder 2018</a></p>
                     
                         <div class="post-preview-line-meta">
-                        <a class="user-avatar micro no-border" href="profile-timeline.html">
+                        <a class="user-avatar micro no-border" href="profile-timeline">
                             <div class="user-avatar-content">
                             <div class="hexagon-image-18-20" data-src="img/avatar/07.jpg"></div>
                             </div>
                         </a>
                     
-                        <p class="post-preview-line-author"><a href="profile-timeline.html">By Sarah Diamond</a></p>
+                        <p class="post-preview-line-author"><a href="profile-timeline">By Sarah Diamond</a></p>
                     
                         <p class="post-preview-line-timestamp">19 days ago</p>
                         </div>

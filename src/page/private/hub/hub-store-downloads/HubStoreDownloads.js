@@ -79,18 +79,18 @@ const HubStoreDownloads = () => {
                 <div class="table-row medium">
                     <div class="table-column">
                     <div class="product-preview tiny">
-                        <a href="marketplace-product.html">
+                        <a href="marketplace-product">
                         <figure class="product-preview-image short liquid">
                             <img src="img/marketplace/items/11.jpg" alt="item-11"/>
                         </figure>
                         </a>
             
                         <div class="product-preview-info">
-                        <p class="product-preview-title"><a href="marketplace-product.html">Gaming Coin Badges Pack</a></p>
+                        <p class="product-preview-title"><a href="marketplace-product">Gaming Coin Badges Pack</a></p>
             
-                        <p class="product-preview-category digital"><a href="marketplace-category.html">Illustrations</a></p>
+                        <p class="product-preview-category digital"><a href="marketplace-category">Illustrations</a></p>
             
-                        <p class="product-preview-creator"><a href="profile-timeline.html">Nick Grissom</a></p>
+                        <p class="product-preview-creator"><a href="profile-timeline">Nick Grissom</a></p>
                         </div>
                     </div>
                     </div>
@@ -151,18 +151,18 @@ const HubStoreDownloads = () => {
                 <div class="table-row medium">
                     <div class="table-column">
                     <div class="product-preview tiny">
-                        <a href="marketplace-product.html">
+                        <a href="marketplace-product">
                         <figure class="product-preview-image short liquid">
                             <img src="img/marketplace/items/08.jpg" alt="item-08"/>
                         </figure>
                         </a>
             
                         <div class="product-preview-info">
-                        <p class="product-preview-title"><a href="marketplace-product.html">People Illustrations Pack 02</a></p>
+                        <p class="product-preview-title"><a href="marketplace-product">People Illustrations Pack 02</a></p>
             
-                        <p class="product-preview-category digital"><a href="marketplace-category.html">Illustrations</a></p>
+                        <p class="product-preview-category digital"><a href="marketplace-category">Illustrations</a></p>
             
-                        <p class="product-preview-creator"><a href="profile-timeline.html">Destroy Dex</a></p>
+                        <p class="product-preview-creator"><a href="profile-timeline">Destroy Dex</a></p>
                         </div>
                     </div>
                     </div>

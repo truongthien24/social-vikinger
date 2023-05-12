@@ -1,6 +1,13 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
+import { setLoading } from '../../../../../redux/action/homeAction';
+import { useNavigate } from 'react-router-dom';
 
 const NavigationMobile = () => {
+
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+
   return (
     <nav id="navigation-widget-mobile" className="navigation-widget navigation-widget-mobile sidebar left hidden" data-simplebar>
         
@@ -16,7 +23,11 @@ const NavigationMobile = () => {
         
         <div className="navigation-widget-info">
             
-            <a className="user-avatar small no-outline" href="profile-timeline.html">
+            <a className="user-avatar small no-outline" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("profile-timeline")}}>
             
             <div className="user-avatar-content">
                 
@@ -68,7 +79,11 @@ const NavigationMobile = () => {
             
 
             
-            <p className="navigation-widget-info-title"><a href="profile-timeline.html">Marina Valentine</a></p>
+            <p className="navigation-widget-info-title"><a onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("profile-timeline")}}>Marina Valentine</a></p>
             
 
             
@@ -88,7 +103,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="newsfeed.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("newsfeed")}}>
             
             <svg className="menu-item-link-icon icon-newsfeed">
                 <use xlinkHref="#svg-newsfeed"></use>
@@ -103,7 +122,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="overview.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("overview")}}>
             
             <svg className="menu-item-link-icon icon-overview">
                 <use xlinkHref="#svg-overview"></use>
@@ -118,7 +141,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="groups.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("groups")}}>
             
             <svg className="menu-item-link-icon icon-group">
                 <use xlinkHref="#svg-group"></use>
@@ -133,7 +160,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="members.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("members")}}>
             
             <svg className="menu-item-link-icon icon-members">
                 <use xlinkHref="#svg-members"></use>
@@ -148,7 +179,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="badges.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("badges")}}>
             
             <svg className="menu-item-link-icon icon-badges">
                 <use xlinkHref="#svg-badges"></use>
@@ -163,7 +198,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="quests.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("quests")}}>
             
             <svg className="menu-item-link-icon icon-quests">
                 <use xlinkHref="#svg-quests"></use>
@@ -178,7 +217,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="streams.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("streams")}}>
             
             <svg className="menu-item-link-icon icon-streams">
                 <use xlinkHref="#svg-streams"></use>
@@ -193,7 +236,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="events.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("events")}}>
             
             <svg className="menu-item-link-icon icon-events">
                 <use xlinkHref="#svg-events"></use>
@@ -208,7 +255,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="forums.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("forums")}}>
             
             <svg className="menu-item-link-icon icon-forums">
                 <use xlinkHref="#svg-forums"></use>
@@ -223,7 +274,11 @@ const NavigationMobile = () => {
         
         <li className="menu-item">
             
-            <a className="menu-item-link" href="marketplace.html">
+            <a className="menu-item-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate("marketplace")}}>
             
             <svg className="menu-item-link-icon icon-marketplace">
                 <use xlinkHref="#svg-marketplace"></use>
@@ -238,23 +293,43 @@ const NavigationMobile = () => {
     
         <p className="navigation-widget-section-title">My Profile</p>
     
-        <a className="navigation-widget-section-link" href="hub-profile-info.html">Profile Info</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-profile-info")}}>Profile Info</a>
     
 
     
-        <a className="navigation-widget-section-link" href="hub-profile-social.html">Social &amp; Stream</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-profile-social")}}>Social &amp; Stream</a>
     
 
     
-        <a className="navigation-widget-section-link" href="hub-profile-notifications.html">Notifications</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-profile-notifications")}}>Notifications</a>
     
 
     
-        <a className="navigation-widget-section-link" href="hub-profile-messages.html">Messages</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-profile-messages")}}>Messages</a>
     
 
     
-        <a className="navigation-widget-section-link" href="hub-profile-requests.html">Friend Requests</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-profile-requests")}}>Friend Requests</a>
     
 
     
@@ -262,15 +337,27 @@ const NavigationMobile = () => {
     
 
     
-        <a className="navigation-widget-section-link" href="hub-account-info.html">Account Info</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-account-info")}}>Account Info</a>
     
 
     
-        <a className="navigation-widget-section-link" href="hub-account-password.html">Change Password</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-account-password")}}>Change Password</a>
         
 
         
-        <a className="navigation-widget-section-link" href="hub-account-settings.html">General Settings</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-account-settings")}}>General Settings</a>
         
 
         
@@ -278,11 +365,19 @@ const NavigationMobile = () => {
         
 
         
-        <a className="navigation-widget-section-link" href="hub-group-management.html">Manage Groups</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-group-management")}}>Manage Groups</a>
         
 
         
-        <a className="navigation-widget-section-link" href="hub-group-invitations.html">Invitations</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-group-invitations")}}>Invitations</a>
         
 
         
@@ -290,19 +385,35 @@ const NavigationMobile = () => {
         
 
         
-        <a className="navigation-widget-section-link" href="hub-store-account.html">My Account <span className="highlighted">$250,32</span></a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-store-account")}}>My Account <span className="highlighted">$250,32</span></a>
         
 
         
-        <a className="navigation-widget-section-link" href="hub-store-statement.html">Sales Statement</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-store-statement")}}>Sales Statement</a>
         
 
         
-        <a className="navigation-widget-section-link" href="hub-store-items.html">Manage Items</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-store-items")}}>Manage Items</a>
         
 
         
-        <a className="navigation-widget-section-link" href="hub-store-downloads.html">Downloads</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate("hub-store-downloads")}}>Downloads</a>
         
 
         
@@ -310,31 +421,59 @@ const NavigationMobile = () => {
         
 
         
-        <a className="navigation-widget-section-link" href="#">Home</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate(0)}}>Home</a>
         
 
         
-        <a className="navigation-widget-section-link" href="#">Careers</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate(0)}}>Careers</a>
         
 
         
-        <a className="navigation-widget-section-link" href="#">Faqs</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate(0)}}>Faqs</a>
         
 
         
-        <a className="navigation-widget-section-link" href="#">About Us</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate(0)}}>About Us</a>
         
 
         
-        <a className="navigation-widget-section-link" href="#">Our Blog</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate(0)}}>Our Blog</a>
         
 
         
-        <a className="navigation-widget-section-link" href="#">Contact Us</a>
+        <a className="navigation-widget-section-link" onClick={()=>{
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate(0)}}>Contact Us</a>
         
 
         
-            <a className="navigation-widget-section-link" href="#">Privacy Policy</a>
+            <a className="navigation-widget-section-link" onClick={()=>{
+                dispatch(setLoading({
+                    status: 'isLoading'
+                }))
+                navigate(0)}}>Privacy Policy</a>
         
     </nav>
   )

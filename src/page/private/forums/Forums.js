@@ -29,7 +29,7 @@ const Forums = () => {
             <div class="section-filters-bar v7">
             <div class="section-filters-bar-actions">
                 <div class="section-filters-bar-info">
-                <p class="section-filters-bar-title"><a href="forums.html">Forums</a></p>
+                <p class="section-filters-bar-title"><a href="forums">Forums</a></p>
         
                 <p class="section-filters-bar-text">Last category added <a class="highlighted" onClick={()=> {
                     dispatch(setLoading({
@@ -121,11 +121,11 @@ const Forums = () => {
                 </div>
         
                 <div class="table-column padded-big-left">
-                    <a class="table-link" href="forums-discussion.html">What's your favourite food in the world?</a>
+                    <a class="table-link" href="forums-discussion">What's your favourite food in the world?</a>
         
-                    <a class="table-link" href="forums-discussion.html">Share a picture of your city or town and let's travel together!</a>
+                    <a class="table-link" href="forums-discussion">Share a picture of your city or town and let's travel together!</a>
         
-                    <a class="table-link" href="forums-discussion.html">Do you think we'll ever get flying cars in the future?</a>
+                    <a class="table-link" href="forums-discussion">Do you think we'll ever get flying cars in the future?</a>
                 </div>
                 </div>
         
@@ -169,11 +169,11 @@ const Forums = () => {
                 </div>
         
                 <div class="table-column padded-big-left">
-                    <a class="table-link" href="forums-discussion.html">Post your GTE V character photo and vote for the best!</a>
+                    <a class="table-link" href="forums-discussion">Post your GTE V character photo and vote for the best!</a>
         
-                    <a class="table-link" href="forums-discussion.html">Does anyone know how to capture Mewthree?</a>
+                    <a class="table-link" href="forums-discussion">Does anyone know how to capture Mewthree?</a>
         
-                    <a class="table-link" href="forums-discussion.html">Super Brawl Bross tournament. Sign up right here!</a>
+                    <a class="table-link" href="forums-discussion">Super Brawl Bross tournament. Sign up right here!</a>
                 </div>
                 </div>
 
@@ -217,11 +217,11 @@ const Forums = () => {
                 </div>
         
                 <div class="table-column padded-big-left">
-                    <a class="table-link" href="forums-discussion.html">Introduce yourself and show us your cosplays!</a>
+                    <a class="table-link" href="forums-discussion">Introduce yourself and show us your cosplays!</a>
         
-                    <a class="table-link" href="forums-discussion.html">Show your progress. Post a photo of your first and last cosplay</a>
+                    <a class="table-link" href="forums-discussion">Show your progress. Post a photo of your first and last cosplay</a>
         
-                    <a class="table-link" href="forums-discussion.html">Tips on how to build a resistant yet light armor</a>
+                    <a class="table-link" href="forums-discussion">Tips on how to build a resistant yet light armor</a>
                 </div>
                 </div>
         
@@ -285,11 +285,11 @@ const Forums = () => {
                 </div>
         
                 <div class="table-column padded-big-left">
-                    <a class="table-link" href="forums-discussion.html">Bebop Publishing will release a limited edition of "Justice"</a>
+                    <a class="table-link" href="forums-discussion">Bebop Publishing will release a limited edition of "Justice"</a>
         
-                    <a class="table-link" href="forums-discussion.html">Come and discuss that new "Power X" transformation</a>
+                    <a class="table-link" href="forums-discussion">Come and discuss that new "Power X" transformation</a>
         
-                    <a class="table-link" href="forums-discussion.html">This is the first image of the new "Multiverse" movie!</a>
+                    <a class="table-link" href="forums-discussion">This is the first image of the new "Multiverse" movie!</a>
                 </div>
                 </div>
 
@@ -333,11 +333,11 @@ const Forums = () => {
                 </div>
         
                 <div class="table-column padded-big-left">
-                    <a class="table-link" href="forums-discussion.html">Starting your stream? Here are some tips for you!</a>
+                    <a class="table-link" href="forums-discussion">Starting your stream? Here are some tips for you!</a>
         
-                    <a class="table-link" href="forums-discussion.html">Charity Runs: Complete list of upcoming charity runs streams</a>
+                    <a class="table-link" href="forums-discussion">Charity Runs: Complete list of upcoming charity runs streams</a>
         
-                    <a class="table-link" href="forums-discussion.html">What do you think about the newest "CaptainS" rebranding?</a>
+                    <a class="table-link" href="forums-discussion">What do you think about the newest "CaptainS" rebranding?</a>
                 </div>
                 </div>
 
@@ -381,11 +381,11 @@ const Forums = () => {
                 </div>
         
                 <div class="table-column padded-big-left">
-                    <a class="table-link" href="forums-discussion.html">Ju Fighters will tour North America in Q4 2020</a>
+                    <a class="table-link" href="forums-discussion">Ju Fighters will tour North America in Q4 2020</a>
         
-                    <a class="table-link" href="forums-discussion.html">Recommend a song for...commuting to work (GAME)</a>
+                    <a class="table-link" href="forums-discussion">Recommend a song for...commuting to work (GAME)</a>
         
-                    <a class="table-link" href="forums-discussion.html">I'm selling my Flying X guitar. Come and take a look!</a>
+                    <a class="table-link" href="forums-discussion">I'm selling my Flying X guitar. Come and take a look!</a>
                 </div>
                 </div>
             </div>

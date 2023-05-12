@@ -262,7 +262,7 @@ const MarketPlaceProduct = () => {
                         <div class="tab-box-item">
                         <div class="post-comment-list no-border-top">
                             <div class="post-comment">
-                            <a class="user-avatar small no-outline" href="profile-timeline.html">
+                            <a class="user-avatar small no-outline" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
                                 </div>
@@ -288,7 +288,7 @@ const MarketPlaceProduct = () => {
                                 </div>
                             </a>
                         
-                            <p class="post-comment-text user-tag purchased"><a class="post-comment-text-author" href="profile-timeline.html">Bearded Wonder</a></p>
+                            <p class="post-comment-text user-tag purchased"><a class="post-comment-text-author" href="profile-timeline">Bearded Wonder</a></p>
                         
                             <p class="post-comment-text">Hi! I just purchased this item and I have a question, does it have the PSD files included? Thanks!</p>
                         
@@ -388,7 +388,7 @@ const MarketPlaceProduct = () => {
                             </div>
                 
                             <div class="post-comment unread reply-2">
-                            <a class="user-avatar small no-outline" href="profile-timeline.html">
+                            <a class="user-avatar small no-outline" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
                                 </div>
@@ -414,7 +414,7 @@ const MarketPlaceProduct = () => {
                                 </div>
                             </a>
                         
-                            <p class="post-comment-text user-tag author"><a class="post-comment-text-author" href="profile-timeline.html">Marina Valentine</a></p>
+                            <p class="post-comment-text user-tag author"><a class="post-comment-text-author" href="profile-timeline">Marina Valentine</a></p>
                         
                             <p class="post-comment-text">Yes! They are all included in the pack!</p>
                         
@@ -500,7 +500,7 @@ const MarketPlaceProduct = () => {
                             </div>
                 
                             <div class="post-comment">
-                            <a class="user-avatar small no-outline" href="profile-timeline.html">
+                            <a class="user-avatar small no-outline" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                                 </div>
@@ -526,7 +526,7 @@ const MarketPlaceProduct = () => {
                                 </div>
                             </a>
                         
-                            <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline.html">Nick Grissom</a></p>
+                            <p class="post-comment-text"><a class="post-comment-text-author" href="profile-timeline">Nick Grissom</a></p>
                         
                             <p class="post-comment-text">Hi Marina! I'm really liking what you did here! I've checked all the pages and the design is really great, plus it has lots of statistics and match overview options! Amazing job, and good luck!</p>
                         
@@ -635,7 +635,7 @@ const MarketPlaceProduct = () => {
                             </div>
                 
                             <div class="post-comment">
-                            <a class="user-avatar small no-outline" href="profile-timeline.html">
+                            <a class="user-avatar small no-outline" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
                                 </div>
@@ -661,7 +661,7 @@ const MarketPlaceProduct = () => {
                                 </div>
                             </a>
                         
-                            <p class="post-comment-text user-tag purchased"><a class="post-comment-text-author" href="profile-timeline.html">Neko Bebop</a></p>
+                            <p class="post-comment-text user-tag purchased"><a class="post-comment-text-author" href="profile-timeline">Neko Bebop</a></p>
                         
                             <p class="post-comment-text">Thanks for this great template! I’m already using it and it’s really awesome ;)</p>
                         
@@ -776,7 +776,7 @@ const MarketPlaceProduct = () => {
                         <div class="tab-box-item">
                         <div class="post-comment-list no-border-top">
                             <div class="post-comment">
-                            <a class="user-avatar small no-outline" href="profile-timeline.html">
+                            <a class="user-avatar small no-outline" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                                 </div>
@@ -843,7 +843,7 @@ const MarketPlaceProduct = () => {
                             <div class="content-actions">
                                 <div class="content-action">
                                 <div class="meta-line">
-                                    <p class="meta-line-text"><a href="profile-timeline.html">Nick Grissom</a></p>
+                                    <p class="meta-line-text"><a href="profile-timeline">Nick Grissom</a></p>
                                 </div>
                         
                                 <div class="meta-line">
@@ -868,7 +868,7 @@ const MarketPlaceProduct = () => {
                             </div>
                 
                             <div class="post-comment">
-                            <a class="user-avatar small no-outline" href="profile-timeline.html">
+                            <a class="user-avatar small no-outline" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
                                 </div>
@@ -935,7 +935,7 @@ const MarketPlaceProduct = () => {
                             <div class="content-actions">
                                 <div class="content-action">
                                 <div class="meta-line">
-                                    <p class="meta-line-text"><a href="profile-timeline.html">Bearded Wonder</a></p>
+                                    <p class="meta-line-text"><a href="profile-timeline">Bearded Wonder</a></p>
                                 </div>
                         
                                 <div class="meta-line">
@@ -960,7 +960,7 @@ const MarketPlaceProduct = () => {
                             </div>
                 
                             <div class="post-comment">
-                            <a class="user-avatar small no-outline" href="profile-timeline.html">
+                            <a class="user-avatar small no-outline" href="profile-timeline">
                                 <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
                                 </div>
@@ -1027,7 +1027,7 @@ const MarketPlaceProduct = () => {
                             <div class="content-actions">
                                 <div class="content-action">
                                 <div class="meta-line">
-                                    <p class="meta-line-text"><a href="profile-timeline.html">Sarah Diamond</a></p>
+                                    <p class="meta-line-text"><a href="profile-timeline">Sarah Diamond</a></p>
                                 </div>
                         
                                 <div class="meta-line">
@@ -1142,7 +1142,7 @@ const MarketPlaceProduct = () => {
                 
                     <div class="sidebar-box-items">
                         <div class="user-status">
-                        <a class="user-status-avatar" href="profile-timeline.html">
+                        <a class="user-status-avatar" href="profile-timeline">
                             <div class="user-avatar small no-outline">
                             <div class="user-avatar-content">
                                 <div class="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
@@ -1170,7 +1170,7 @@ const MarketPlaceProduct = () => {
                             </div>
                         </a>
                 
-                        <p class="user-status-title"><a class="bold" href="profile-timeline.html">Marina Valentine</a></p>
+                        <p class="user-status-title"><a class="bold" href="profile-timeline">Marina Valentine</a></p>
                 
                         <p class="user-status-text small">5 items published</p>
                         </div>
@@ -1192,13 +1192,13 @@ const MarketPlaceProduct = () => {
                             <img src="img/badge/warrior-s.png" alt="badge-warrior-s"/>
                         </div>
                 
-                        <a class="badge-item" href="profile-badges.html">
+                        <a class="badge-item" href="profile-badges">
                             <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                             <p class="badge-item-text">+9</p>
                         </a>
                         </div>
                 
-                        <a class="button small white" href="profile-store.html">View Author's Store</a>
+                        <a class="button small white" href="profile-store">View Author's Store</a>
                     </div>
                 
                     <p class="sidebar-box-title medium-space">Item Details</p>

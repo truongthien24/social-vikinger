@@ -195,7 +195,7 @@ const HeaderPrivate = (props) => {
                     
                     <div className="dropdown-box-list small no-scroll">
                     
-                    <a className="dropdown-box-list-item" href="profile-timeline.html">
+                    <a className="dropdown-box-list-item" href="profile-timeline">
                         
                         <div className="user-status notification">
                         
@@ -277,7 +277,7 @@ const HeaderPrivate = (props) => {
                     
                 
                     
-                    <a className="dropdown-box-list-item" href="profile-timeline.html">
+                    <a className="dropdown-box-list-item" href="profile-timeline">
                         
                         <div className="user-status notification">
                         
@@ -371,7 +371,7 @@ const HeaderPrivate = (props) => {
                     
                     <div className="dropdown-box-list small no-scroll">
                     
-                    <a className="dropdown-box-list-item" href="group-timeline.html">
+                    <a className="dropdown-box-list-item" href="group-timeline">
                         
                         <div className="user-status notification">
                         
@@ -425,7 +425,7 @@ const HeaderPrivate = (props) => {
                     
                     <div className="dropdown-box-list small no-scroll">
                     
-                        <a className="dropdown-box-list-item" href="marketplace-product.html">
+                        <a className="dropdown-box-list-item" href="marketplace-product">
                             
                             <div className="user-status no-padding-top">
                             
@@ -519,7 +519,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="cart-item-preview">
                             
-                            <a className="cart-item-preview-image" href="marketplace-product.html">
+                            <a className="cart-item-preview-image" href="marketplace-product">
                                 
                                 <figure className="picture medium round liquid">
                                 <img src="img/marketplace/items/01.jpg" alt="item-01"/>
@@ -529,7 +529,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="cart-item-preview-title"><a href="marketplace-product.html">Twitch Stream UI Pack</a></p>
+                            <p className="cart-item-preview-title"><a href="marketplace-product">Twitch Stream UI Pack</a></p>
                             
                         
                             
@@ -559,7 +559,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="cart-item-preview">
                             
-                            <a className="cart-item-preview-image" href="marketplace-product.html">
+                            <a className="cart-item-preview-image" href="marketplace-product">
                                 
                                 <figure className="picture medium round liquid">
                                 <img src="img/marketplace/items/11.jpg" alt="item-11"/>
@@ -569,7 +569,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="cart-item-preview-title"><a href="marketplace-product.html">Gaming Coin Badges Pack</a></p>
+                            <p className="cart-item-preview-title"><a href="marketplace-product">Gaming Coin Badges Pack</a></p>
                             
                         
                             
@@ -599,7 +599,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="cart-item-preview">
                             
-                            <a className="cart-item-preview-image" href="marketplace-product.html">
+                            <a className="cart-item-preview-image" href="marketplace-product">
                                 
                                 <figure className="picture medium round liquid">
                                 <img src="img/marketplace/items/10.jpg" alt="item-10"/>
@@ -609,7 +609,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="cart-item-preview-title"><a href="marketplace-product.html">Twitch Stream UI Pack</a></p>
+                            <p className="cart-item-preview-title"><a href="marketplace-product">Twitch Stream UI Pack</a></p>
                             
                         
                             
@@ -639,7 +639,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="cart-item-preview">
                             
-                            <a className="cart-item-preview-image" href="marketplace-product.html">
+                            <a className="cart-item-preview-image" href="marketplace-product">
                                 
                                 <figure className="picture medium round liquid">
                                 <img src="img/marketplace/items/04.jpg" alt="item-04"/>
@@ -649,7 +649,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="cart-item-preview-title"><a href="marketplace-product.html">Generic Joystick Pack</a></p>
+                            <p className="cart-item-preview-title"><a href="marketplace-product">Generic Joystick Pack</a></p>
                             
                         
                             
@@ -693,7 +693,7 @@ const HeaderPrivate = (props) => {
                         
                         <div className="dropdown-box-action">
                             
-                            <a className="button secondary" href="marketplace-cart.html">Shopping Cart</a>
+                            <a className="button secondary" href="marketplace-cart">Shopping Cart</a>
                             
                         </div>
                         
@@ -701,7 +701,7 @@ const HeaderPrivate = (props) => {
                         
                         <div className="dropdown-box-action">
                             
-                            <a className="button primary" href="marketplace-checkout.html">Go to Checkout</a>
+                            <a className="button primary" href="marketplace-checkout">Go to Checkout</a>
                             
                         </div>
                         
@@ -753,7 +753,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status request">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -809,7 +809,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">Ginny Danvers</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Ginny Danvers</a></p>
                             
                         
                             
@@ -849,7 +849,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status request">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -905,7 +905,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">Paul Lang</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Paul Lang</a></p>
                             
                         
                             
@@ -945,7 +945,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status request">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -1001,7 +1001,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">Cassie May</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Cassie May</a></p>
                             
                         
                             
@@ -1039,7 +1039,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-button secondary" href="hub-profile-requests.html">View all Requests</a>
+                        <a className="dropdown-box-button secondary" href="hub-profile-requests">View all Requests</a>
                         
                     </div>
                     
@@ -1083,7 +1083,7 @@ const HeaderPrivate = (props) => {
                         
                         <div className="dropdown-box-list medium" data-simplebar>
                         
-                        <a className="dropdown-box-list-item" href="hub-profile-messages.html">
+                        <a className="dropdown-box-list-item" href="hub-profile-messages">
                             
                             <div className="user-status">
                             
@@ -1159,7 +1159,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-list-item" href="hub-profile-messages.html">
+                        <a className="dropdown-box-list-item" href="hub-profile-messages">
                             
                             <div className="user-status">
                             
@@ -1235,7 +1235,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-list-item" href="hub-profile-messages.html">
+                        <a className="dropdown-box-list-item" href="hub-profile-messages">
                             
                             <div className="user-status">
                             
@@ -1311,7 +1311,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-list-item" href="hub-profile-messages.html">
+                        <a className="dropdown-box-list-item" href="hub-profile-messages">
                             
                             <div className="user-status">
                             
@@ -1387,7 +1387,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-list-item" href="hub-profile-messages.html">
+                        <a className="dropdown-box-list-item" href="hub-profile-messages">
                             
                             <div className="user-status">
                             
@@ -1463,7 +1463,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-list-item" href="hub-profile-messages.html">
+                        <a className="dropdown-box-list-item" href="hub-profile-messages">
                             
                             <div className="user-status">
                             
@@ -1541,7 +1541,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-button primary" href="hub-profile-messages.html">View all Messages</a>
+                        <a className="dropdown-box-button primary" href="hub-profile-messages">View all Messages</a>
                         
                     </div>
                    
@@ -1589,7 +1589,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status notification">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -1645,7 +1645,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">Nick Grissom</a> posted a comment on your <a className="highlighted" href="profile-timeline.html">status update</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Nick Grissom</a> posted a comment on your <a className="highlighted" href="profile-timeline">status update</a></p>
                             
                         
                             
@@ -1671,7 +1671,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status notification">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -1727,7 +1727,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">Sarah Diamond</a> left a like <img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> reaction on your <a className="highlighted" href="profile-timeline.html">status update</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Sarah Diamond</a> left a like <img className="reaction" src="img/reaction/like.png" alt="reaction-like"/> reaction on your <a className="highlighted" href="profile-timeline">status update</a></p>
                             
                         
                             
@@ -1753,7 +1753,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status notification">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -1809,7 +1809,7 @@ const HeaderPrivate = (props) => {
                             
                     
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">Destroy Dex</a> posted a comment on your <a className="highlighted" href="profile-photos.html">photo</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Destroy Dex</a> posted a comment on your <a className="highlighted" href="profile-photos">photo</a></p>
                             
                     
                             
@@ -1835,7 +1835,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status notification">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -1891,7 +1891,7 @@ const HeaderPrivate = (props) => {
                             
                     
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">The Green Goo</a> left a love <img className="reaction" src="img/reaction/love.png" alt="reaction-love"/> reaction on your <a className="highlighted" href="profile-timeline.html">status update</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">The Green Goo</a> left a love <img className="reaction" src="img/reaction/love.png" alt="reaction-love"/> reaction on your <a className="highlighted" href="profile-timeline">status update</a></p>
                             
                     
                             
@@ -1917,7 +1917,7 @@ const HeaderPrivate = (props) => {
                             
                             <div className="user-status notification">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                                 
                                 <div className="user-avatar small no-outline">
                                 
@@ -1973,7 +1973,7 @@ const HeaderPrivate = (props) => {
                             
                     
                             
-                            <p className="user-status-title"><a className="bold" href="profile-timeline.html">Neko Bebop</a> posted a comment on your <a className="highlighted" href="profile-timeline.html">status update</a></p>
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Neko Bebop</a> posted a comment on your <a className="highlighted" href="profile-timeline">status update</a></p>
                             
                     
                             
@@ -1997,7 +1997,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-box-button secondary" href="hub-profile-notifications.html">View all Notifications</a>
+                        <a className="dropdown-box-button secondary" href="hub-profile-notifications">View all Notifications</a>
                         
                     </div>
                     
@@ -2025,7 +2025,7 @@ const HeaderPrivate = (props) => {
                         
                         <div className="user-status">
                             
-                            <a className="user-status-avatar" href="profile-timeline.html">
+                            <a className="user-status-avatar" href="profile-timeline">
                             
                             <div className="user-avatar small no-outline">
                                 
@@ -2085,7 +2085,7 @@ const HeaderPrivate = (props) => {
                             
                         
                             
-                            <p className="user-status-text small"><a href="profile-timeline.html">@marinavalentine</a></p>
+                            <p className="user-status-text small"><a href="profile-timeline">@marinavalentine</a></p>
                             
                         </div>
                         
@@ -2097,23 +2097,23 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-profile-info.html">Profile Info</a>
+                        <a className="dropdown-navigation-link" href="hub-profile-info">Profile Info</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-profile-social.html">Social &amp; Stream</a>
+                        <a className="dropdown-navigation-link" href="hub-profile-social">Social &amp; Stream</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-profile-notifications.html">Notifications</a>
+                        <a className="dropdown-navigation-link" href="hub-profile-notifications">Notifications</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-profile-messages.html">Messages</a>
+                        <a className="dropdown-navigation-link" href="hub-profile-messages">Messages</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-profile-requests.html">Friend Requests</a>
+                        <a className="dropdown-navigation-link" href="hub-profile-requests">Friend Requests</a>
                         
                     
                         
@@ -2121,15 +2121,15 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-account-info.html">Account Info</a>
+                        <a className="dropdown-navigation-link" href="hub-account-info">Account Info</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-account-password.html">Change Password</a>
+                        <a className="dropdown-navigation-link" href="hub-account-password">Change Password</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-account-settings.html">General Settings</a>
+                        <a className="dropdown-navigation-link" href="hub-account-settings">General Settings</a>
                         
                     
                         
@@ -2137,11 +2137,11 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-group-management.html">Manage Groups</a>
+                        <a className="dropdown-navigation-link" href="hub-group-management">Manage Groups</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-group-invitations.html">Invitations</a>
+                        <a className="dropdown-navigation-link" href="hub-group-invitations">Invitations</a>
                         
                     
                         
@@ -2149,19 +2149,19 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-store-account.html">My Account <span className="highlighted">$250,32</span></a>
+                        <a className="dropdown-navigation-link" href="hub-store-account">My Account <span className="highlighted">$250,32</span></a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-store-statement.html">Sales Statement</a>
+                        <a className="dropdown-navigation-link" href="hub-store-statement">Sales Statement</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-store-items.html">Manage Items</a>
+                        <a className="dropdown-navigation-link" href="hub-store-items">Manage Items</a>
                         
                     
                         
-                        <a className="dropdown-navigation-link" href="hub-store-downloads.html">Downloads</a>
+                        <a className="dropdown-navigation-link" href="hub-store-downloads">Downloads</a>
                         
                     
                         

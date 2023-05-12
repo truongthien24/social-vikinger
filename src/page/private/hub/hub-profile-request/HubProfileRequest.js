@@ -20,7 +20,7 @@ const HubProfileRequest = () => {
         <div class="notification-box-list">
         <div class="notification-box">
             <div class="user-status request">
-            <a class="user-status-avatar" href="profile-timeline.html">
+            <a class="user-status-avatar" href="profile-timeline">
                 <div class="user-avatar small no-outline">
                 <div class="user-avatar-content">
                     <div class="hexagon-image-30-32" data-src="img/avatar/16.jpg"></div>
@@ -48,7 +48,7 @@ const HubProfileRequest = () => {
                 </div>
             </a>
 
-            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Ginny Danvers</a></p>
+            <p class="user-status-title"><a class="bold" href="profile-timeline">Ginny Danvers</a></p>
 
             <p class="user-status-text small-space">6 friends in common</p>
 
@@ -72,7 +72,7 @@ const HubProfileRequest = () => {
 
         <div class="notification-box">
             <div class="user-status request">
-            <a class="user-status-avatar" href="profile-timeline.html">
+            <a class="user-status-avatar" href="profile-timeline">
                 <div class="user-avatar small no-outline">
                 <div class="user-avatar-content">
                     <div class="hexagon-image-30-32" data-src="img/avatar/14.jpg"></div>
@@ -100,7 +100,7 @@ const HubProfileRequest = () => {
                 </div>
             </a>
 
-            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Paul Lang</a></p>
+            <p class="user-status-title"><a class="bold" href="profile-timeline">Paul Lang</a></p>
 
             <p class="user-status-text small-space">2 friends in common</p>
 
@@ -124,7 +124,7 @@ const HubProfileRequest = () => {
 
         <div class="notification-box">
             <div class="user-status request">
-            <a class="user-status-avatar" href="profile-timeline.html">
+            <a class="user-status-avatar" href="profile-timeline">
                 <div class="user-avatar small no-outline">
                 <div class="user-avatar-content">
                     <div class="hexagon-image-30-32" data-src="img/avatar/11.jpg"></div>
@@ -152,7 +152,7 @@ const HubProfileRequest = () => {
                 </div>
             </a>
 
-            <p class="user-status-title"><a class="bold" href="profile-timeline.html">Cassie May</a></p>
+            <p class="user-status-title"><a class="bold" href="profile-timeline">Cassie May</a></p>
 
             <p class="user-status-text small-space">4 friends in common</p>
 

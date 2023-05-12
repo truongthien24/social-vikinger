@@ -344,7 +344,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">I'm Playing Athena’s Goddess Story...</a></p>
+            <p class="stream-box-title"><a href="profile-stream">I'm Playing Athena’s Goddess Story...</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@GameHuntress</a></p>
         
@@ -400,7 +400,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">Ram Goddess Gameplay</a></p>
+            <p class="stream-box-title"><a href="profile-stream">Ram Goddess Gameplay</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@NekoStreamz</a></p>
         
@@ -456,7 +456,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">I Play the Witch Hunters Story with...</a></p>
+            <p class="stream-box-title"><a href="profile-stream">I Play the Witch Hunters Story with...</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@DexD-Destroyer</a></p>
         
@@ -512,7 +512,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">First Play: Zodiac Goddess</a></p>
+            <p class="stream-box-title"><a href="profile-stream">First Play: Zodiac Goddess</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@Diamondette</a></p>
         
@@ -568,7 +568,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">Rony's EggRing Quest</a></p>
+            <p class="stream-box-title"><a href="profile-stream">Rony's EggRing Quest</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@BeardedWonder66</a></p>
         
@@ -624,7 +624,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">Robo Bross Level Maker</a></p>
+            <p class="stream-box-title"><a href="profile-stream">Robo Bross Level Maker</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@TomatoFilter</a></p>
         
@@ -680,7 +680,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">Athena Goddess Gameplay</a></p>
+            <p class="stream-box-title"><a href="profile-stream">Athena Goddess Gameplay</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@StaggPatrns</a></p>
         
@@ -736,7 +736,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">2 New Levels on Mochi's Island for the...</a></p>
+            <p class="stream-box-title"><a href="profile-stream">2 New Levels on Mochi's Island for the...</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@HappyWhale</a></p>
         
@@ -792,7 +792,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">Hare Goddess Gameplay</a></p>
+            <p class="stream-box-title"><a href="profile-stream">Hare Goddess Gameplay</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@Mane-Queen</a></p>
         
@@ -848,7 +848,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">1 Hour of Capture the Flag</a></p>
+            <p class="stream-box-title"><a href="profile-stream">1 Hour of Capture the Flag</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@DoAlchemist</a></p>
         
@@ -904,7 +904,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">Witch Paragliding Minigame</a></p>
+            <p class="stream-box-title"><a href="profile-stream">Witch Paragliding Minigame</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@BunnyWarrior</a></p>
         
@@ -960,7 +960,7 @@ const Stream = () => {
             </div>
         
             <div class="stream-box-info">
-            <p class="stream-box-title"><a href="profile-stream.html">Exploring The Orc Witch Cave</a></p>
+            <p class="stream-box-title"><a href="profile-stream">Exploring The Orc Witch Cave</a></p>
         
             <p class="stream-box-text"><a href="https://www.twitch.tv/" target="_blank">@Nick'sArcade</a></p>
         

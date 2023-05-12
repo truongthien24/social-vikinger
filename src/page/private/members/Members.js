@@ -159,7 +159,7 @@ const Members = () => {
                     <img src="img/badge/rmachine-s.png" alt="badge-rmachine-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+29</p>
                     </a>
@@ -308,7 +308,7 @@ const Members = () => {
                     <img src="img/badge/rulerm-s.png" alt="badge-rulerm-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+12</p>
                     </a>
@@ -489,7 +489,7 @@ const Members = () => {
                     <img src="img/badge/sloved-s.png" alt="badge-sloved-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+9</p>
                     </a>
@@ -632,7 +632,7 @@ const Members = () => {
                     <img src="img/badge/caffeinated-s.png" alt="badge-caffeinated-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+32</p>
                     </a>
@@ -775,7 +775,7 @@ const Members = () => {
                     <img src="img/badge/fcultivator-s.png" alt="badge-fcultivator-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+22</p>
                     </a>
@@ -924,7 +924,7 @@ const Members = () => {
                     <img src="img/badge/forumsf-s.png" alt="badge-forumsf-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+7</p>
                     </a>
@@ -1067,7 +1067,7 @@ const Members = () => {
                     <img src="img/badge/forumsf-s.png" alt="badge-forumsf-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+2</p>
                     </a>
@@ -1210,7 +1210,7 @@ const Members = () => {
                     <img src="img/badge/prophoto-s.png" alt="badge-prophoto-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+18</p>
                     </a>
@@ -1391,7 +1391,7 @@ const Members = () => {
                     <img src="img/badge/globet-s.png" alt="badge-globet-s"/>
                     </div>
             
-                    <a class="badge-item" href="profile-badges.html">
+                    <a class="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     <p class="badge-item-text">+6</p>
                     </a>

@@ -46,7 +46,7 @@ const ProfileGroupsNormalGrid = (props) => {
         
         <div className="user-short-description">
           
-          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline.html">
+          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline">
             
             <div className="user-avatar-border">
               
@@ -66,7 +66,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
     
           
-          <p className="user-short-description-title"><a href="group-timeline.html">Twitch Streamers</a></p>
+          <p className="user-short-description-title"><a href="group-timeline">Twitch Streamers</a></p>
           
     
           
@@ -218,7 +218,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
   
           
-          <a className="user-avatar smaller no-stats" href="group-members.html">
+          <a className="user-avatar smaller no-stats" href="group-members">
             
             <div className="user-avatar-border">
               
@@ -295,7 +295,7 @@ const ProfileGroupsNormalGrid = (props) => {
         
         <div className="user-short-description">
           
-          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline.html">
+          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline">
             
             <div className="user-avatar-border">
               
@@ -315,7 +315,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
     
           
-          <p className="user-short-description-title"><a href="group-timeline.html">Stream Designers</a></p>
+          <p className="user-short-description-title"><a href="group-timeline">Stream Designers</a></p>
           
     
           
@@ -467,7 +467,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
   
           
-          <a className="user-avatar smaller no-stats" href="group-members.html">
+          <a className="user-avatar smaller no-stats" href="group-members">
             
             <div className="user-avatar-border">
               
@@ -546,7 +546,7 @@ const ProfileGroupsNormalGrid = (props) => {
         
         <div className="user-short-description">
           
-          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline.html">
+          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline">
             
             <div className="user-avatar-border">
               
@@ -566,7 +566,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
     
           
-          <p className="user-short-description-title"><a href="group-timeline.html">Street Artists</a></p>
+          <p className="user-short-description-title"><a href="group-timeline">Street Artists</a></p>
           
     
           
@@ -718,7 +718,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
   
           
-          <a className="user-avatar smaller no-stats" href="group-members.html">
+          <a className="user-avatar smaller no-stats" href="group-members">
             
             <div className="user-avatar-border">
               
@@ -797,7 +797,7 @@ const ProfileGroupsNormalGrid = (props) => {
         
         <div className="user-short-description">
           
-          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline.html">
+          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline">
             
             <div className="user-avatar-border">
               
@@ -817,7 +817,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
     
           
-          <p className="user-short-description-title"><a href="group-timeline.html">Gaming Watchtower</a></p>
+          <p className="user-short-description-title"><a href="group-timeline">Gaming Watchtower</a></p>
           
     
           
@@ -969,7 +969,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
   
           
-          <a className="user-avatar smaller no-stats" href="group-members.html">
+          <a className="user-avatar smaller no-stats" href="group-members">
             
             <div className="user-avatar-border">
               
@@ -1048,7 +1048,7 @@ const ProfileGroupsNormalGrid = (props) => {
         
         <div className="user-short-description">
           
-          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline.html">
+          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline">
             
             <div className="user-avatar-border">
               
@@ -1068,7 +1068,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
     
           
-          <p className="user-short-description-title"><a href="group-timeline.html">Retro Arcade</a></p>
+          <p className="user-short-description-title"><a href="group-timeline">Retro Arcade</a></p>
           
     
           
@@ -1220,7 +1220,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
   
           
-          <a className="user-avatar smaller no-stats" href="group-members.html">
+          <a className="user-avatar smaller no-stats" href="group-members">
             
             <div className="user-avatar-border">
               
@@ -1299,7 +1299,7 @@ const ProfileGroupsNormalGrid = (props) => {
         
         <div className="user-short-description">
           
-          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline.html">
+          <a className="user-short-description-avatar user-avatar medium no-stats" href="group-timeline">
             
             <div className="user-avatar-border">
               
@@ -1319,7 +1319,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
     
           
-          <p className="user-short-description-title"><a href="group-timeline.html">Living in Japan</a></p>
+          <p className="user-short-description-title"><a href="group-timeline">Living in Japan</a></p>
           
     
           
@@ -1471,7 +1471,7 @@ const ProfileGroupsNormalGrid = (props) => {
           
   
           
-          <a className="user-avatar smaller no-stats" href="group-members.html">
+          <a className="user-avatar smaller no-stats" href="group-members">
             
             <div className="user-avatar-border">
               

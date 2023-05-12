@@ -96,7 +96,7 @@ const UserPreviewList = (props) => {
                     
             
                     
-                    <p className="user-short-description-title"><a href="profile-timeline.html">{data?.userName}</a></p>
+                    <p className="user-short-description-title"><a href="profile-timeline">{data?.userName}</a></p>
                     
             
                     
@@ -110,7 +110,7 @@ const UserPreviewList = (props) => {
                         renderBadge()
                     }
                     
-                    <a className="badge-item" href="profile-badges.html">
+                    <a className="badge-item" href="profile-badges">
                     <img src="img/badge/blank-s.png" alt="badge-blank-s"/>
                     
                     <p className="badge-item-text">+29</p>

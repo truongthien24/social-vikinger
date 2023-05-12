@@ -92,7 +92,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -130,7 +130,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Twitch Stream UI Pack</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Twitch Stream UI Pack</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -168,7 +168,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -206,7 +206,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Twitch Stream UI Pack</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Twitch Stream UI Pack</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -244,7 +244,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Twitch Stream UI Pack</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Twitch Stream UI Pack</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -282,7 +282,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Gaming Coin Badges Pack</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Gaming Coin Badges Pack</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -320,7 +320,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">People Illustrations Pack 01</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">People Illustrations Pack 01</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -358,7 +358,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -396,7 +396,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Emerald Dragon Digital Marketplace</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Emerald Dragon Digital Marketplace</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -434,7 +434,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Pixel Diamond Gaming Magazine</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -472,7 +472,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Twitch Stream UI Pack</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Twitch Stream UI Pack</span></a>
                 </div>
         
                 <div class="table-column centered padded">
@@ -510,7 +510,7 @@ const HubStoreStatement = () => {
                 </div>
         
                 <div class="table-column padded-left">
-                <a class="table-link" href="marketplace-product.html"><span class="highlighted">Emerald Dragon Digital Marketplace</span></a>
+                <a class="table-link" href="marketplace-product"><span class="highlighted">Emerald Dragon Digital Marketplace</span></a>
                 </div>
         
                 <div class="table-column centered padded">

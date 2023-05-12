@@ -25,7 +25,7 @@ const HubGroupInvitations = () => {
               </div>
         
               <div class="user-short-description small">
-                <a class="user-short-description-avatar user-avatar no-stats" href="group-timeline.html">
+                <a class="user-short-description-avatar user-avatar no-stats" href="group-timeline">
                   <div class="user-avatar-border">
                     <div class="hexagon-100-108"></div>
                   </div>
@@ -35,7 +35,7 @@ const HubGroupInvitations = () => {
                   </div>
                 </a>
           
-                <p class="user-short-description-title"><a href="group-timeline.html">Street Artists</a></p>
+                <p class="user-short-description-title"><a href="group-timeline">Street Artists</a></p>
           
                 <p class="user-short-description-text">Sharing the art!</p>
               </div>
@@ -77,7 +77,7 @@ const HubGroupInvitations = () => {
         
             <div class="user-preview-footer padded">
               <div class="user-preview-author">
-                <a class="user-preview-author-image user-avatar micro no-border" href="profile-timeline.html">
+                <a class="user-preview-author-image user-avatar micro no-border" href="profile-timeline">
                   <div class="user-avatar-content">
                     <div class="hexagon-image-18-20" data-src="img/avatar/05.jpg"></div>
                   </div>
@@ -85,7 +85,7 @@ const HubGroupInvitations = () => {
         
                 <p class="user-preview-author-title">Invited By</p>
         
-                <p class="user-preview-author-text"><a href="profile-timeline.html">Neko Bebop</a></p>
+                <p class="user-preview-author-text"><a href="profile-timeline">Neko Bebop</a></p>
               </div>
             </div>
           </div>

@@ -22,11 +22,11 @@ const ForumDiscussion = () => {
             <div class="section-filters-bar v7">
             <div class="section-filters-bar-actions">
                 <div class="section-filters-bar-info">
-                <p class="section-filters-bar-title"><a href="forums.html">Forums</a><span class="separator"></span><a href="forums-category.html">Animation Watchtower</a><span class="separator"></span><a href="forums-category.html">Comics</a><span class="separator"></span><a href="forums-discussion.html">Let's discuss the current state of the Comics Cinematic Universe</a></p>
+                <p class="section-filters-bar-title"><a href="forums">Forums</a><span class="separator"></span><a href="forums-category">Animation Watchtower</a><span class="separator"></span><a href="forums-category">Comics</a><span class="separator"></span><a href="forums-discussion">Let's discuss the current state of the Comics Cinematic Universe</a></p>
         
                 <div class="section-filters-bar-text small-space">
                     Last post by
-                    <a class="user-avatar micro no-stats" href="profile-timeline.html">
+                    <a class="user-avatar micro no-stats" href="profile-timeline">
                     <div class="user-avatar-border">
                         <div class="hexagon-22-24"></div>
                     </div>
@@ -35,7 +35,7 @@ const ForumDiscussion = () => {
                         <div class="hexagon-image-18-20" data-src="img/avatar/05.jpg"></div>
                     </div>
                     </a>
-                    <a class="bold" href="profile-timeline.html">Neko Bebop</a>
+                    <a class="bold" href="profile-timeline">Neko Bebop</a>
                     1 hour, 36 minutes ago
                 </div>
                 </div>
@@ -64,7 +64,7 @@ const ForumDiscussion = () => {
                 
                     <div class="forum-post-content">
                     <div class="forum-post-user">
-                        <a class="user-avatar no-outline" href="profile-timeline.html">
+                        <a class="user-avatar no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-68-74" data-src="img/avatar/07.jpg"></div>
                         </div>
@@ -90,7 +90,7 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
                 
-                        <a class="user-avatar small no-outline" href="profile-timeline.html">
+                        <a class="user-avatar small no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
                         </div>
@@ -116,9 +116,9 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
                         
-                        <p class="forum-post-user-title"><a href="profile-timeline.html">Sarah Diamond</a></p>
+                        <p class="forum-post-user-title"><a href="profile-timeline">Sarah Diamond</a></p>
                 
-                        <p class="forum-post-user-text"><a href="profile-timeline.html">@sarahdiamond</a></p>
+                        <p class="forum-post-user-text"><a href="profile-timeline">@sarahdiamond</a></p>
                 
                         <p class="forum-post-user-tag organizer">Organizer</p>
                     </div>
@@ -146,7 +146,7 @@ const ForumDiscussion = () => {
                 
                     <div class="forum-post-content">
                     <div class="forum-post-user">
-                        <a class="user-avatar no-outline" href="profile-timeline.html">
+                        <a class="user-avatar no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-68-74" data-src="img/avatar/02.jpg"></div>
                         </div>
@@ -172,7 +172,7 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
             
-                        <a class="user-avatar small no-outline" href="profile-timeline.html">
+                        <a class="user-avatar small no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/02.jpg"></div>
                         </div>
@@ -198,9 +198,9 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
                         
-                        <p class="forum-post-user-title"><a href="profile-timeline.html">Destroy Dex</a></p>
+                        <p class="forum-post-user-title"><a href="profile-timeline">Destroy Dex</a></p>
                 
-                        <p class="forum-post-user-text"><a href="profile-timeline.html">@destroydex</a></p>
+                        <p class="forum-post-user-text"><a href="profile-timeline">@destroydex</a></p>
                 
                         <p class="forum-post-user-tag">Participant</p>
                     </div>
@@ -224,7 +224,7 @@ const ForumDiscussion = () => {
             
                     <div class="forum-post-content">
                     <div class="forum-post-user">
-                        <a class="user-avatar no-outline" href="profile-timeline.html">
+                        <a class="user-avatar no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-68-74" data-src="img/avatar/03.jpg"></div>
                         </div>
@@ -250,7 +250,7 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
             
-                        <a class="user-avatar small no-outline" href="profile-timeline.html">
+                        <a class="user-avatar small no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                         </div>
@@ -276,9 +276,9 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
                         
-                        <p class="forum-post-user-title"><a href="profile-timeline.html">Nick Grissom</a></p>
+                        <p class="forum-post-user-title"><a href="profile-timeline">Nick Grissom</a></p>
             
-                        <p class="forum-post-user-text"><a href="profile-timeline.html">@nickgrissom</a></p>
+                        <p class="forum-post-user-text"><a href="profile-timeline">@nickgrissom</a></p>
             
                         <p class="forum-post-user-tag">Participant</p>
                     </div>
@@ -304,7 +304,7 @@ const ForumDiscussion = () => {
             
                     <div class="forum-post-content">
                     <div class="forum-post-user">
-                        <a class="user-avatar no-outline" href="profile-timeline.html">
+                        <a class="user-avatar no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-68-74" data-src="img/avatar/05.jpg"></div>
                         </div>
@@ -330,7 +330,7 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
             
-                        <a class="user-avatar small no-outline" href="profile-timeline.html">
+                        <a class="user-avatar small no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/05.jpg"></div>
                         </div>
@@ -356,9 +356,9 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
                         
-                        <p class="forum-post-user-title"><a href="profile-timeline.html">Neko Bebop</a></p>
+                        <p class="forum-post-user-title"><a href="profile-timeline">Neko Bebop</a></p>
             
-                        <p class="forum-post-user-text"><a href="profile-timeline.html">@nekobebop</a></p>
+                        <p class="forum-post-user-text"><a href="profile-timeline">@nekobebop</a></p>
             
                         <p class="forum-post-user-tag">Participant</p>
                     </div>
@@ -382,7 +382,7 @@ const ForumDiscussion = () => {
             
                     <div class="forum-post-content">
                     <div class="forum-post-user">
-                        <a class="user-avatar no-outline" href="profile-timeline.html">
+                        <a class="user-avatar no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-68-74" data-src="img/avatar/03.jpg"></div>
                         </div>
@@ -408,7 +408,7 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
             
-                        <a class="user-avatar small no-outline" href="profile-timeline.html">
+                        <a class="user-avatar small no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
                         </div>
@@ -434,9 +434,9 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
                         
-                        <p class="forum-post-user-title"><a href="profile-timeline.html">Nick Grissom</a></p>
+                        <p class="forum-post-user-title"><a href="profile-timeline">Nick Grissom</a></p>
             
-                        <p class="forum-post-user-text"><a href="profile-timeline.html">@nickgrissom</a></p>
+                        <p class="forum-post-user-text"><a href="profile-timeline">@nickgrissom</a></p>
             
                         <p class="forum-post-user-tag">Participant</p>
                     </div>
@@ -460,7 +460,7 @@ const ForumDiscussion = () => {
             
                     <div class="forum-post-content">
                     <div class="forum-post-user">
-                        <a class="user-avatar no-outline" href="profile-timeline.html">
+                        <a class="user-avatar no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-68-74" data-src="img/avatar/04.jpg"></div>
                         </div>
@@ -486,7 +486,7 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
             
-                        <a class="user-avatar small no-outline" href="profile-timeline.html">
+                        <a class="user-avatar small no-outline" href="profile-timeline">
                         <div class="user-avatar-content">
                             <div class="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
                         </div>
@@ -512,9 +512,9 @@ const ForumDiscussion = () => {
                         </div>
                         </a>
                         
-                        <p class="forum-post-user-title"><a href="profile-timeline.html">Bearded Wonder</a></p>
+                        <p class="forum-post-user-title"><a href="profile-timeline">Bearded Wonder</a></p>
             
-                        <p class="forum-post-user-text"><a href="profile-timeline.html">@beardedwonder</a></p>
+                        <p class="forum-post-user-text"><a href="profile-timeline">@beardedwonder</a></p>
             
                         <p class="forum-post-user-tag">Participant</p>
                     </div>
