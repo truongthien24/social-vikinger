@@ -22,16 +22,16 @@ const LayoutPrivate = ({ children }) => {
     setIsNavigationWidget(!isNavigationWidget);
   }
 
-  useEffect(() => {
-    let script = document.createElement("script");
-    let script12 = document.createElement("script");
-    script.src = "/js/utils/app.js";
-    script12.src = "/js/content/content.js";
-    script.async = true;
-    script12.async = true;
-    document.body.appendChild(script);
-    document.body.appendChild(script12);
-  }, [])
+  // useEffect(() => {
+  //   let script = document.createElement("script");
+  //   let script12 = document.createElement("script");
+  //   script.src = "/js/utils/app.js";
+  //   script12.src = "/js/content/content.js";
+  //   script.async = true;
+  //   script12.async = true;
+  //   document.body.appendChild(script);
+  //   document.body.appendChild(script12);
+  // }, [])
 
 
   const dispatch = useDispatch();
@@ -158,7 +158,9 @@ const LayoutPrivate = ({ children }) => {
         </div>
       </aside>
 
-      {children}
+      <div className="content-grid">
+        {children}
+      </div>
 
       <PopupBox/>
       <PopupPicture/>

@@ -4,7 +4,7 @@ import ProfileNavigation from './component/profileNavigation/ProfileNavigation'
 
 const LayoutProfile = ({ children }) => {
   return (
-    <div className="content-grid">
+    <>
         
         <ProfileHeader/>
         
@@ -12,7 +12,7 @@ const LayoutProfile = ({ children }) => {
         
         {children}
 
-      </div>
+    </>
   )
 }
 

@@ -6,6 +6,7 @@ import Loading from './share/component/Loading';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setLoading } from './redux/action/homeAction';
+// import { ScriptTag } from 'react-script-tag'
 import "./util/sass/main.css";
 
 function App() {
@@ -27,8 +28,6 @@ function App() {
     const dispatch = useDispatch();
 
     const {pathname} = window.location;
-
-    console.log('pathname', pathname)
 
      useEffect(()=> {
         let script = document.createElement("script");
@@ -79,8 +78,8 @@ function App() {
         script14.async = true;
         script15.async = true;
         script16.async = true;
-        document.body.appendChild(script10);
         document.body.appendChild(script);
+        document.body.appendChild(script10);
         document.body.appendChild(script13);
         document.body.appendChild(script2);
         document.body.appendChild(script3);
@@ -100,6 +99,24 @@ function App() {
             status: 'done'
           }))
         }, 500)
+        return () => {
+          document.body.removeChild(script);
+          document.body.removeChild(script10);
+          document.body.removeChild(script13);
+          document.body.removeChild(script2);
+          document.body.removeChild(script3);
+          document.body.removeChild(script4);
+          document.body.removeChild(script5);
+          document.body.removeChild(script6);
+          document.body.removeChild(script7);
+          document.body.removeChild(script8);
+          document.body.removeChild(script9);
+          document.body.removeChild(script11);
+          document.body.removeChild(script12);
+          document.body.removeChild(script14);
+          document.body.removeChild(script15);
+          document.body.removeChild(script16);
+        }
      }, [pathname])
 
     useEffect(()=> {

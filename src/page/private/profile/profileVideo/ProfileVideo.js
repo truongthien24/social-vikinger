@@ -21,157 +21,157 @@ const ProfileVideo = () => {
     }, [])
     
     return (
-        <section class="section">
-            <div class="section-header">
-                <div class="section-header-info">
-                    <p class="section-pretitle">Browse Marina's</p>
+        <section className="section">
+            <div className="section-header">
+                <div className="section-header-info">
+                    <p className="section-pretitle">Browse Marina's</p>
 
-                    <h2 class="section-title">Videos <span class="highlighted">7</span></h2>
+                    <h2 className="section-title">Videos <span className="highlighted">7</span></h2>
                 </div>
 
-                <div class="section-header-actions">
-                    <p class="section-header-action">Add Video +</p>
+                <div className="section-header-actions">
+                    <p className="section-header-action">Add Video +</p>
                 </div>
             </div>
 
-            <div class="grid grid-3-3-3-3 centered">
-                <div class="video-box">
-                    <div class="video-box-cover popup-video-trigger">
-                    <figure class="video-box-cover-image liquid">
+            <div className="grid grid-3-3-3-3 centered">
+                <div className="video-box">
+                    <div className="video-box-cover popup-video-trigger">
+                    <figure className="video-box-cover-image liquid">
                         <img src="img/cover/08.jpg" alt="cover-08"/>
                     </figure>
                 
-                    <div class="play-button">
-                        <svg class="play-button-icon icon-play">
+                    <div className="play-button">
+                        <svg className="play-button-icon icon-play">
                         <use xlinkHref="#svg-play"></use>
                         </svg>
                     </div>
                     </div>
                 
-                    <div class="video-box-info">
-                    <p class="video-box-title">Mochi's Island Story Mode</p>
+                    <div className="video-box-info">
+                    <p className="video-box-title">Mochi's Island Story Mode</p>
                 
-                    <p class="video-box-text">1 hour ago</p>
+                    <p className="video-box-text">1 hour ago</p>
                     </div>
                 </div>
 
-                <div class="video-box">
-                    <div class="video-box-cover popup-video-trigger">
-                    <figure class="video-box-cover-image liquid">
+                <div className="video-box">
+                    <div className="video-box-cover popup-video-trigger">
+                    <figure className="video-box-cover-image liquid">
                         <img src="img/cover/09.jpg" alt="cover-09"/>
                     </figure>
                 
-                    <div class="play-button">
-                        <svg class="play-button-icon icon-play">
+                    <div className="play-button">
+                        <svg className="play-button-icon icon-play">
                         <use xlinkHref="#svg-play"></use>
                         </svg>
                     </div>
                     </div>
                 
-                    <div class="video-box-info">
-                    <p class="video-box-title">Sunset Cowboys Walkthrough</p>
+                    <div className="video-box-info">
+                    <p className="video-box-title">Sunset Cowboys Walkthrough</p>
                 
-                    <p class="video-box-text">3 days ago</p>
+                    <p className="video-box-text">3 days ago</p>
                     </div>
                 </div>
 
-                <div class="video-box">
-                    <div class="video-box-cover popup-video-trigger">
-                    <figure class="video-box-cover-image liquid">
+                <div className="video-box">
+                    <div className="video-box-cover popup-video-trigger">
+                    <figure className="video-box-cover-image liquid">
                         <img src="img/cover/05.jpg" alt="cover-05"/>
                     </figure>
                 
-                    <div class="play-button">
-                        <svg class="play-button-icon icon-play">
+                    <div className="play-button">
+                        <svg className="play-button-icon icon-play">
                         <use xlinkHref="#svg-play"></use>
                         </svg>
                     </div>
                     </div>
                 
-                    <div class="video-box-info">
-                    <p class="video-box-title">Quest of the Ogre II: The Revenge USA...</p>
+                    <div className="video-box-info">
+                    <p className="video-box-title">Quest of the Ogre II: The Revenge USA...</p>
                 
-                    <p class="video-box-text">5 days ago</p>
+                    <p className="video-box-text">5 days ago</p>
                     </div>
                 </div>
 
-                <div class="video-box">
-                    <div class="video-box-cover popup-video-trigger">
-                    <figure class="video-box-cover-image liquid">
+                <div className="video-box">
+                    <div className="video-box-cover popup-video-trigger">
+                    <figure className="video-box-cover-image liquid">
                         <img src="img/cover/22.jpg" alt="cover-22"/>
                     </figure>
                 
-                    <div class="play-button">
-                        <svg class="play-button-icon icon-play">
+                    <div className="play-button">
+                        <svg className="play-button-icon icon-play">
                         <use xlinkHref="#svg-play"></use>
                         </svg>
                     </div>
                     </div>
                 
-                    <div class="video-box-info">
-                    <p class="video-box-title">GameCon 2019 Arcade Palace!</p>
+                    <div className="video-box-info">
+                    <p className="video-box-title">GameCon 2019 Arcade Palace!</p>
                 
-                    <p class="video-box-text">5 days ago</p>
+                    <p className="video-box-text">5 days ago</p>
                     </div>
                 </div>
 
-                <div class="video-box">
-                    <div class="video-box-cover popup-video-trigger">
-                    <figure class="video-box-cover-image liquid">
+                <div className="video-box">
+                    <div className="video-box-cover popup-video-trigger">
+                    <figure className="video-box-cover-image liquid">
                         <img src="img/cover/02.jpg" alt="cover-02"/>
                     </figure>
                 
-                    <div class="play-button">
-                        <svg class="play-button-icon icon-play">
+                    <div className="play-button">
+                        <svg className="play-button-icon icon-play">
                         <use xlinkHref="#svg-play"></use>
                         </svg>
                     </div>
                     </div>
                 
-                    <div class="video-box-info">
-                    <p class="video-box-title">Xenowatch New Character: Dinna...</p>
+                    <div className="video-box-info">
+                    <p className="video-box-title">Xenowatch New Character: Dinna...</p>
                 
-                    <p class="video-box-text">1 week ago</p>
+                    <p className="video-box-text">1 week ago</p>
                     </div>
                 </div>
 
-                <div class="video-box">
-                    <div class="video-box-cover popup-video-trigger">
-                    <figure class="video-box-cover-image liquid">
+                <div className="video-box">
+                    <div className="video-box-cover popup-video-trigger">
+                    <figure className="video-box-cover-image liquid">
                         <img src="img/cover/21.jpg" alt="cover-21"/>
                     </figure>
                 
-                    <div class="play-button">
-                        <svg class="play-button-icon icon-play">
+                    <div className="play-button">
+                        <svg className="play-button-icon icon-play">
                         <use xlinkHref="#svg-play"></use>
                         </svg>
                     </div>
                     </div>
                 
-                    <div class="video-box-info">
-                    <p class="video-box-title">We Try the New Soccer 2019 Game</p>
+                    <div className="video-box-info">
+                    <p className="video-box-title">We Try the New Soccer 2019 Game</p>
                 
-                    <p class="video-box-text">1 week ago</p>
+                    <p className="video-box-text">1 week ago</p>
                     </div>
                 </div>
 
-                <div class="video-box">
-                    <div class="video-box-cover popup-video-trigger">
-                    <figure class="video-box-cover-image liquid">
+                <div className="video-box">
+                    <div className="video-box-cover popup-video-trigger">
+                    <figure className="video-box-cover-image liquid">
                         <img src="img/cover/23.jpg" alt="cover-23"/>
                     </figure>
                 
-                    <div class="play-button">
-                        <svg class="play-button-icon icon-play">
+                    <div className="play-button">
+                        <svg className="play-button-icon icon-play">
                         <use xlinkHref="#svg-play"></use>
                         </svg>
                     </div>
                     </div>
                 
-                    <div class="video-box-info">
-                    <p class="video-box-title">Necromancers VS Alchemists: League...</p>
+                    <div className="video-box-info">
+                    <p className="video-box-title">Necromancers VS Alchemists: League...</p>
                 
-                    <p class="video-box-text">3 weeks ago</p>
+                    <p className="video-box-text">3 weeks ago</p>
                     </div>
                 </div>
             </div>

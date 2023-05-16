@@ -24,57 +24,57 @@ const HubGroupManagement = () => {
 
   return (
     <>
-        <div class="account-hub-content">
-            <div class="section-header">
-            <div class="section-header-info">
-                <p class="section-pretitle">Groups</p>
+        <div className="account-hub-content">
+            <div className="section-header">
+            <div className="section-header-info">
+                <p className="section-pretitle">Groups</p>
 
-                <h2 class="section-title">Manage Groups</h2>
+                <h2 className="section-title">Manage Groups</h2>
             </div>
             </div>
 
-            <div class="grid grid-3-3-3 centered-on-mobile">
-            <div class="create-entity-box">
-                <div class="create-entity-box-cover"></div>
+            <div className="grid grid-3-3-3 centered-on-mobile">
+            <div className="create-entity-box">
+                <div className="create-entity-box-cover"></div>
             
-                <div class="create-entity-box-avatar">
-                <svg class="create-entity-box-avatar-icon icon-group">
+                <div className="create-entity-box-avatar">
+                <svg className="create-entity-box-avatar-icon icon-group">
                     <use xlinkHref="#svg-group"></use>
                 </svg>
                 </div>
             
-                <div class="create-entity-box-info">
-                <p class="create-entity-box-title">Create New Group</p>
+                <div className="create-entity-box-info">
+                <p className="create-entity-box-title">Create New Group</p>
             
-                <p class="create-entity-box-text">Share your passion with others!</p>
+                <p className="create-entity-box-text">Share your passion with others!</p>
             
-                <p class="button secondary full popup-manage-group-trigger">Start Creating!</p>
+                <p className="button secondary full popup-manage-group-trigger">Start Creating!</p>
                 </div>
             </div>
 
-            <div class="user-preview small fixed-height-medium">
-                <figure class="user-preview-cover liquid">
+            <div className="user-preview small fixed-height-medium">
+                <figure className="user-preview-cover liquid">
                 <img src="img/cover/29.jpg" alt="cover-29"/>
                 </figure>
 
-                <div class="user-preview-info">
-                <div class="user-short-description small">
-                    <a class="user-short-description-avatar user-avatar no-stats" onClick={()=>{navigate("/group-timeline")}}>
-                    <div class="user-avatar-border">
-                        <div class="hexagon-100-108"></div>
+                <div className="user-preview-info">
+                <div className="user-short-description small">
+                    <a className="user-short-description-avatar user-avatar no-stats" onClick={()=>{navigate("/group-timeline")}}>
+                    <div className="user-avatar-border">
+                        <div className="hexagon-100-108"></div>
                     </div>
                 
-                    <div class="user-avatar-content">
-                        <div class="hexagon-image-84-92" data-src="img/avatar/24.jpg"></div>
+                    <div className="user-avatar-content">
+                        <div className="hexagon-image-84-92" data-src="img/avatar/24.jpg"></div>
                     </div>
                     </a>
             
-                    <p class="user-short-description-title small"><a onClick={()=>{navigate("/group-timeline")}}>Cosplayers of the World</a></p>
+                    <p className="user-short-description-title small"><a onClick={()=>{navigate("/group-timeline")}}>Cosplayers of the World</a></p>
             
-                    <p class="user-short-description-text regular">Group Organizer</p>
+                    <p className="user-short-description-text regular">Group Organizer</p>
                 </div>
 
-                <p class="button white full popup-manage-group-trigger">Manage Group</p>
+                <p className="button white full popup-manage-group-trigger">Manage Group</p>
                 </div>
             </div>
             </div>

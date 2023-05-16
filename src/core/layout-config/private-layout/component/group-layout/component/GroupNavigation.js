@@ -17,20 +17,20 @@ const GroupNavigation = () => {
     }
 
     return (
-        <nav class="section-navigation">
-            <div id="section-navigation-medium-slider" class="section-menu secondary">
+        <nav className="section-navigation">
+            <div id="section-navigation-medium-slider" className="section-menu secondary">
                 {renderNav()}
             </div>
 
-            <div id="section-navigation-medium-slider-controls" class="slider-controls">
-                <div class="slider-control left">
-                <svg class="slider-control-icon icon-small-arrow">
+            <div id="section-navigation-medium-slider-controls" className="slider-controls">
+                <div className="slider-control left">
+                <svg className="slider-control-icon icon-small-arrow">
                     <use xlinkHref="#svg-small-arrow"></use>
                 </svg>
                 </div>
 
-                <div class="slider-control right">
-                <svg class="slider-control-icon icon-small-arrow">
+                <div className="slider-control right">
+                <svg className="slider-control-icon icon-small-arrow">
                     <use xlinkHref="#svg-small-arrow"></use>
                 </svg>
                 </div>
