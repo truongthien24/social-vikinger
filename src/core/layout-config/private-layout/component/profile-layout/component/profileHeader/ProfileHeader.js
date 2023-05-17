@@ -1,10 +1,32 @@
-import React from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
+import { useDispatch } from 'react-redux';
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import { getProfileByID } from '../../../../../../../redux/action/accountAction';
 
 const ProfileHeader = () => {
 
+    const [searchParams] = useSearchParams();
+
+    const [profile, setProfile] = useState();
+
+    const id = searchParams.get('id');
+
+    const dispatch = useDispatch();
+
+    const navigate = useNavigate();
+
     const jwt = JSON.parse(localStorage.getItem('jwt'));
-    const profileId = JSON.parse(localStorage.getItem('profileId'));
-    
+
+    useEffect(async()=> {
+        if(id) {
+            const res = await dispatch(getProfileByID(id));
+            setProfile(res)
+        } else {
+            navigate('/404')
+        }
+    }, [id])
+
+
     return (
         <div className="profile-header">
             
@@ -52,7 +74,7 @@ const ProfileHeader = () => {
                             
                             </div>
                             
-                            <p className="user-avatar-badge-text">24</p>
+                            <p className="user-avatar-badge-text">{profile?.userLevel}</p>
                             
                         </div>
                     </a>
@@ -94,7 +116,7 @@ const ProfileHeader = () => {
                             
                         </div>
                     </a>
-                    <p className="user-short-description-title"><a href="profile-timeline">Marina Valentine</a></p>
+                    <p className="user-short-description-title"><a href="profile-timeline">{profile?.userName}</a></p>
                     
                     <p className="user-short-description-text"><a href="#">www.gamehuntress.com</a></p>
                     
@@ -264,7 +286,7 @@ const ProfileHeader = () => {
 
                 {/* Option member */}
                 {
-                    profileId != jwt
+                    (id != jwt && profile?.friends?.findIndex(fr=>fr==id) == -1)
                     &&
                     <div className="profile-header-info-actions">
                         <p className="profile-header-info-action button secondary">

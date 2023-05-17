@@ -1,16 +1,17 @@
-import { addDoc, collection, deleteDoc, doc, getDocs, serverTimestamp, updateDoc, query, where } from "firebase/firestore";
+import { addDoc, collection, deleteDoc, doc, getDocs, serverTimestamp, updateDoc } from "firebase/firestore";
 import { toast } from "react-hot-toast";
 import { db } from "../../core/firebase-config/firebase.config";
 
-// Create Group
-export const createGroup = (data) => async(dispatch) => {
+// Create Message
+export const createMessage = (data) => async(dispatch) => {
     try {
         toast.loading('Loading...');
 
         setTimeout(async ()=> {
-            // Tạo document trong collection Group 
-            await addDoc(collection(db, 'Group'), {
+            // Tạo document trong collection Message 
+            await addDoc(collection(db, 'Message'), {
                 ...data, 
+                fromUID: JSON.parse(localStorage.getItem('jwt')), 
                 createdAt: serverTimestamp(),
             });
             // Thông báo
@@ -25,14 +26,14 @@ export const createGroup = (data) => async(dispatch) => {
     }
 }
 
-// Update Group
-export const updateGroup = (data) => async (dispacth) => {
+// Update Message
+export const updateMessage = (data) => async (dispacth) => {
     try {
         toast.loading('Loading...');
-        const GroupRef = doc(db,'Group', data.id);
+        const MessageRef = doc(db,'Message', data.id);
         setTimeout(async ()=> {
-            // Update document trong collection Group 
-            await updateDoc(GroupRef, data.data);
+            // Update document trong collection Message 
+            await updateDoc(MessageRef, data.data);
             // Thông báo
             toast.dismiss();
             toast.success('Update successfully!')
@@ -44,11 +45,11 @@ export const updateGroup = (data) => async (dispacth) => {
     }
 }
 
-// Delete Group
-export const deleteGroup = (idGroup) => async (dispatch) => {
+// Delete Message
+export const deleteMessage = (idMessage) => async (dispatch) => {
     try {
         toast.loading('Loading...');
-        await deleteDoc(doc(db, "Group", idGroup));
+        await deleteDoc(doc(db, "Message", idMessage));
         setTimeout(()=> {
             toast.dismiss();
             toast.success('Delete success!')
@@ -59,16 +60,3 @@ export const deleteGroup = (idGroup) => async (dispatch) => {
         return false;
     }
 } 
-
-
-export const getGroupByIDUser = (id) => async (dispatch) => {
-    try {
-        const groupRef = collection(db, 'Group');
-        const groupQuery = query(groupRef, where('groupMember', 'array-contains', `${id}`));
-        const groupResult = await getDocs(groupQuery);
-        const result = groupResult.docs.map((item,index)=>({...item.data(),id: item.id}))
-        return result;
-    } catch (err) {
-        return false
-    }
-}

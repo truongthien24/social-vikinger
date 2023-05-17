@@ -1,4 +1,4 @@
-import { addDoc, collection, getDocs, serverTimestamp } from "firebase/firestore";
+import { addDoc, collection, deleteDoc, doc, getDocs, serverTimestamp, updateDoc } from "firebase/firestore";
 import { toast } from "react-hot-toast";
 import { db } from "../../core/firebase-config/firebase.config";
 
@@ -35,8 +35,15 @@ export const registerAccount = (data) => async(dispatch) => {
                         description: "Hello!"
                     },
                     userSocial: [
-                    ]
+                    ],
+                    userVideo: [],
+                    userAlbum: [],
+                    friends: [], 
+                    userRequestFriend: [],
+                    role: 'guest',
+                    postList: []
                 });
+                
 
                 // dispatch(setLoading({
                 //     status: 'done'
@@ -118,3 +125,38 @@ export const getProfileByID = (id) => async(dispatch) => {
         return false;
     }
 }
+
+// Update Account
+export const updateAccount = (data) => async (dispacth) => {
+    try {
+        toast.loading('Loading...');
+        const AccountRef = doc(db,'Account', data.id);
+        setTimeout(async ()=> {
+            // Update document trong collection Account 
+            await updateDoc(AccountRef, data.data);
+            // Thông báo
+            toast.dismiss();
+            toast.success('Update successfully!')
+        }, 1000);
+    } catch(err) {
+        toast.dismiss();
+        toast.error('Update error!')
+        return false;
+    }
+}
+
+// Delete Account
+export const deleteAccount = (idAccount) => async (dispatch) => {
+    try {
+        toast.loading('Loading...');
+        await deleteDoc(doc(db, "Account", idAccount));
+        setTimeout(()=> {
+            toast.dismiss();
+            toast.success('Delete success!')
+        }, 1000)
+    } catch (err) {
+        toast.dismiss();
+        toast.error('Delete error!')
+        return false;
+    }
+} 

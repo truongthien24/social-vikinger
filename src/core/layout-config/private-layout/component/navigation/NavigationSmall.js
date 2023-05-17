@@ -1,8 +1,15 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { setLoading } from '../../../../../redux/action/homeAction';
 import MenuItem from './component/MenuItem';
 
 const NavigationSmall = (props) => {
     const {isNavigationWidget} = props;
+
+    const dispatch = useDispatch();
+
+    const navigate = useNavigate();
 
     const data = [
         {
@@ -86,10 +93,19 @@ const NavigationSmall = (props) => {
         })
     }
 
+
   return (
     <nav id="navigation-widget-small" className={`navigation-widget navigation-widget-desktop closed sidebar left ${isNavigationWidget ? 'hidden' : 'delayed'}`}>
         
-        <a className="user-avatar small no-outline online" href="profile-timeline">
+        <a className="user-avatar small no-outline online" onClick={()=> {
+            dispatch(setLoading({
+                status: 'isLoading'
+            }))
+            navigate({
+                pathname: '/profile-timeline',
+                search: `?id=${JSON.parse(localStorage.getItem('profileId'))}`
+            })
+        }}>
         
         <div className="user-avatar-content">
             

@@ -1,10 +1,23 @@
 import React from 'react'
+import { useDispatch } from 'react-redux';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { renderSocialIcon } from '../../../../../util/method/renderSocialIcon';
+import { setLoading } from '../../../../../redux/action/homeAction';
 
 const UserPreviewGridNormal = (props) => {
 
     // Props
     const {data} = props;
+
+    const [searchParams] = useSearchParams();
+
+    const id = searchParams.get('id');
+
+    const jwt = JSON.parse(localStorage.getItem('jwt'))
+
+    const dispatch = useDispatch();
+
+    const navigate = useNavigate()
 
     // Method
     const renderBadge = () => {
@@ -33,7 +46,15 @@ const UserPreviewGridNormal = (props) => {
             </figure>
             <div className="user-preview-info">
                 <div className="user-short-description">
-                    <a className="user-short-description-avatar user-avatar medium" href="profile-timeline">
+                    <a className="user-short-description-avatar user-avatar medium" onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate({
+                            pathname: "/profile-timeline",
+                            search: `?id=${data?.id}`
+                        })
+                    }}>
                         <div className="user-avatar-border">
                             <div className="hexagon-120-132"></div>
                         </div>
@@ -57,7 +78,15 @@ const UserPreviewGridNormal = (props) => {
                         </div>
                     </a>
                     <p className="user-short-description-title">
-                        <a href="profile-timeline">{data?.userName}</a>
+                        <a onClick={()=>{
+                            dispatch(setLoading({
+                                status: 'isLoading'
+                            }))
+                            navigate({
+                                pathname: "/profile-timeline",
+                                search: ``
+                            })
+                        }}>{data?.userName}</a>
                     </p>
                     <p className="user-short-description-text">
                         <a href="#">{data?.userPath}</a>
@@ -97,30 +126,13 @@ const UserPreviewGridNormal = (props) => {
                 </div>
                 <div className="social-links small">
                     {renderSocial()}
-                    {/* <a className="social-link small twitter" href="#">
-                        <svg className="social-link-icon icon-twitter">
-                            <use xlinkHref="#svg-twitter"></use>
-                        </svg>
-                    </a>
-                    <a className="social-link small instagram" href="#">
-                        <svg className="social-link-icon icon-instagram">
-                            <use xlinkHref="#svg-instagram"></use>
-                        </svg>
-                    </a>
-                    <a className="social-link small twitch" href="#">
-                        <svg className="social-link-icon icon-twitch">
-                            <use xlinkHref="#svg-twitch"></use>
-                        </svg>
-                    </a>
-                    <a className="social-link small discord" href="#">
-                        <svg className="social-link-icon icon-discord">
-                            <use xlinkHref="#svg-discord"></use>
-                        </svg>
-                    </a> */}
-                    
                 </div>
                 <div className="user-preview-actions">
-                    <p className="button secondary">Add Friend +</p>
+                    {
+                        jwt != id
+                        &&
+                        <p className="button secondary">Add Friend +</p>
+                    }
                     <p className="button primary">Send Message</p>
                 </div>
             </div>

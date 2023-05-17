@@ -1,32 +1,42 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { renderSocialIcon } from '../../../../../util/method/renderSocialIcon';
+import { setLoading } from '../../../../../redux/action/homeAction';
 
 const UserPreviewList = (props) => {
 
     // Props
     const {data} = props;
 
-    const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
 
-        // Method
-        const renderBadge = () => {
-            return data?.badgeList?.map((badge, index)=> {
-                if(index < 4) {
-                    return <div className="badge-item" key={index}>
-                        <img src={badge?.img} alt={badge?.name}/>
-                    </div>
-                }
-            })
-        }
-    
-        const renderSocial = () => {
-            return data?.userSocial?.map((social, index) => {
-                return <a key={index} className={`social-link small ${social?.name}`} href={social?.path}>
-                    {renderSocialIcon(social)}
-                </a>
-            })
-        }
+    const id = searchParams.get('id');
+
+    const jwt = JSON.parse(localStorage.getItem('jwt'))
+
+    const dispatch = useDispatch();
+
+    const navigate = useNavigate()
+
+    // Method
+    const renderBadge = () => {
+        return data?.badgeList?.map((badge, index)=> {
+            if(index < 4) {
+                return <div className="badge-item" key={index}>
+                    <img src={badge?.img} alt={badge?.name}/>
+                </div>
+            }
+        })
+    }
+
+    const renderSocial = () => {
+        return data?.userSocial?.map((social, index) => {
+            return <a key={index} className={`social-link small ${social?.name}`} href={social?.path}>
+                {renderSocialIcon(social)}
+            </a>
+        })
+    }
 
     // Return
     return (
@@ -39,9 +49,14 @@ const UserPreviewList = (props) => {
             
                 <div className="user-short-description landscape tiny">
                     
-                    <a className="user-short-description-avatar user-avatar small" onClick={()=> {
-                        localStorage.setItem('profileId', JSON.stringify(data?.id));
-                        navigate('/profile-timeline')
+                    <a className="user-short-description-avatar user-avatar small" onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate({
+                            pathname: "/profile-timeline",
+                            search: `?id=${data?.id}`
+                        })
                     }}>
                     
                         <div className="user-avatar-border">
@@ -96,7 +111,15 @@ const UserPreviewList = (props) => {
                     
             
                     
-                    <p className="user-short-description-title"><a href="profile-timeline">{data?.userName}</a></p>
+                    <p className="user-short-description-title"><a onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate({
+                            pathname: "/profile-timeline",
+                            search: `?id=${data?.id}`
+                        })
+                    }}>{data?.userName}</a></p>
                     
             
                     
@@ -151,20 +174,26 @@ const UserPreviewList = (props) => {
                 </div>
 
                 <div className="user-preview-actions">
+
+                    {
+                        jwt != id
+                        &&
+                        <p className="button secondary">
                     
-                    <p className="button secondary">
+                            <svg className="button-icon icon-add-friend">
+                                <use xlinkHref="#svg-add-friend"></use>
+                            </svg>
+                        
+                        </p>
+                    }
                     
-                    <svg className="button-icon icon-add-friend">
-                        <use xlinkHref="#svg-add-friend"></use>
-                    </svg>
-                    
-                    </p>
+
                     
                     <p className="button primary">
                     
-                    <svg className="button-icon icon-comment">
-                        <use xlinkHref="#svg-comment"></use>
-                    </svg>
+                        <svg className="button-icon icon-comment">
+                            <use xlinkHref="#svg-comment"></use>
+                        </svg>
                     
                     </p>
                     

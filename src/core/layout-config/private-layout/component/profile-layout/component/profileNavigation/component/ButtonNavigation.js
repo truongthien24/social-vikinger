@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { setLoading } from '../../../../../../../../redux/action/homeAction';
 
 const ButtonNavigation = (props) => {
@@ -13,12 +13,19 @@ const ButtonNavigation = (props) => {
     const dispatch = useDispatch();
     const {pathname} = window.location;
 
+    const [searchParams] = useSearchParams();
+
+    const id = searchParams.get('id');
+
     // Method
     const handleNavigation = () => {
         dispatch(setLoading({
             status: 'isLoading'
         }))
-        navigate(`/${data.path}`);
+        navigate({
+            pathname: `/${data.path}`,
+            search: `?id=${id}`
+        });
     }
 
     // Return
