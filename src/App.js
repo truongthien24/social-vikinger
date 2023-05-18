@@ -78,6 +78,10 @@ function App() {
         script14.async = true;
         script15.async = true;
         script16.async = true;
+        let script17 = document.createElement("script");
+  
+        script17.src = "/js/global/global.popups.js";
+        script17.async = true;
         document.body.appendChild(script);
         document.body.appendChild(script10);
         document.body.appendChild(script13);
@@ -94,6 +98,7 @@ function App() {
         document.body.appendChild(script14);
         document.body.appendChild(script15);
         document.body.appendChild(script16);
+        document.body.appendChild(script17);
         setTimeout(()=> {
           dispatch(setLoading({
             status: 'done'
@@ -116,6 +121,7 @@ function App() {
           document.body.removeChild(script14);
           document.body.removeChild(script15);
           document.body.removeChild(script16);
+          document.body.removeChild(script17);
         }
      }, [pathname])
 

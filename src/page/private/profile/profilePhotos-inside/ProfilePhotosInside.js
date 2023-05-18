@@ -9,23 +9,23 @@ const ProfilePhotosInside = () => {
 
     const dispatch = useDispatch();
 
-    useEffect(()=> {
-        let script = document.createElement("script");
-        let script11 = document.createElement("script");
+    // useEffect(()=> {
+    //     let script = document.createElement("script");
+    //     let script11 = document.createElement("script");
   
-        script.src = "/js/utils/app.js";
-        script11.src = "/js/global/global.popups.js";
-        script.async = true;
-        script11.async = true;
-        document.body.appendChild(script);
-        document.body.appendChild(script11);
+    //     script.src = "/js/utils/app.js";
+    //     script11.src = "/js/global/global.popups.js";
+    //     script.async = true;
+    //     script11.async = true;
+    //     document.body.appendChild(script);
+    //     document.body.appendChild(script11);
 
-        return () => {
-            document.body.removeChild(script);
-            document.body.removeChild(script11);
-        }
+    //     return () => {
+    //         document.body.removeChild(script);
+    //         document.body.removeChild(script11);
+    //     }
 
-    }, [])
+    // }, [])
   
 
     return (
