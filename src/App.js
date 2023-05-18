@@ -92,7 +92,7 @@ function App() {
         document.body.appendChild(script9);
         document.body.appendChild(script11);
         document.body.appendChild(script12);
-        document.body.appendChild(script14);
+        // document.body.appendChild(script14);
         document.body.appendChild(script15);
         document.body.appendChild(script16);
         setTimeout(()=> {
