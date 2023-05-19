@@ -1,10 +1,23 @@
 import React from 'react'
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { renderSocialIcon } from '../../../../../util/method/renderSocialIcon';
+import { setLoading } from '../../../../../redux/action/homeAction';
+import { useDispatch } from 'react-redux';
 
 const UserPreviewGridSmall = (props) => {
 
     // Props
     const {data} = props;
+
+    const [searchParams] = useSearchParams();
+
+    const dispatch = useDispatch();
+
+    const navigate = useNavigate()
+
+    const id = searchParams.get('id');
+
+    const jwt = JSON.parse(localStorage.getItem('jwt'))
 
     // Method
     const renderBadge = () => {
@@ -33,7 +46,15 @@ const UserPreviewGridSmall = (props) => {
             </figure>
             <div className="user-preview-info">
                 <div className="user-short-description small">
-                    <a className="user-short-description-avatar user-avatar" href="profile-timeline">
+                    <a className="user-short-description-avatar user-avatar" onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate({
+                            pathname: "/profile-timeline",
+                            search: `?id=${data?.id}`
+                        })
+                    }}>
                         <div className="user-avatar-border">
                             <div className="hexagon-100-110"></div>
                         </div>
@@ -57,7 +78,15 @@ const UserPreviewGridSmall = (props) => {
                         </div>
                     </a>
                     <p className="user-short-description-title">
-                        <a href="profile-timeline">{data?.userName}</a>
+                        <a onClick={()=>{
+                        dispatch(setLoading({
+                            status: 'isLoading'
+                        }))
+                        navigate({
+                            pathname: "/profile-timeline",
+                            search: `?id=${data?.id}`
+                        })
+                    }}>{data?.userName}</a>
                     </p>
                     <p className="user-short-description-text">
                         <a href="#">{data?.userPath}</a>
@@ -88,14 +117,18 @@ const UserPreviewGridSmall = (props) => {
                     {renderSocial()}
                 </div>
             </div>
-            <div className="user-preview-footer">
-                <div className="user-preview-footer-action">
-                    <p className="button void void-secondary">
-                        <svg className="button-icon icon-add-friend">
-                            <use xlinkHref="#svg-add-friend"></use>
-                        </svg>
-                    </p>
-                </div>
+            <div className="user-preview-footer" style={{display: 'flex', justifyContent: 'center'}}>
+                {
+                    jwt != id
+                    &&
+                    <div className="user-preview-footer-action">
+                        <p className="button void void-secondary">
+                            <svg className="button-icon icon-add-friend">
+                                <use xlinkHref="#svg-add-friend"></use>
+                            </svg>
+                        </p>
+                    </div>
+                }
                 <div className="user-preview-footer-action">
                     <p className="button void void-primary">
                         <svg className="button-icon icon-comment">

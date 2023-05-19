@@ -1,6 +1,13 @@
 import React, { useEffect } from 'react'
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { setLoading } from '../../../../../redux/action/homeAction';
 
 const HeaderPrivate = (props) => {
+
+    const dispatch = useDispatch();
+
+    const navigate = useNavigate();
 
     useEffect(() => {
         let script = document.createElement("script");
@@ -13,6 +20,16 @@ const HeaderPrivate = (props) => {
         document.body.appendChild(script12);
     }, [])
 
+    // Method
+    const handleLogOut = () => {
+        localStorage.clear();
+        dispatch(setLoading({
+            status: 'isLoading'  
+        }))
+        navigate('/login')
+    }
+
+    // Return
     return (
         <header className="header">
             
@@ -2165,7 +2182,7 @@ const HeaderPrivate = (props) => {
                         
                     
                         
-                        <p className="dropdown-navigation-button button small secondary">Logout</p>
+                        <p className="dropdown-navigation-button button small secondary" onClick={handleLogOut}>Logout</p>
                         
                     </div>
                     
@@ -2174,7 +2191,7 @@ const HeaderPrivate = (props) => {
             </div>
         
         </header>
-    )
+   ) 
 }
 
 export default HeaderPrivate

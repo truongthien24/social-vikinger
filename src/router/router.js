@@ -49,6 +49,7 @@ import Badges from "../page/private/badges/Badges";
 import Stream from "../page/private/streams/Stream";
 import Events from "../page/private/events/Events";
 import Forums from "../page/private/forums/Forums";
+import MarketplaceCheckout from "../page/private/marketplace-checkout/MarketplaceCheckout";
 // import { ProfileAbout } from "../page/private/profile";
 
 export const publicRoutes = [
@@ -212,6 +213,14 @@ export const privateRoutes = [
         element: (
             <Layouts.LayoutPrivate>
                 <MarketPlaceProduct/>
+            </Layouts.LayoutPrivate>
+        )
+    },
+    {
+        path: "/marketplace-checkout",
+        element: (
+            <Layouts.LayoutPrivate>
+                <MarketplaceCheckout/>
             </Layouts.LayoutPrivate>
         )
     },
@@ -485,6 +494,10 @@ export const privateRoutes = [
     },
     {
         path: "*",
+        element: <Page404/>
+    },
+    {
+        path: "404",
         element: <Page404/>
     }
 ]

@@ -24,490 +24,491 @@ const Newsfeed = () => {
             </div>
 
             <div className="grid grid-3-6-3 mobile-prefer-content">
-            <div className="grid-column">
-                <div className="widget-box">
-                <div className="progress-arc-summary">
-                    <div className="progress-arc-wrap">
-                    <div className="progress-arc">
-                        <canvas id="profile-completion-chart"></canvas>
+                <div className="grid-column">
+                    <div className="widget-box">
+                    <div className="progress-arc-summary">
+                        <div className="progress-arc-wrap">
+                        <div className="progress-arc">
+                            <canvas id="profile-completion-chart"></canvas>
+                        </div>
+                    
+                        <div className="progress-arc-info">
+                            <p className="progress-arc-title">59%</p>
+                        </div>
+                        </div>
+                    
+                        <div className="progress-arc-summary-info">
+                        <p className="progress-arc-summary-title">Profile Completion</p>
+                    
+                        <p className="progress-arc-summary-subtitle">Marina Valentine</p>
+                    
+                        <p className="progress-arc-summary-text">Complete your profile by filling profile info fields, completing quests &amp; unlocking badges</p>
+                        </div>
                     </div>
                 
-                    <div className="progress-arc-info">
-                        <p className="progress-arc-title">59%</p>
+                    <div className="achievement-status-list">
+                        <div className="achievement-status">
+                        <p className="achievement-status-progress">11/30</p>
+                
+                        <div className="achievement-status-info">
+                            <p className="achievement-status-title">Quests</p>
+                            
+                            <p className="achievement-status-text">Completed</p>
+                        </div>
+                
+                        <img className="achievement-status-image" src="img/badge/completedq-s.png" alt="bdage-completedq-s"/>
+                        </div>
+                
+                        <div className="achievement-status">
+                        <p className="achievement-status-progress">22/46</p>
+                
+                        <div className="achievement-status-info">
+                            <p className="achievement-status-title">Badges</p>
+                            
+                            <p className="achievement-status-text">Unlocked</p>
+                        </div>
+                
+                        <img className="achievement-status-image" src="img/badge/unlocked-badge.png" alt="bdage-unlocked-badge"/>
+                        </div>
                     </div>
+                    </div>
+
+                    <div className="widget-box">
+                    <div className="widget-box-controls">
+                        <div id="badge-stat-slider-controls" className="slider-controls">
+                        <div className="slider-control left">
+                            <svg className="slider-control-icon icon-small-arrow">
+                            <use xlinkHref="#svg-small-arrow"></use>
+                            </svg>
+                        </div>
+
+                        <div className="slider-control right">
+                            <svg className="slider-control-icon icon-small-arrow">
+                            <use xlinkHref="#svg-small-arrow"></use>
+                            </svg>
+                        </div>
+                        </div>
+                    </div>
+
+                    <p className="widget-box-title">Featured Badges</p>
+
+                    <div className="widget-box-content">
+                        <div id="badge-stat-slider-items" className="widget-box-content-slider">
+                        <div className="widget-box-content-slider-item">
+                            <div className="badge-item-stat void">
+                            <p className="text-sticker">
+                                <svg className="text-sticker-icon icon-plus-small">
+                                <use xlinkHref="#svg-plus-small"></use>
+                                </svg>
+                                20 Exp
+                            </p>
+
+                            <img className="badge-item-stat-image" src="img/badge/uexp-b.png" alt="badge-uexp-b"/>
+
+                            <p className="badge-item-stat-title">Universe Explorer</p>
+
+                            <p className="badge-item-stat-text">Joined and posted on 20 different groups</p>
+
+                            <div className="progress-stat medium">
+                                <div id="badge-uexp" className="progress-stat-bar"></div>
+
+                                <div className="bar-progress-wrap">
+                                <p className="bar-progress-info negative center"><span className="bar-progress-text no-space"></span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="widget-box-content-slider-item">
+                            <div className="badge-item-stat void">
+                            <p className="text-sticker">
+                                <svg className="text-sticker-icon icon-plus-small">
+                                <use xlinkHref="#svg-plus-small"></use>
+                                </svg>
+                                40 Exp
+                            </p>
+
+                            <img className="badge-item-stat-image" src="img/badge/verifieds-b.png" alt="badge-verifieds-b"/>
+
+                            <p className="badge-item-stat-title">Verified Streamer</p>
+
+                            <p className="badge-item-stat-text">Has linked a stream that was verified by the staff</p>
+
+                            <div className="progress-stat medium">
+                                <div id="badge-verifieds" className="progress-stat-bar"></div>
+
+                                <div className="bar-progress-wrap">
+                                <p className="bar-progress-info negative center"><span className="bar-progress-text no-space"></span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="widget-box-content-slider-item">
+                            <div className="badge-item-stat void">
+                            <p className="text-sticker">
+                                <svg className="text-sticker-icon icon-plus-small">
+                                <use xlinkHref="#svg-plus-small"></use>
+                                </svg>
+                                40 Exp
+                            </p>
+
+                            <img className="badge-item-stat-image" src="img/badge/qconq-b.png" alt="badge-qconq-b"/>
+
+                            <p className="badge-item-stat-title">Quest Conqueror</p>
+
+                            <p className="badge-item-stat-text">Succesfully completed at least 10 quests at 100%</p>
+
+                            <div className="progress-stat medium">
+                                <div id="badge-qconq" className="progress-stat-bar"></div>
+
+                                <div className="bar-progress-wrap">
+                                <p className="bar-progress-info negative center"><span className="bar-progress-text no-space"></span></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div className="widget-box">
+                    <div className="widget-box-settings">
+                        <div className="post-settings-wrap">
+                        <div className="post-settings widget-box-post-settings-dropdown-trigger">
+                            <svg className="post-settings-icon icon-more-dots">
+                            <use xlinkHref="#svg-more-dots"></use>
+                            </svg>
+                        </div>
+
+                        <div className="simple-dropdown widget-box-post-settings-dropdown">
+                            <p className="simple-dropdown-link">Widget Settings</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <p className="widget-box-title">Members</p>
+
+                    <div className="widget-box-content">
+                        <div className="filters">
+                        <p className="filter">Newest</p>
+
+                        <p className="filter active">Popular</p>
+
+                        <p className="filter">Active</p>
+                        </div>
+
+                        <div className="user-status-list">
+                        <div className="user-status request-small">
+                            <a className="user-status-avatar" href="profile-timeline">
+                            <div className="user-avatar small no-outline">
+                                <div className="user-avatar-content">
+                                <div className="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress">
+                                <div className="hexagon-progress-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress-border">
+                                <div className="hexagon-border-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge">
+                                <div className="user-avatar-badge-border">
+                                    <div className="hexagon-22-24"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge-content">
+                                    <div className="hexagon-dark-16-18"></div>
+                                </div>
+                            
+                                <p className="user-avatar-badge-text">26</p>
+                                </div>
+                            </div>
+                            </a>
+                        
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Sarah Diamond</a></p>
+                        
+                            <p className="user-status-text small">24.5K profile views</p>
+                        
+                            <div className="action-request-list">
+                            <div className="action-request accept">
+                                <svg className="action-request-icon icon-add-friend">
+                                <use xlinkHref="#svg-add-friend"></use>
+                                </svg>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="user-status request-small">
+                            <a className="user-status-avatar" href="profile-timeline">
+                            <div className="user-avatar small no-outline">
+                                <div className="user-avatar-content">
+                                <div className="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress">
+                                <div className="hexagon-progress-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress-border">
+                                <div className="hexagon-border-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge">
+                                <div className="user-avatar-badge-border">
+                                    <div className="hexagon-22-24"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge-content">
+                                    <div className="hexagon-dark-16-18"></div>
+                                </div>
+                            
+                                <p className="user-avatar-badge-text">16</p>
+                                </div>
+                            </div>
+                            </a>
+                        
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Nick Grissom</a></p>
+                        
+                            <p className="user-status-text small">20.1K profile views</p>
+                        
+                            <div className="action-request-list">
+                            <div className="action-request accept">
+                                <svg className="action-request-icon icon-add-friend">
+                                <use xlinkHref="#svg-add-friend"></use>
+                                </svg>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="user-status request-small">
+                            <a className="user-status-avatar" href="profile-timeline">
+                            <div className="user-avatar small no-outline">
+                                <div className="user-avatar-content">
+                                <div className="hexagon-image-30-32" data-src="img/avatar/23.jpg"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress">
+                                <div className="hexagon-progress-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress-border">
+                                <div className="hexagon-border-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge">
+                                <div className="user-avatar-badge-border">
+                                    <div className="hexagon-22-24"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge-content">
+                                    <div className="hexagon-dark-16-18"></div>
+                                </div>
+                            
+                                <p className="user-avatar-badge-text">19</p>
+                                </div>
+                            </div>
+                            </a>
+                        
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Rosie Sakura</a></p>
+                        
+                            <p className="user-status-text small">19.7K profile views</p>
+                        
+                            <div className="action-request-list">
+                            <div className="action-request accept">
+                                <svg className="action-request-icon icon-add-friend">
+                                <use xlinkHref="#svg-add-friend"></use>
+                                </svg>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="user-status request-small">
+                            <a className="user-status-avatar" href="profile-timeline">
+                            <div className="user-avatar small no-outline">
+                                <div className="user-avatar-content">
+                                <div className="hexagon-image-30-32" data-src="img/avatar/15.jpg"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress">
+                                <div className="hexagon-progress-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress-border">
+                                <div className="hexagon-border-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge">
+                                <div className="user-avatar-badge-border">
+                                    <div className="hexagon-22-24"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge-content">
+                                    <div className="hexagon-dark-16-18"></div>
+                                </div>
+                            
+                                <p className="user-avatar-badge-text">22</p>
+                                </div>
+                            </div>
+                            </a>
+                        
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Peter Stark</a></p>
+                        
+                            <p className="user-status-text small">16.5K profile views</p>
+                        
+                            <div className="action-request-list">
+                            <div className="action-request accept">
+                                <svg className="action-request-icon icon-add-friend">
+                                <use xlinkHref="#svg-add-friend"></use>
+                                </svg>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="user-status request-small">
+                            <a className="user-status-avatar" href="profile-timeline">
+                            <div className="user-avatar small no-outline">
+                                <div className="user-avatar-content">
+                                <div className="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress">
+                                <div className="hexagon-progress-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-progress-border">
+                                <div className="hexagon-border-40-44"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge">
+                                <div className="user-avatar-badge-border">
+                                    <div className="hexagon-22-24"></div>
+                                </div>
+                            
+                                <div className="user-avatar-badge-content">
+                                    <div className="hexagon-dark-16-18"></div>
+                                </div>
+                            
+                                <p className="user-avatar-badge-text">6</p>
+                                </div>
+                            </div>
+                            </a>
+                        
+                            <p className="user-status-title"><a className="bold" href="profile-timeline">Bearded Wonder</a></p>
+                        
+                            <p className="user-status-text small">9.8K profile views</p>
+                        
+                            <div className="action-request-list">
+                            <div className="action-request accept">
+                                <svg className="action-request-icon icon-add-friend">
+                                <use xlinkHref="#svg-add-friend"></use>
+                                </svg>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <a className="banner-promo" href="https://themeforest.net/user/odin_design" target="_blank">
+                    <img src="img/banner/banner-promo.jpg" alt="banner-promo"/>
+                    </a>
+
+                    <div className="widget-box">
+                    <div className="widget-box-settings">
+                        <div className="post-settings-wrap">
+                        <div className="post-settings widget-box-post-settings-dropdown-trigger">
+                            <svg className="post-settings-icon icon-more-dots">
+                            <use xlinkHref="#svg-more-dots"></use>
+                            </svg>
+                        </div>
+                
+                        <div className="simple-dropdown widget-box-post-settings-dropdown">
+                            <p className="simple-dropdown-link">Widget Settings</p>
+                        </div>
+                        </div>
                     </div>
                 
-                    <div className="progress-arc-summary-info">
-                    <p className="progress-arc-summary-title">Profile Completion</p>
+                    <p className="widget-box-title">Open Quests</p>
                 
-                    <p className="progress-arc-summary-subtitle">Marina Valentine</p>
+                    <div className="widget-box-content">
+                        <div className="quest-preview-list">
+                        <div className="quest-preview">
+                            <div className="quest-preview-info">
+                            <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
+                        
+                            <p className="quest-preview-title">Nothing to hide</p>
+                        
+                            <p className="quest-preview-text">You have completed all your profile information fields</p>
+                            </div>
+                        
+                            <div className="progress-stat">
+                            <div id="quest-preview-nth" className="progress-stat-bar"></div>
+                            </div>
+                        </div>
                 
-                    <p className="progress-arc-summary-text">Complete your profile by filling profile info fields, completing quests &amp; unlocking badges</p>
-                    </div>
-                </div>
-            
-                <div className="achievement-status-list">
-                    <div className="achievement-status">
-                    <p className="achievement-status-progress">11/30</p>
-            
-                    <div className="achievement-status-info">
-                        <p className="achievement-status-title">Quests</p>
+                        <div className="quest-preview">
+                            <div className="quest-preview-info">
+                            <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
                         
-                        <p className="achievement-status-text">Completed</p>
-                    </div>
-            
-                    <img className="achievement-status-image" src="img/badge/completedq-s.png" alt="bdage-completedq-s"/>
-                    </div>
-            
-                    <div className="achievement-status">
-                    <p className="achievement-status-progress">22/46</p>
-            
-                    <div className="achievement-status-info">
-                        <p className="achievement-status-title">Badges</p>
+                            <p className="quest-preview-title">Social King</p>
                         
-                        <p className="achievement-status-text">Unlocked</p>
-                    </div>
-            
-                    <img className="achievement-status-image" src="img/badge/unlocked-badge.png" alt="bdage-unlocked-badge"/>
-                    </div>
-                </div>
-                </div>
-
-                <div className="widget-box">
-                <div className="widget-box-controls">
-                    <div id="badge-stat-slider-controls" className="slider-controls">
-                    <div className="slider-control left">
-                        <svg className="slider-control-icon icon-small-arrow">
-                        <use xlinkHref="#svg-small-arrow"></use>
-                        </svg>
-                    </div>
-
-                    <div className="slider-control right">
-                        <svg className="slider-control-icon icon-small-arrow">
-                        <use xlinkHref="#svg-small-arrow"></use>
-                        </svg>
-                    </div>
-                    </div>
-                </div>
-
-                <p className="widget-box-title">Featured Badges</p>
-
-                <div className="widget-box-content">
-                    <div id="badge-stat-slider-items" className="widget-box-content-slider">
-                    <div className="widget-box-content-slider-item">
-                        <div className="badge-item-stat void">
-                        <p className="text-sticker">
-                            <svg className="text-sticker-icon icon-plus-small">
-                            <use xlinkHref="#svg-plus-small"></use>
-                            </svg>
-                            20 Exp
-                        </p>
-
-                        <img className="badge-item-stat-image" src="img/badge/uexp-b.png" alt="badge-uexp-b"/>
-
-                        <p className="badge-item-stat-title">Universe Explorer</p>
-
-                        <p className="badge-item-stat-text">Joined and posted on 20 different groups</p>
-
-                        <div className="progress-stat medium">
-                            <div id="badge-uexp" className="progress-stat-bar"></div>
-
-                            <div className="bar-progress-wrap">
-                            <p className="bar-progress-info negative center"><span className="bar-progress-text no-space"></span></p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div className="widget-box-content-slider-item">
-                        <div className="badge-item-stat void">
-                        <p className="text-sticker">
-                            <svg className="text-sticker-icon icon-plus-small">
-                            <use xlinkHref="#svg-plus-small"></use>
-                            </svg>
-                            40 Exp
-                        </p>
-
-                        <img className="badge-item-stat-image" src="img/badge/verifieds-b.png" alt="badge-verifieds-b"/>
-
-                        <p className="badge-item-stat-title">Verified Streamer</p>
-
-                        <p className="badge-item-stat-text">Has linked a stream that was verified by the staff</p>
-
-                        <div className="progress-stat medium">
-                            <div id="badge-verifieds" className="progress-stat-bar"></div>
-
-                            <div className="bar-progress-wrap">
-                            <p className="bar-progress-info negative center"><span className="bar-progress-text no-space"></span></p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div className="widget-box-content-slider-item">
-                        <div className="badge-item-stat void">
-                        <p className="text-sticker">
-                            <svg className="text-sticker-icon icon-plus-small">
-                            <use xlinkHref="#svg-plus-small"></use>
-                            </svg>
-                            40 Exp
-                        </p>
-
-                        <img className="badge-item-stat-image" src="img/badge/qconq-b.png" alt="badge-qconq-b"/>
-
-                        <p className="badge-item-stat-title">Quest Conqueror</p>
-
-                        <p className="badge-item-stat-text">Succesfully completed at least 10 quests at 100%</p>
-
-                        <div className="progress-stat medium">
-                            <div id="badge-qconq" className="progress-stat-bar"></div>
-
-                            <div className="bar-progress-wrap">
-                            <p className="bar-progress-info negative center"><span className="bar-progress-text no-space"></span></p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                <div className="widget-box">
-                <div className="widget-box-settings">
-                    <div className="post-settings-wrap">
-                    <div className="post-settings widget-box-post-settings-dropdown-trigger">
-                        <svg className="post-settings-icon icon-more-dots">
-                        <use xlinkHref="#svg-more-dots"></use>
-                        </svg>
-                    </div>
-
-                    <div className="simple-dropdown widget-box-post-settings-dropdown">
-                        <p className="simple-dropdown-link">Widget Settings</p>
-                    </div>
-                    </div>
-                </div>
-
-                <p className="widget-box-title">Members</p>
-
-                <div className="widget-box-content">
-                    <div className="filters">
-                    <p className="filter">Newest</p>
-
-                    <p className="filter active">Popular</p>
-
-                    <p className="filter">Active</p>
-                    </div>
-
-                    <div className="user-status-list">
-                    <div className="user-status request-small">
-                        <a className="user-status-avatar" href="profile-timeline">
-                        <div className="user-avatar small no-outline">
-                            <div className="user-avatar-content">
-                            <div className="hexagon-image-30-32" data-src="img/avatar/07.jpg"></div>
+                            <p className="quest-preview-text">You have linked at least 8 social networks to your profile</p>
                             </div>
                         
-                            <div className="user-avatar-progress">
-                            <div className="hexagon-progress-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress-border">
-                            <div className="hexagon-border-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge">
-                            <div className="user-avatar-badge-border">
-                                <div className="hexagon-22-24"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge-content">
-                                <div className="hexagon-dark-16-18"></div>
-                            </div>
-                        
-                            <p className="user-avatar-badge-text">26</p>
+                            <div className="progress-stat">
+                            <div id="quest-preview-sk" className="progress-stat-bar"></div>
                             </div>
                         </div>
-                        </a>
-                    
-                        <p className="user-status-title"><a className="bold" href="profile-timeline">Sarah Diamond</a></p>
-                    
-                        <p className="user-status-text small">24.5K profile views</p>
-                    
-                        <div className="action-request-list">
-                        <div className="action-request accept">
-                            <svg className="action-request-icon icon-add-friend">
-                            <use xlinkHref="#svg-add-friend"></use>
-                            </svg>
+                
+                        <div className="quest-preview">
+                            <div className="quest-preview-info">
+                            <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
+                        
+                            <p className="quest-preview-title">Buffed Profile</p>
+                        
+                            <p className="quest-preview-text">You have posted every day for at least 30 days in a row</p>
+                            </div>
+                        
+                            <div className="progress-stat">
+                            <div id="quest-preview-bp" className="progress-stat-bar"></div>
+                            </div>
+                        </div>
+                
+                        <div className="quest-preview">
+                            <div className="quest-preview-info">
+                            <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
+                        
+                            <p className="quest-preview-title">Hear the People</p>
+                        
+                            <p className="quest-preview-text">You have created and posted your first poll</p>
+                            </div>
+                        
+                            <div className="progress-stat">
+                            <div id="quest-preview-htp" className="progress-stat-bar"></div>
+                            </div>
+                        </div>
+                
+                        <div className="quest-preview">
+                            <div className="quest-preview-info">
+                            <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
+                        
+                            <p className="quest-preview-title">Store Manager</p>
+                        
+                            <p className="quest-preview-text">You have uploaded at least 10 items in your shop</p>
+                            </div>
+                        
+                            <div className="progress-stat">
+                            <div id="quest-preview-sm" className="progress-stat-bar"></div>
+                            </div>
                         </div>
                         </div>
                     </div>
-
-                    <div className="user-status request-small">
-                        <a className="user-status-avatar" href="profile-timeline">
-                        <div className="user-avatar small no-outline">
-                            <div className="user-avatar-content">
-                            <div className="hexagon-image-30-32" data-src="img/avatar/03.jpg"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress">
-                            <div className="hexagon-progress-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress-border">
-                            <div className="hexagon-border-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge">
-                            <div className="user-avatar-badge-border">
-                                <div className="hexagon-22-24"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge-content">
-                                <div className="hexagon-dark-16-18"></div>
-                            </div>
-                        
-                            <p className="user-avatar-badge-text">16</p>
-                            </div>
-                        </div>
-                        </a>
-                    
-                        <p className="user-status-title"><a className="bold" href="profile-timeline">Nick Grissom</a></p>
-                    
-                        <p className="user-status-text small">20.1K profile views</p>
-                    
-                        <div className="action-request-list">
-                        <div className="action-request accept">
-                            <svg className="action-request-icon icon-add-friend">
-                            <use xlinkHref="#svg-add-friend"></use>
-                            </svg>
-                        </div>
-                        </div>
+                
+                    <a className="widget-box-button button small white" href="quests">See all Quests!</a>
                     </div>
-
-                    <div className="user-status request-small">
-                        <a className="user-status-avatar" href="profile-timeline">
-                        <div className="user-avatar small no-outline">
-                            <div className="user-avatar-content">
-                            <div className="hexagon-image-30-32" data-src="img/avatar/23.jpg"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress">
-                            <div className="hexagon-progress-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress-border">
-                            <div className="hexagon-border-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge">
-                            <div className="user-avatar-badge-border">
-                                <div className="hexagon-22-24"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge-content">
-                                <div className="hexagon-dark-16-18"></div>
-                            </div>
-                        
-                            <p className="user-avatar-badge-text">19</p>
-                            </div>
-                        </div>
-                        </a>
-                    
-                        <p className="user-status-title"><a className="bold" href="profile-timeline">Rosie Sakura</a></p>
-                    
-                        <p className="user-status-text small">19.7K profile views</p>
-                    
-                        <div className="action-request-list">
-                        <div className="action-request accept">
-                            <svg className="action-request-icon icon-add-friend">
-                            <use xlinkHref="#svg-add-friend"></use>
-                            </svg>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div className="user-status request-small">
-                        <a className="user-status-avatar" href="profile-timeline">
-                        <div className="user-avatar small no-outline">
-                            <div className="user-avatar-content">
-                            <div className="hexagon-image-30-32" data-src="img/avatar/15.jpg"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress">
-                            <div className="hexagon-progress-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress-border">
-                            <div className="hexagon-border-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge">
-                            <div className="user-avatar-badge-border">
-                                <div className="hexagon-22-24"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge-content">
-                                <div className="hexagon-dark-16-18"></div>
-                            </div>
-                        
-                            <p className="user-avatar-badge-text">22</p>
-                            </div>
-                        </div>
-                        </a>
-                    
-                        <p className="user-status-title"><a className="bold" href="profile-timeline">Peter Stark</a></p>
-                    
-                        <p className="user-status-text small">16.5K profile views</p>
-                    
-                        <div className="action-request-list">
-                        <div className="action-request accept">
-                            <svg className="action-request-icon icon-add-friend">
-                            <use xlinkHref="#svg-add-friend"></use>
-                            </svg>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div className="user-status request-small">
-                        <a className="user-status-avatar" href="profile-timeline">
-                        <div className="user-avatar small no-outline">
-                            <div className="user-avatar-content">
-                            <div className="hexagon-image-30-32" data-src="img/avatar/04.jpg"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress">
-                            <div className="hexagon-progress-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-progress-border">
-                            <div className="hexagon-border-40-44"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge">
-                            <div className="user-avatar-badge-border">
-                                <div className="hexagon-22-24"></div>
-                            </div>
-                        
-                            <div className="user-avatar-badge-content">
-                                <div className="hexagon-dark-16-18"></div>
-                            </div>
-                        
-                            <p className="user-avatar-badge-text">6</p>
-                            </div>
-                        </div>
-                        </a>
-                    
-                        <p className="user-status-title"><a className="bold" href="profile-timeline">Bearded Wonder</a></p>
-                    
-                        <p className="user-status-text small">9.8K profile views</p>
-                    
-                        <div className="action-request-list">
-                        <div className="action-request accept">
-                            <svg className="action-request-icon icon-add-friend">
-                            <use xlinkHref="#svg-add-friend"></use>
-                            </svg>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                <a className="banner-promo" href="https://themeforest.net/user/odin_design" target="_blank">
-                <img src="img/banner/banner-promo.jpg" alt="banner-promo"/>
-                </a>
-
-                <div className="widget-box">
-                <div className="widget-box-settings">
-                    <div className="post-settings-wrap">
-                    <div className="post-settings widget-box-post-settings-dropdown-trigger">
-                        <svg className="post-settings-icon icon-more-dots">
-                        <use xlinkHref="#svg-more-dots"></use>
-                        </svg>
-                    </div>
-            
-                    <div className="simple-dropdown widget-box-post-settings-dropdown">
-                        <p className="simple-dropdown-link">Widget Settings</p>
-                    </div>
-                    </div>
-                </div>
-            
-                <p className="widget-box-title">Open Quests</p>
-            
-                <div className="widget-box-content">
-                    <div className="quest-preview-list">
-                    <div className="quest-preview">
-                        <div className="quest-preview-info">
-                        <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
-                    
-                        <p className="quest-preview-title">Nothing to hide</p>
-                    
-                        <p className="quest-preview-text">You have completed all your profile information fields</p>
-                        </div>
-                    
-                        <div className="progress-stat">
-                        <div id="quest-preview-nth" className="progress-stat-bar"></div>
-                        </div>
-                    </div>
-            
-                    <div className="quest-preview">
-                        <div className="quest-preview-info">
-                        <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
-                    
-                        <p className="quest-preview-title">Social King</p>
-                    
-                        <p className="quest-preview-text">You have linked at least 8 social networks to your profile</p>
-                        </div>
-                    
-                        <div className="progress-stat">
-                        <div id="quest-preview-sk" className="progress-stat-bar"></div>
-                        </div>
-                    </div>
-            
-                    <div className="quest-preview">
-                        <div className="quest-preview-info">
-                        <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
-                    
-                        <p className="quest-preview-title">Buffed Profile</p>
-                    
-                        <p className="quest-preview-text">You have posted every day for at least 30 days in a row</p>
-                        </div>
-                    
-                        <div className="progress-stat">
-                        <div id="quest-preview-bp" className="progress-stat-bar"></div>
-                        </div>
-                    </div>
-            
-                    <div className="quest-preview">
-                        <div className="quest-preview-info">
-                        <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
-                    
-                        <p className="quest-preview-title">Hear the People</p>
-                    
-                        <p className="quest-preview-text">You have created and posted your first poll</p>
-                        </div>
-                    
-                        <div className="progress-stat">
-                        <div id="quest-preview-htp" className="progress-stat-bar"></div>
-                        </div>
-                    </div>
-            
-                    <div className="quest-preview">
-                        <div className="quest-preview-info">
-                        <img className="quest-preview-image" src="img/quest/openq-s.png" alt="openq-s"/>
-                    
-                        <p className="quest-preview-title">Store Manager</p>
-                    
-                        <p className="quest-preview-text">You have uploaded at least 10 items in your shop</p>
-                        </div>
-                    
-                        <div className="progress-stat">
-                        <div id="quest-preview-sm" className="progress-stat-bar"></div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            
-                <a className="widget-box-button button small white" href="quests">See all Quests!</a>
                 </div>
             </div>
 
@@ -1452,6 +1453,9 @@ const Newsfeed = () => {
                                 <div className="hexagon-image-18-20" data-src="img/avatar/07.jpg"></div>
                                 </div>
                             </div>
+                
+                            <div class="reaction-option text-tooltip-tft" data-title="Love">
+                            <img class="reaction-option-image" src="img/reaction/love.png" alt="reaction-love"/>
                             </div>
                     
                             <p className="meta-line-text">4 Participants</p>
@@ -1467,7 +1471,22 @@ const Newsfeed = () => {
                             <p className="meta-line-text">0 Shares</p>
                         </div>
                         </div>
-                    </div>
+                
+                        <div class="post-option">
+                        <svg class="post-option-icon icon-comment">
+                            <use xlinkHref="#svg-comment"></use>
+                        </svg>
+                
+                        <p class="post-option-text">Comment</p>
+                        </div>
+                
+                        <div class="post-option">
+                        <svg class="post-option-icon icon-share">
+                            <use xlinkHref="#svg-share"></use>
+                        </svg>
+                
+                        <p class="post-option-text">Share</p>
+                        </div>
                     </div>
                 </div>
             
@@ -2398,6 +2417,8 @@ const Newsfeed = () => {
                         
                             <p className="user-avatar-badge-text">16</p>
                             </div>
+                    
+                            <p class="meta-line-text">19 Participants</p>
                         </div>
                         </a>
                     
@@ -3901,6 +3922,7 @@ const Newsfeed = () => {
                     </div>
                 </div>
                 </div>
+            </div>
             </div>
             </div>
         </>
