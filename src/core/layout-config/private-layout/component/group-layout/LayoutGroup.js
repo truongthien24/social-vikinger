@@ -16,15 +16,15 @@ const LayoutGroup = ({children}) => {
 
   return (
     <>
-        <div class="content-grid">
-            <div class="profile-header v2">
-                <figure class="profile-header-cover liquid">
+        <>
+            <div className="profile-header v2">
+                <figure className="profile-header-cover liquid">
                     <img src="img/cover/29.jpg" alt="cover-29"/>
                 </figure>
 
-                <div class="profile-header-info">
-                    <div class="user-short-description big">
-                    <a class="user-short-description-avatar user-avatar big no-stats" onClick={()=>{
+                <div className="profile-header-info">
+                    <div className="user-short-description big">
+                    <a className="user-short-description-avatar user-avatar big no-stats" onClick={()=>{
                         dispatch(setLoading({
                             status: 'isLoading'
                         }))
@@ -33,16 +33,16 @@ const LayoutGroup = ({children}) => {
                             search: `?id=${'123'}`
                         })
                     }}>
-                        <div class="user-avatar-border">
-                        <div class="hexagon-148-164"></div>
+                        <div className="user-avatar-border">
+                        <div className="hexagon-148-164"></div>
                         </div>
                     
-                        <div class="user-avatar-content">
-                        <div class="hexagon-image-124-136" data-src="img/avatar/24.jpg"></div>
+                        <div className="user-avatar-content">
+                        <div className="hexagon-image-124-136" data-src="img/avatar/24.jpg"></div>
                         </div>
                     </a>
 
-                    <a class="user-short-description-avatar user-short-description-avatar-mobile user-avatar medium no-stats" onClick={()=>{
+                    <a className="user-short-description-avatar user-short-description-avatar-mobile user-avatar medium no-stats" onClick={()=>{
                         dispatch(setLoading({
                             status: 'isLoading'
                         }))
@@ -51,16 +51,16 @@ const LayoutGroup = ({children}) => {
                             search: `?id=${'123'}`
                         })
                     }}>
-                        <div class="user-avatar-border">
-                        <div class="hexagon-120-130"></div>
+                        <div className="user-avatar-border">
+                        <div className="hexagon-120-130"></div>
                         </div>
                     
-                        <div class="user-avatar-content">
-                        <div class="hexagon-image-100-110" data-src="img/avatar/24.jpg"></div>
+                        <div className="user-avatar-content">
+                        <div className="hexagon-image-100-110" data-src="img/avatar/24.jpg"></div>
                         </div>
                     </a>
                 
-                    <p class="user-short-description-title"><a onClick={()=>{
+                    <p className="user-short-description-title"><a onClick={()=>{
                         dispatch(setLoading({
                             status: 'isLoading'
                         }))
@@ -70,54 +70,54 @@ const LayoutGroup = ({children}) => {
                         })
                     }}>Cosplayers of the World</a></p>
                 
-                    <p class="user-short-description-text">All cosplayers welcome!</p>
+                    <p className="user-short-description-text">All cosplayers welcome!</p>
                     </div>
 
-                    <div class="user-stats">
-                    <div class="user-stat big">
-                        <div class="user-stat-icon">
-                        <svg class="icon-public">
+                    <div className="user-stats">
+                    <div className="user-stat big">
+                        <div className="user-stat-icon">
+                        <svg className="icon-public">
                             <use xlinkHref="#svg-public"></use>
                         </svg>
                         </div>
                 
-                        <p class="user-stat-text">public</p>
+                        <p className="user-stat-text">public</p>
                     </div>
 
-                    <div class="user-stat big">
-                        <p class="user-stat-title">139</p>
+                    <div className="user-stat big">
+                        <p className="user-stat-title">139</p>
                 
-                        <p class="user-stat-text">members</p>
+                        <p className="user-stat-text">members</p>
                     </div>
                 
-                    <div class="user-stat big">
-                        <p class="user-stat-title">105</p>
+                    <div className="user-stat big">
+                        <p className="user-stat-title">105</p>
                 
-                        <p class="user-stat-text">posts</p>
+                        <p className="user-stat-text">posts</p>
                     </div>
                 
-                    <div class="user-stat big">
-                        <p class="user-stat-title">7.3k</p>
+                    <div className="user-stat big">
+                        <p className="user-stat-title">7.3k</p>
                 
-                        <p class="user-stat-text">visits</p>
+                        <p className="user-stat-text">visits</p>
                     </div>
                     </div>
 
-                    <div class="tag-sticker">
-                    <svg class="tag-sticker-icon icon-public">
+                    <div className="tag-sticker">
+                    <svg className="tag-sticker-icon icon-public">
                         <use xlinkHref="#svg-public"></use>
                     </svg>
                     </div>
 
-                    <div class="profile-header-info-actions">
-                    <p class="profile-header-info-action button secondary">
-                        <svg class="icon-join-group">
+                    <div className="profile-header-info-actions">
+                    <p className="profile-header-info-action button secondary">
+                        <svg className="icon-join-group">
                         <use xlinkHref="#svg-join-group"></use>
                         </svg>
                     </p>
                     
-                    <a class="profile-header-info-action button" href="hub-group-management">
-                        <svg class="icon-more-dots">
+                    <a className="profile-header-info-action button" href="hub-group-management">
+                        <svg className="icon-more-dots">
                         <use xlinkHref="#svg-more-dots"></use>
                         </svg>
                     </a>
@@ -126,7 +126,7 @@ const LayoutGroup = ({children}) => {
             </div>
             <GroupNavigation/>
             {children}
-        </div>
+        </>
         <PopupEvent/>
     </>
   )

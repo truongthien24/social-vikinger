@@ -14,7 +14,7 @@ export const dataNavigation = [
         label: 'Info',
         path: 'group-info',
         icon: (
-            <svg class="section-menu-item-icon icon-info">
+            <svg className="section-menu-item-icon icon-info">
                 <use xlinkHref="#svg-info"></use>
             </svg>
         ) 
@@ -24,7 +24,7 @@ export const dataNavigation = [
         label: 'Members',
         path: 'group-members',
         icon: (
-            <svg class="section-menu-item-icon icon-members">
+            <svg className="section-menu-item-icon icon-members">
                 <use xlinkHref="#svg-members"></use>
             </svg>
         ) 
@@ -34,7 +34,7 @@ export const dataNavigation = [
         label: 'Forum',
         path: 'group-forum',
         icon: (
-            <svg class="section-menu-item-icon icon-forum">
+            <svg className="section-menu-item-icon icon-forum">
                 <use xlinkHref="#svg-forum"></use>
             </svg>
         ) 
@@ -44,7 +44,7 @@ export const dataNavigation = [
         label: 'Photos',
         path: 'group-photos',
         icon: (
-            <svg class="section-menu-item-icon icon-photos">
+            <svg className="section-menu-item-icon icon-photos">
                 <use xlinkHref="#svg-photos"></use>
             </svg>
         ) 
@@ -54,7 +54,7 @@ export const dataNavigation = [
         label: 'Videos',
         path: 'group-videos',
         icon: (
-            <svg class="section-menu-item-icon icon-videos">
+            <svg className="section-menu-item-icon icon-videos">
                 <use xlinkHref="#svg-videos"></use>
             </svg>
         ) 
@@ -64,7 +64,7 @@ export const dataNavigation = [
         label: 'Events',
         path: 'group-events',
         icon: (
-            <svg class="section-menu-item-icon icon-events">
+            <svg className="section-menu-item-icon icon-events">
                 <use xlinkHref="#svg-events"></use>
             </svg>
         ) 

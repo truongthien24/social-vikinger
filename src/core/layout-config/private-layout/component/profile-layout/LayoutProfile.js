@@ -10,25 +10,13 @@ const LayoutProfile = ({ children }) => {
   const id = searchParams.get('id');
 
   return (
-    <div className="content-grid">
-
-      {
-        id 
-        ?
-        <>
-
-          <ProfileHeader/>
+    <>
         
           <ProfileNavigation/>
           
           {children}
 
-        </>
-        :
-        <></>
-      }
-        
-      </div>
+    </>
   )
 }
 

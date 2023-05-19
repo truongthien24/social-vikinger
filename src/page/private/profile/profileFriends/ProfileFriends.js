@@ -23,10 +23,17 @@ const ProfileFriends = () => {
     },[profileId])
 
     useEffect(()=> {
+        setTimeout(()=> {
+            dispatch(setLoading({
+                status: 'done'
+            }))
+        }, 700)
+    }, [grid])
+
+    useEffect(()=> {
         let script = document.createElement("script");
         let script11 = document.createElement("script");
         let script16 = document.createElement("script");
-
         script.src = "/js/utils/app.js";
         script16.src = "/js/content/content.js";
         script11.src = "/js/global/global.hexagons.js";
@@ -36,12 +43,12 @@ const ProfileFriends = () => {
         document.body.appendChild(script);
         document.body.appendChild(script11);
         document.body.appendChild(script16);
-        setTimeout(()=> {
-            dispatch(setLoading({
-                status: 'done'
-            }))
-        }, 700)
-    }, [grid])
+        return () => {
+            document.body.removeChild(script);
+            document.body.removeChild(script11);
+            document.body.removeChild(script16);
+        }
+    })
     
 
     // Method

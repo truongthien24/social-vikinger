@@ -28,7 +28,7 @@ const NavItem = (props) => {
         }}>
             {data.icon}
 
-            <p class="section-menu-item-text">{data.label}</p>
+            <p className="section-menu-item-text">{data.label}</p>
         </a>
     )
 }
