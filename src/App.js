@@ -46,6 +46,7 @@ function App() {
         let script14 = document.createElement("script");
         let script15 = document.createElement("script");
         let script16 = document.createElement("script");
+        let script17 = document.createElement("script");
         script.src = "/js/utils/app.js";
         script2.src = "/js/vendor/xm_plugins.min.js";
         script3.src = "/js/form/form.utils.js";
@@ -62,6 +63,7 @@ function App() {
         script14.src = "/js/header/header.js";
         script15.src = "/js/sidebar/sidebar.js";
         script16.src = "/js/content/content.js";
+        script17.src = "/js/global/global.popups.js";
         script.async = true;
         script2.async = true;
         script3.async = true;
@@ -78,9 +80,6 @@ function App() {
         script14.async = true;
         script15.async = true;
         script16.async = true;
-        let script17 = document.createElement("script");
-  
-        script17.src = "/js/global/global.popups.js";
         script17.async = true;
         document.body.appendChild(script);
         document.body.appendChild(script10);
