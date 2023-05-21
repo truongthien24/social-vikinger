@@ -161,17 +161,11 @@ const ProfilePhotos = () => {
                 <img src="img/cover/06.jpg" alt="album-image-06"/>
               </figure>
               
-          
-              
               <p className="text-sticker small negative">14</p>
-              
-          
               
               <div className="album-preview-info">
                 
                 <p className="album-preview-title">Gaming Cover Arts</p>
-                
-          
                 
                 <p className="album-preview-text">Updated 1 day ago</p>
                 
@@ -187,19 +181,13 @@ const ProfilePhotos = () => {
               
               <p className="section-pretitle">Check Marina's</p>
               
-        
-              
               <h2 className="section-title">Latest Photos</h2>
               
             </div>
             
-        
-            
             <div className="section-header-actions">
               
               <p className="section-header-action">Upload Photos +</p>
-              
-        
               
               <a className="section-header-action" href="profile-photos-inside">See All</a>
               

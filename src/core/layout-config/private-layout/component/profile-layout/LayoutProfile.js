@@ -11,7 +11,8 @@ const LayoutProfile = ({ children }) => {
 
   return (
     <>
-        
+          <ProfileHeader/>
+
           <ProfileNavigation/>
           
           {children}

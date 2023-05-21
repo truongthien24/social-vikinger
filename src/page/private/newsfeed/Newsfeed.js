@@ -2,16 +2,16 @@ import React, { useEffect } from 'react'
 
 const Newsfeed = () => {
 
-    useEffect(()=> {
-        let script = document.createElement("script");
-        let script11 = document.createElement("script");
-        script.src = "/js/utils/app.js";
-        script11.src = "/js/global/global.popups.js";
-        script.async = true;
-        script11.async = true;
-        document.body.appendChild(script);
-        document.body.appendChild(script11);
-    }, [])
+    // useEffect(()=> {
+    //     let script = document.createElement("script");
+    //     let script11 = document.createElement("script");
+    //     script.src = "/js/utils/app.js";
+    //     script11.src = "/js/global/global.popups.js";
+    //     script.async = true;
+    //     script11.async = true;
+    //     document.body.appendChild(script);
+    //     document.body.appendChild(script11);
+    // }, [])
     
     return (
         <>
@@ -512,7 +512,7 @@ const Newsfeed = () => {
                 </div>
             </div>
 
-            <div className="grid-column">
+            {/* <div className="grid-column">
                 <div className="quick-post">
                 <div className="quick-post-header">
                     <div className="option-items">
@@ -3924,7 +3924,7 @@ const Newsfeed = () => {
                 </div>
             </div>
             </div>
-            </div>
+            </div> */}
         </>
     )
 }

@@ -16,7 +16,6 @@ export const createMessage = (data) => async(dispatch) => {
             });
             // Thông báo
             toast.dismiss();
-            toast.success('Create successfully!')
         }, 1000);
         return true;
     } catch(error) {
@@ -36,7 +35,6 @@ export const updateMessage = (data) => async (dispacth) => {
             await updateDoc(MessageRef, data.data);
             // Thông báo
             toast.dismiss();
-            toast.success('Update successfully!')
         }, 1000);
     } catch(err) {
         toast.dismiss();
